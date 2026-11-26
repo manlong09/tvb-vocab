@@ -1,0 +1,816 @@
+{
+  "date": "2026-11-25",
+  "video_id": "fA0QG3im0ac",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "神舟二十四號順利升空並對接太空站，首有巴基斯坦太空人隨行 (Shenzhou-24 launches into orbit, welcoming first Pakistani astronaut to space station)",
+    "審計署指在職家庭及學生資助事務處積壓逾九千宗逾期個案 (Audit reveals student financial assistance agency accumulated over 9,000 overdue cases)",
+    "審計報告批地政總署處理補地價進度嚴重延誤，最長耗時近三十年 (Audit report criticises Lands Department for severe backlogs and decades-long delays)",
+    "華為涉詐騙及竊取商業機密遭美陪審團裁定多項罪名成立 (Huawei convicted by US jury of bank fraud and stealing trade secrets)",
+    "梵蒂岡新書揭已故教宗方濟各日記，詳述三次直面惡魔與內心靈性危機 (Vatican releases late Pope Francis diary detailing encounters with devil and spiritual struggles)",
+    "大埔宏福苑火警後屋苑大維修趨嚴，加強棚架防燃安全要求 (Stricter fire safety measures imposed on estate renovations following Wang Fuk Court blaze)",
+    "蔡天鳳碎屍案證人作供完畢，控辯雙方周五展開結案陳詞 (Witness testimony concludes in Abby Choi murder trial ahead of closing arguments)"
+  ],
+  "items": [
+    {
+      "word": "dock",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 20,
+      "band": "7.0",
+      "synonyms": [
+        "couple",
+        "link up"
+      ],
+      "zh": "（太空船）對接；（船隻）靠泊",
+      "ipa_uk": "/dɒk/",
+      "ipa_us": "/dɑːk/",
+      "en_ex": "The spacecraft lifted off this morning before successfully docking with the national space station at noon.",
+      "zh_ex": "太空船於今晨升空，並於中午前成功與國家太空站對接。"
+    },
+    {
+      "word": "counterpart",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "equivalent",
+        "peer"
+      ],
+      "zh": "職務相當的人；相對應之物",
+      "ipa_uk": "/ˈkaʊn.tə.pɑːt/",
+      "ipa_us": "/ˈkaʊn.t̬ɚ.pɑːrt/",
+      "en_ex": "The incoming astronauts entered the space station to collaborate directly with their orbiting counterparts.",
+      "zh_ex": "新抵達的太空人進入太空站，與正在軌道上駐守的同儕展開合作。"
+    },
+    {
+      "word": "payload",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 20,
+      "band": "7.5",
+      "synonyms": [
+        "cargo",
+        "freight"
+      ],
+      "zh": "有效載荷；酬載",
+      "ipa_uk": "/ˈpeɪ.ləʊd/",
+      "ipa_us": "/ˈpeɪ.loʊd/",
+      "en_ex": "The payload specialist joined the space flight to conduct scientific experiments under zero gravity.",
+      "zh_ex": "該名酬載專家參與了本次太空飛行，以在失重環境下進行科學實驗。"
+    },
+    {
+      "word": "aerospace",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 20,
+      "band": "7.0",
+      "synonyms": [
+        "aviation",
+        "aeronautics"
+      ],
+      "zh": "航空太空工業",
+      "ipa_uk": "/ˈeə.rəʊ.speɪs/",
+      "ipa_us": "/ˈer.oʊ.speɪs/",
+      "en_ex": "Citizens expressed immense pride over the nation's rapid technological advancement in the aerospace sector.",
+      "zh_ex": "市民對國家在航空太空領域的迅猛技術進步表達了巨大的自豪感。"
+    },
+    {
+      "word": "landmark",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 9,
+      "band": "6.5",
+      "synonyms": [
+        "milestone",
+        "breakthrough"
+      ],
+      "zh": "里程碑；重大轉折點",
+      "ipa_uk": "/ˈlænd.mɑːk/",
+      "ipa_us": "/ˈlænd.mɑːrk/",
+      "en_ex": "The joint space exploration mission represents a diplomatic landmark for both developing nations.",
+      "zh_ex": "這項聯合太空探索任務代表了兩個發展中國家外交上的重要里程碑。"
+    },
+    {
+      "word": "designated",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 20,
+      "band": "6.5",
+      "synonyms": [
+        "specified",
+        "allocated"
+      ],
+      "zh": "指定的；預定的",
+      "ipa_uk": "/ˈdez.ɪɡ.neɪ.tɪd/",
+      "ipa_us": "/ˈdez.ɪɡ.neɪ.t̬ɪd/",
+      "en_ex": "The spacecraft separated from its carrier rocket smoothly and soon entered its designated orbital path.",
+      "zh_ex": "太空船順利與運載火箭分離，並隨即進入預定軌道。"
+    },
+    {
+      "word": "in advance",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 5,
+      "band": "6.5",
+      "synonyms": [
+        "beforehand",
+        "ahead of time"
+      ],
+      "zh": "事先；提前",
+      "ipa_uk": "/ɪn ədˈvɑːns/",
+      "ipa_us": "/ɪn ədˈvæns/",
+      "en_ex": "The crew prepared festive gifts in advance to celebrate the arrival of the newest astronauts.",
+      "zh_ex": "乘組人員提前準備了慶祝禮物，以歡迎新一批太空人的到來。"
+    },
+    {
+      "word": "all-weather",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "unwavering",
+        "enduring"
+      ],
+      "zh": "全天候的；始終如一的",
+      "ipa_uk": "/ˌɔːlˈweð.ər/",
+      "ipa_us": "/ˌɑːlˈweð.ɚ/",
+      "en_ex": "The president hailed the successful joint mission as another clear sign of their all-weather friendship.",
+      "zh_ex": "總統稱讚此次成功的聯合任務是兩國全天候友誼的又一明確體現。"
+    },
+    {
+      "word": "audit",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "scrutiny",
+        "inspection"
+      ],
+      "zh": "審計；查帳",
+      "ipa_uk": "/ˈɔː.dɪt/",
+      "ipa_us": "/ˈɑː.dɪt/",
+      "en_ex": "The audit report revealed that several administrative bodies had failed to properly review applicant records.",
+      "zh_ex": "審計報告透露，數個行政機構未能妥善審查申請人的資料記錄。"
+    },
+    {
+      "word": "accumulate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "amass",
+        "pile up"
+      ],
+      "zh": "積聚；累積",
+      "ipa_uk": "/əˈkjuː.mjə.leɪt/",
+      "ipa_us": "/əˈkjuː.mjə.leɪt/",
+      "en_ex": "The agency had accumulated thousands of unresolved cases involving substantial amounts of public funds.",
+      "zh_ex": "該機構已累積了數千宗涉及鉅額公共資金的未決案件。"
+    },
+    {
+      "word": "overdue",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "delinquent",
+        "outstanding"
+      ],
+      "zh": "逾期的；拖欠的",
+      "ipa_uk": "/ˌəʊ.vəˈdʒuː/",
+      "ipa_us": "/ˌoʊ.vɚˈduː/",
+      "en_ex": "Thousands of overdue loan cases must be urgently addressed by the administrative staff to avoid losses.",
+      "zh_ex": "行政人員必須緊急處理數千宗逾期貸款案件，以避免蒙受損失。"
+    },
+    {
+      "word": "eligibility",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 1,
+      "band": "7.0",
+      "synonyms": [
+        "qualification",
+        "entitlement"
+      ],
+      "zh": "資格；合格條件",
+      "ipa_uk": "/ˌel.ɪ.dʒəˈbɪl.ə.ti/",
+      "ipa_us": "/ˌel.ə.dʒəˈbɪl.ə.t̬i/",
+      "en_ex": "Officials failed to conduct thorough checks to verify applicants' eligibility for student financial schemes.",
+      "zh_ex": "官員未能進行全面查核，以確認申請人符合各項學生資助計劃的資格。"
+    },
+    {
+      "word": "omission",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "oversight",
+        "exclusion"
+      ],
+      "zh": "疏忽；漏報；遺漏",
+      "ipa_uk": "/əʊˈmɪʃ.ən/",
+      "ipa_us": "/oʊˈmɪʃ.ən/",
+      "en_ex": "Auditors uncovered noticeable omissions where applicants concealed significant assets or bank accounts.",
+      "zh_ex": "審計人員發現了明顯的漏報情況，有申請人隱瞞了重大資產或銀行帳戶。"
+    },
+    {
+      "word": "subsidy",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "grant",
+        "allowance"
+      ],
+      "zh": "補貼；資助金",
+      "ipa_uk": "/ˈsʌb.sɪ.di/",
+      "ipa_us": "/ˈsʌb.sə.di/",
+      "en_ex": "The government allocates substantial annual subsidies to support underprivileged students in tertiary education.",
+      "zh_ex": "政府每年撥款大筆補貼，以資助接受高等教育的弱勢學生。"
+    },
+    {
+      "word": "disclose",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "reveal",
+        "divulge"
+      ],
+      "zh": "揭露；申報；公開",
+      "ipa_uk": "/dɪˈskləʊz/",
+      "ipa_us": "/dɪˈskloʊz/",
+      "en_ex": "Applicants are legally obligated to disclose accurate details regarding their total family income and assets.",
+      "zh_ex": "申請人負有法律義務，須如實申報家庭總收入與資產的準確詳情。"
+    },
+    {
+      "word": "judicial",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "legal",
+        "juridical"
+      ],
+      "zh": "司法的；審判的",
+      "ipa_uk": "/dʒuːˈdɪʃ.əl/",
+      "ipa_us": "/dʒuːˈdɪʃ.əl/",
+      "en_ex": "Severe fraud instances should be immediately referred to judicial authorities for formal criminal prosecution.",
+      "zh_ex": "情節嚴重的詐騙案例應立即轉交司法機關進行正式刑事起訴。"
+    },
+    {
+      "word": "backlog",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 5,
+      "band": "7.0",
+      "synonyms": [
+        "accumulation",
+        "arrears"
+      ],
+      "zh": "積壓的工作；待辦事項",
+      "ipa_uk": "/ˈbæk.lɒɡ/",
+      "ipa_us": "/ˈbæk.lɑːɡ/",
+      "en_ex": "The department faces a massive backlog of lease modification applications that spans several decades.",
+      "zh_ex": "該部門正面臨長達數十年之久的大量契約修訂申請積壓問題。"
+    },
+    {
+      "word": "in-depth",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 1,
+      "band": "6.5",
+      "synonyms": [
+        "thorough",
+        "exhaustive"
+      ],
+      "zh": "深入的；詳盡的",
+      "ipa_uk": "/ˌɪnˈdepθ/",
+      "ipa_us": "/ˌɪnˈdepθ/",
+      "en_ex": "Investigators carried out an in-depth review into the administrative blunders causing extensive project delays.",
+      "zh_ex": "調查人員針對導致工程大幅延誤的行政失誤進行了深入審查。"
+    },
+    {
+      "word": "validity",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "legitimacy",
+        "authenticity"
+      ],
+      "zh": "有效性；合法性",
+      "ipa_uk": "/vəˈlɪd.ə.ti/",
+      "ipa_us": "/vəˈlɪd.ə.t̬i/",
+      "en_ex": "Verifying the legal validity of land lease documents took officials more than a decade in extreme cases.",
+      "zh_ex": "在極端個案中，官員核實土地租約文件合法性的過程竟然耗時十餘年。"
+    },
+    {
+      "word": "proactively",
+      "type": "word",
+      "pos": "adv.",
+      "topic_id": 5,
+      "band": "7.0",
+      "synonyms": [
+        "actively",
+        "energetically"
+      ],
+      "zh": "積極主動地",
+      "ipa_uk": "/prəʊˈæk.tɪv.li/",
+      "ipa_us": "/proʊˈæk.tɪv.li/",
+      "en_ex": "Supervisors must act proactively to identify dormant applications before delays become unmanageable.",
+      "zh_ex": "主管必須積極主動地識別擱置的申請，避免延誤惡化至無法收拾的地步。"
+    },
+    {
+      "word": "convict",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "find guilty",
+        "sentence"
+      ],
+      "zh": "判決有罪；定罪",
+      "ipa_uk": "/kənˈvɪkt/",
+      "ipa_us": "/kənˈvɪkt/",
+      "en_ex": "The tech corporation was convicted of multiple criminal counts including fraud and trade secret theft.",
+      "zh_ex": "該科技巨頭被裁定犯有多項刑事罪名，包括詐騙及竊取商業機密。"
+    },
+    {
+      "word": "conspire",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "collude",
+        "plot"
+      ],
+      "zh": "密謀；共謀",
+      "ipa_uk": "/kənˈspaɪər/",
+      "ipa_us": "/kənˈspaɪr/",
+      "en_ex": "Prosecutors alleged the defendants conspired to steal intellectual property from rival American companies.",
+      "zh_ex": "檢察官指控被告密謀竊取其美國競爭對手的知識產權。"
+    },
+    {
+      "word": "acquit",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "exonerate",
+        "absolve"
+      ],
+      "zh": "宣判無罪",
+      "ipa_uk": "/əˈkwɪt/",
+      "ipa_us": "/əˈkwɪt/",
+      "en_ex": "The jury acquitted the multinational firm of the most serious racketeering charge after prolonged deliberation.",
+      "zh_ex": "陪審團經過長時間審議後，裁定該跨國企業最嚴重的勒索敲詐罪名不成立。"
+    },
+    {
+      "word": "racketeering",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "organized crime",
+        "extortion"
+      ],
+      "zh": "有組織勒索；團夥敲詐罪",
+      "ipa_uk": "/ˌræk.ɪˈtɪə.rɪŋ/",
+      "ipa_us": "/ˌræk.əˈtɪr.ɪŋ/",
+      "en_ex": "Federal authorities frequently invoke racketeering statutes against commercial entities accused of organized fraud.",
+      "zh_ex": "聯邦當局經常引用敲詐勒索法規，起訴被控實施組織性詐騙的商業機構。"
+    },
+    {
+      "word": "subsidiary",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "affiliate",
+        "branch"
+      ],
+      "zh": "子公司；附屬機構",
+      "ipa_uk": "/səbˈsɪd.jə.ri/",
+      "ipa_us": "/səbˈsɪd.i.er.i/",
+      "en_ex": "Several foreign subsidiaries belonging to the parent corporation were also implicated in the sanctions violations.",
+      "zh_ex": "隸屬於該母公司的數家海外子公司亦牽涉入違反制裁法令的案件中。"
+    },
+    {
+      "word": "vindicate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "justify",
+        "substantiate"
+      ],
+      "zh": "證實…無辜；證明…屬實",
+      "ipa_uk": "/ˈvɪn.dɪ.keɪt/",
+      "ipa_us": "/ˈvɪn.də.keɪt/",
+      "en_ex": "Defense lawyers claimed the jury's acquittal on major charges fully vindicated their corporate compliance standards.",
+      "zh_ex": "辯護律師聲稱，陪審團在重大指控上的無罪裁定充分證明了其企業合規標準。"
+    },
+    {
+      "word": "rogue",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "unscrupulous",
+        "deviant"
+      ],
+      "zh": "不受管束的；行為不軌的",
+      "ipa_uk": "/rəʊɡ/",
+      "ipa_us": "/roʊɡ/",
+      "en_ex": "The company argued unauthorized actions were carried out by rogue employees rather than institutional directives.",
+      "zh_ex": "該公司堅稱，未經授權的行為純屬不軌員工私自所為，而非制度上的指令。"
+    },
+    {
+      "word": "overarching",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "8.0",
+      "synonyms": [
+        "all-embracing",
+        "comprehensive"
+      ],
+      "zh": "包羅萬象的；總括性的",
+      "ipa_uk": "/ˌəʊ.vəˈrɑː.tʃɪŋ/",
+      "ipa_us": "/ˌoʊ.vɚˈɑːr.tʃɪŋ/",
+      "en_ex": "Attorneys denied the existence of an overarching criminal conspiracy to evade global financial regulations.",
+      "zh_ex": "律師否認存在一項旨在規避全球金融監管體系的總括性犯罪陰謀。"
+    },
+    {
+      "word": "sprawling",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 6,
+      "band": "7.5",
+      "synonyms": [
+        "rambling",
+        "expansive"
+      ],
+      "zh": "龐大的；蔓延的；雜亂無章的",
+      "ipa_uk": "/ˈsprɔː.lɪŋ/",
+      "ipa_us": "/ˈsprɑː.lɪŋ/",
+      "en_ex": "The verdict marks a critical milestone in a sprawling international legal battle spanning nearly eight years.",
+      "zh_ex": "該判決標誌著這場歷時近八年、牽連極廣的龐大國際官司的重要節點。"
+    },
+    {
+      "word": "misappropriate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "embezzle",
+        "pilfer"
+      ],
+      "zh": "侵吞；盜用；挪用",
+      "ipa_uk": "/ˌmɪs.əˈprəʊ.pri.eɪt/",
+      "ipa_us": "/ˌmɪs.əˈproʊ.pri.eɪt/",
+      "en_ex": "Prosecutors insisted the defendant intentionally misappropriated proprietary trade secrets from partner corporations.",
+      "zh_ex": "檢察官堅持認為被告故意盜用合作企業擁有的專有商業機密。"
+    },
+    {
+      "word": "containment",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "suppression",
+        "restraint"
+      ],
+      "zh": "遏制；圍堵政策",
+      "ipa_uk": "/kənˈteɪn.mənt/",
+      "ipa_us": "/kənˈteɪn.mənt/",
+      "en_ex": "The government voiced staunch opposition against foreign economic suppression and unlawful trade containment.",
+      "zh_ex": "政府對外國的經濟打壓以及非法的貿易遏制政策表達了堅決反對。"
+    },
+    {
+      "word": "come face to face with",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 13,
+      "band": "6.5",
+      "synonyms": [
+        "encounter",
+        "confront"
+      ],
+      "zh": "與…面對面；直接遭遇",
+      "ipa_uk": "/kʌm feɪs tuː feɪs wɪð/",
+      "ipa_us": "/kʌm feɪs tuː feɪs wɪð/",
+      "en_ex": "The published diaries revealed how the religious leader came face to face with terrifying visions.",
+      "zh_ex": "公開發行的日記披露了這位宗教領袖如何直接遭遇駭人的異象。"
+    },
+    {
+      "word": "visceral",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 9,
+      "band": "8.0",
+      "synonyms": [
+        "instinctive",
+        "gut"
+      ],
+      "zh": "發自內心的；出自本能的；直覺的",
+      "ipa_uk": "/ˈvɪs.ər.əl/",
+      "ipa_us": "/ˈvɪs.ɚ.əl/",
+      "en_ex": "His personal writings depicted visceral horror whenever confronting overwhelming moral decay within institutions.",
+      "zh_ex": "他的私人著作描繪了每當面對體制內巨大的道德崩壞時，那種發自內心的震撼與恐懼。"
+    },
+    {
+      "word": "hierarchy",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "pecking order",
+        "ranking"
+      ],
+      "zh": "等級制度；統治集團；高層",
+      "ipa_uk": "/ˈhaɪə.rɑː.ki/",
+      "ipa_us": "/ˈhaɪ.rɑːr.ki/",
+      "en_ex": "Critics strongly questioned the church hierarchy for concealing severe misconduct within ecclesiastical communities.",
+      "zh_ex": "批評人士強烈質疑教會高層隱瞞教團內部嚴重不端行為的作法。"
+    },
+    {
+      "word": "authoritarian",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "autocratic",
+        "dictatorial"
+      ],
+      "zh": "專制的；獨裁的",
+      "ipa_uk": "/ɔːˌθɒr.ɪˈteə.ri.ən/",
+      "ipa_us": "/əˌθɔːr.əˈter.i.ən/",
+      "en_ex": "He admitted battling the internal temptation to exercise power in an authoritarian manner during administrative crises.",
+      "zh_ex": "他坦承在遭遇行政危機期間，曾努力克制以專制手段行使權力的內心誘惑。"
+    },
+    {
+      "word": "entrust",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 13,
+      "band": "7.0",
+      "synonyms": [
+        "assign",
+        "commit"
+      ],
+      "zh": "委託；託付",
+      "ipa_uk": "/ɪnˈtrʌst/",
+      "ipa_us": "/ɪnˈtrʌst/",
+      "en_ex": "Believers seek peace during personal turmoil by entrusting themselves to a higher benevolent power.",
+      "zh_ex": "信徒在陷入個人動盪時，透過將自己託付予更高的仁慈力量來尋求平靜。"
+    },
+    {
+      "word": "refurbishment",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 19,
+      "band": "7.0",
+      "synonyms": [
+        "renovation",
+        "restoration"
+      ],
+      "zh": "翻新；整修工程",
+      "ipa_uk": "/ˌriːˈfɜː.bɪʃ.mənt/",
+      "ipa_us": "/ˌriːˈfɝː.bɪʃ.mənt/",
+      "en_ex": "Residents grew increasingly tense regarding the safety standards of extensive building refurbishment operations.",
+      "zh_ex": "住戶對大規模建築整修工程的安全標準越來越感到神經緊張。"
+    },
+    {
+      "word": "scaffolding",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 19,
+      "band": "7.0",
+      "synonyms": [
+        "staging",
+        "framework"
+      ],
+      "zh": "鷹架；棚架",
+      "ipa_uk": "/ˈskæf.əl.dɪŋ/",
+      "ipa_us": "/ˈskæf.əl.dɪŋ/",
+      "en_ex": "Protective nets draped across exterior scaffolding must comply with mandatory flame-retardant legal criteria.",
+      "zh_ex": "懸掛在外部棚架上的防護網必須符合強制性的防燃法定標準。"
+    },
+    {
+      "word": "fire break",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 2,
+      "band": "7.5",
+      "synonyms": [
+        "firebreak",
+        "buffer zone"
+      ],
+      "zh": "防火隔離帶；阻火網",
+      "ipa_uk": "/ˈfaɪə breɪk/",
+      "ipa_us": "/ˈfaɪr breɪk/",
+      "en_ex": "Contractors rolled up sections of exterior nets to create a temporary fire break between residential blocks.",
+      "zh_ex": "承辦商捲起部分外牆防護網，以在各座住宅大廈之間形成一道臨時防火隔離帶。"
+    },
+    {
+      "word": "flame-retardant",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 3,
+      "band": "7.5",
+      "synonyms": [
+        "fire-resistant",
+        "non-flammable"
+      ],
+      "zh": "阻燃的；防火的",
+      "ipa_uk": "/ˌfleɪm.rɪˈtɑː.dənt/",
+      "ipa_us": "/ˌfleɪm.rɪˈtɑːr.dənt/",
+      "en_ex": "All tarpaulins used on construction sites are strictly mandated to be certified flame-retardant materials.",
+      "zh_ex": "建築工地上使用的所有防水布均被嚴格規定必須為經認證的阻燃材質。"
+    },
+    {
+      "word": "prosecute",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "indict",
+        "sue"
+      ],
+      "zh": "起訴；檢控",
+      "ipa_uk": "/ˈprɒs.ɪ.kjuːt/",
+      "ipa_us": "/ˈprɑː.sə.kjuːt/",
+      "en_ex": "Contractors who fail random material safety evaluations will be strictly prosecuted under local building statutes.",
+      "zh_ex": "未能通過建材安全抽驗的承辦商，將根據本地建築法規遭到嚴厲起訴。"
+    },
+    {
+      "word": "testimony",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "evidence",
+        "deposition"
+      ],
+      "zh": "證詞；作證",
+      "ipa_uk": "/ˈtes.tɪ.mə.ni/",
+      "ipa_us": "/ˈtes.tə.moʊ.ni/",
+      "en_ex": "Witness testimony has officially concluded in the gruesome murder trial after several exhausting weeks of hearings.",
+      "zh_ex": "經過數週令人心力交瘁的聆訊後，這宗駭人聽聞的謀殺案證人作供程序已正式結束。"
+    },
+    {
+      "word": "closing argument",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "closing statement",
+        "summation"
+      ],
+      "zh": "結案陳詞",
+      "ipa_uk": "/ˌkləʊ.zɪŋ ˈɑːɡ.jʊ.mənt/",
+      "ipa_us": "/ˌkloʊ.zɪŋ ˈɑːrɡ.jə.mənt/",
+      "en_ex": "Both the prosecution and defense teams are preparing final closing arguments to convince the jury.",
+      "zh_ex": "控辯雙方律師團隊目前正加緊準備最終的結案陳詞，以說服陪審團。"
+    },
+    {
+      "word": "cross-examine",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "interrogate",
+        "grill"
+      ],
+      "zh": "盤問；反覆訊問",
+      "ipa_uk": "/ˌkrɒs.ɪɡˈzæm.ɪn/",
+      "ipa_us": "/ˌkrɑːs.ɪɡˈzæm.ɪn/",
+      "en_ex": "The lead prosecutor vigorously cross-examined the prime defendant regarding contradictions in his witness statement.",
+      "zh_ex": "主控官針對第一被告證供中的矛盾之處，對其進行了嚴厲盤問。"
+    },
+    {
+      "word": "vital signs",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 4,
+      "band": "7.0",
+      "synonyms": [
+        "life signs",
+        "clinical parameters"
+      ],
+      "zh": "生命體徵",
+      "ipa_uk": "/ˌvaɪ.təl ˈsaɪnz/",
+      "ipa_us": "/ˌvaɪ.t̬əl ˈsaɪnz/",
+      "en_ex": "The driver alleged that he continuously monitored the victim to ascertain whether she showed any vital signs.",
+      "zh_ex": "司機聲稱自己曾持續查看受害者，以確認她是否仍有任何生命體徵。"
+    },
+    {
+      "word": "disposal",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "6.5",
+      "synonyms": [
+        "discarding",
+        "dumping"
+      ],
+      "zh": "處置；處理；棄置",
+      "ipa_uk": "/dɪˈspəʊ.zəl/",
+      "ipa_us": "/dɪˈspoʊ.zəl/",
+      "en_ex": "Prosecutors argued the smooth concealment and disposal of human remains proved thorough premeditation.",
+      "zh_ex": "控方主張，對人體殘骸順暢的隱藏和棄置過程證明了被告經過周密預謀。"
+    },
+    {
+      "word": "cautioned statement",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "formal confession",
+        "admissible admission"
+      ],
+      "zh": "警誡供詞",
+      "ipa_uk": "/ˈkɔː.ʃənd ˈsteɪt.mənt/",
+      "ipa_us": "/ˈkɑː.ʃənd ˈsteɪt.mənt/",
+      "en_ex": "The defense asserted the accused was misled into providing an incriminating cautioned statement without legal counsel.",
+      "zh_ex": "辯方堅稱被告是在缺乏法律顧問的情況下，被誤導錄取了對自身不利的警誡供詞。"
+    },
+    {
+      "word": "allege",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "claim",
+        "assert"
+      ],
+      "zh": "指控；聲稱",
+      "ipa_uk": "/əˈledʒ/",
+      "ipa_us": "/əˈledʒ/",
+      "en_ex": "Co-defendants actively alleged that one another orchestrated the fatal assault inside the moving vehicle.",
+      "zh_ex": "共同被告互相指控對方才是行駛車輛內致命襲擊的主謀。"
+    },
+    {
+      "word": "constitute",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "comprise",
+        "amount to"
+      ],
+      "zh": "構成；組成",
+      "ipa_uk": "/ˈkɒn.stɪ.tʃuːt/",
+      "ipa_us": "/ˈkɑːn.stə.tuːt/",
+      "en_ex": "The presiding judge reminded jurors that aiding in severe crimes can indeed constitute murder under common law.",
+      "zh_ex": "主審法官提醒陪審團，在普通法體系下，協助實施嚴重罪行確實可以構成謀殺罪。"
+    },
+    {
+      "word": "adjourn",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "suspend",
+        "postpone"
+      ],
+      "zh": "休庭；延期",
+      "ipa_uk": "/əˈdʒɜːn/",
+      "ipa_us": "/əˈdʒɝːn/",
+      "en_ex": "The court was formally adjourned until Friday morning to permit both parties to finalize closing submissions.",
+      "zh_ex": "法庭正式宣布休庭至週五上午，以便控辯雙方完成最終結案陳詞的準備。"
+    }
+  ]
+}
