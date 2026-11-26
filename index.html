@@ -363,6 +363,7 @@ let state = {
   darkMode: false,
   sidebarCollapsed: false,
   calendarMonth: '2026-11',
+  calendarOpen: false,
   // Topics page filters
   topicsPageTopic: 1,
   topicsPageLetter: 'ALL',
@@ -1178,36 +1179,70 @@ function renderDailyView() {
     </div>
   `;
 
-  return `
-    <!-- Top Section: Mini Calendar Date Picker + Day Headlines Summary -->
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
-      <div class="lg:col-span-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 sm:p-5 shadow-2xs">
-        ${renderMiniCalendar('點選小月曆切換新聞日期')}
-      </div>
+  // 前一天／後一天（availableDates 由新至舊排列）
+  const curIdx = state.availableDates.indexOf(dayObj.date);
+  const olderDate = curIdx >= 0 ? state.availableDates[curIdx + 1] : null;
+  const newerDate = curIdx > 0 ? state.availableDates[curIdx - 1] : null;
 
-      <div class="lg:col-span-7 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 sm:p-5 shadow-2xs space-y-3 flex flex-col justify-between">
+  // 當日新聞影片連結（示範資料沒有真實影片，不顯示）
+  const vid = dayObj.video_id || '';
+  const hasVideo = vid && !vid.startsWith('demo');
+  const videoBtn = hasVideo ? `
+    <a href="https://www.youtube.com/watch?v=${encodeURIComponent(vid)}" target="_blank" rel="noopener noreferrer"
+       class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold bg-red-600 hover:bg-red-700 text-white shadow-sm transition">
+      ▶ 觀看當日新聞影片
+    </a>` : '';
+
+  const calToggle = `
+    <div class="relative" id="cal-wrap">
+      <button id="cal-toggle" onclick="toggleCalendarPopover()" title="切換新聞日期"
+        class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-bold border transition ${
+          state.calendarOpen
+            ? 'bg-indigo-600 text-white border-indigo-600'
+            : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:border-indigo-400'
+        }">🗓️ 日期 ▾</button>
+      ${state.calendarOpen ? `
+        <div id="cal-popover" class="absolute left-0 top-full mt-2 z-40 w-[19rem] max-w-[calc(100vw-2.5rem)] bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-2xl p-4 shadow-xl">
+          ${renderMiniCalendar('點選日期切換新聞')}
+        </div>` : ''}
+    </div>`;
+
+  const dayNavBtn = (date, label, align) => date ? `
+    <button onclick="goToAdjacentDay('${date}')" class="flex-1 min-w-0 flex flex-col ${align === 'right' ? 'items-end text-right' : 'items-start text-left'} gap-0.5 px-4 py-3 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-950/50 transition shadow-2xs">
+      <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400">${label}</span>
+      <span class="text-sm font-extrabold">📅 ${date}</span>
+      <span class="text-[11px] text-slate-500 dark:text-slate-400 truncate max-w-full">${escapeHtml(((state.db[date]?.headlines || [])[0] || '').split('(')[0].trim())}</span>
+    </button>` : `
+    <div class="flex-1 min-w-0 flex flex-col ${align === 'right' ? 'items-end text-right' : 'items-start text-left'} justify-center px-4 py-3 rounded-2xl border border-dashed border-slate-200 dark:border-slate-800 text-xs text-slate-400">
+      ${align === 'right' ? '已是最新一日' : '已是最早一日'}
+    </div>`;
+
+  return `
+    <!-- Top Section: Day Headlines Summary (calendar collapsed into an icon) -->
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 sm:p-5 shadow-2xs space-y-3">
+      <div class="flex flex-wrap items-start justify-between gap-2">
         <div>
-          <div class="flex flex-wrap items-center justify-between gap-2">
-            <div>
-              <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400">《TVB News at 7:30》明珠台七點半新聞報道</span>
-              <div class="flex items-center gap-2 mt-0.5 flex-wrap">
-                <h2 class="text-lg sm:text-xl font-extrabold">📅 ${dayObj.date} 焦點新聞與核心詞彙</h2>
-                ${renderHomeBtn()}
-              </div>
-            </div>
-            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
-              片長 ${escapeHtml(dayObj.duration || '20:00')} ・ 精選 ${items.length} 字
-            </span>
-          </div>
-          <div class="space-y-2 pt-3">
-            ${(dayObj.headlines || []).map((h, idx) => `
-              <div class="flex items-start gap-2.5 text-xs bg-slate-50 dark:bg-slate-800/60 px-3.5 py-2.5 rounded-xl border border-slate-100 dark:border-slate-800">
-                <span class="font-extrabold text-indigo-600 dark:text-indigo-400 shrink-0 mt-0.5">#${idx + 1}</span>
-                <div class="min-w-0">${formatBilingualHeadline(h)}</div>
-              </div>
-            `).join('')}
+          <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400">《TVB News at 7:30》明珠台七點半新聞報道</span>
+          <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+            <h2 class="text-lg sm:text-xl font-extrabold">📅 ${dayObj.date} 焦點新聞與核心詞彙</h2>
+            ${renderHomeBtn()}
           </div>
         </div>
+        <span class="text-xs font-semibold px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+          片長 ${escapeHtml(dayObj.duration || '20:00')} ・ 精選 ${items.length} 字
+        </span>
+      </div>
+      <div class="flex items-center gap-2 flex-wrap">
+        ${calToggle}
+        ${videoBtn}
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 pt-1">
+        ${(dayObj.headlines || []).map((h, idx) => `
+          <div class="flex items-start gap-2.5 text-xs bg-slate-50 dark:bg-slate-800/60 px-3.5 py-2.5 rounded-xl border border-slate-100 dark:border-slate-800">
+            <span class="font-extrabold text-indigo-600 dark:text-indigo-400 shrink-0 mt-0.5">#${idx + 1}</span>
+            <div class="min-w-0">${formatBilingualHeadline(h)}</div>
+          </div>
+        `).join('')}
       </div>
     </div>
 
@@ -1216,8 +1251,34 @@ function renderDailyView() {
 
     <!-- Vocab List / Grid -->
     ${renderVocabCollection(filteredItems)}
+
+    <!-- Previous / Next Day Navigation -->
+    <div class="flex items-stretch gap-3 pt-2">
+      ${dayNavBtn(olderDate, '◀ 前一天', 'left')}
+      ${dayNavBtn(newerDate, '後一天 ▶', 'right')}
+    </div>
   `;
 }
+
+function toggleCalendarPopover() {
+  state.calendarOpen = !state.calendarOpen;
+  if (state.calendarOpen) state.calendarMonth = (state.selectedDate || state.calendarMonth).slice(0, 7);
+  renderMainContent();
+}
+
+function goToAdjacentDay(dateStr) {
+  openDateVocab(dateStr);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// 點擊月曆以外的地方時收起月曆
+document.addEventListener('click', e => {
+  if (!state.calendarOpen) return;
+  if (!document.body.contains(e.target)) return; // 月份切換後元素已重繪
+  if (e.target.closest('#cal-wrap')) return;
+  state.calendarOpen = false;
+  if (state.activeTab === 'daily') renderMainContent();
+});
 
 // D. View 3: IELTS 20 Context Categories View
 function renderTopicsView() {
@@ -1768,6 +1829,7 @@ function switchTab(tabId) {
 
 function openDateVocab(dateStr) {
   state.selectedDate = dateStr;
+  state.calendarOpen = false;
   state.calendarMonth = dateStr.slice(0, 7);
   state.selectedTopic = 'all';
   state.activeTab = 'daily';
