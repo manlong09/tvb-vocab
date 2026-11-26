@@ -1,0 +1,815 @@
+{
+  "date": "2026-11-19",
+  "video_id": "UmYCbS9dBYE",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "中美俄三國元首在深圳亞太經合組織峰會期間舉行歷史性三方會談 (Leaders of China, Russia and US hold historic trilateral summit on sidelines of APEC in Shenzhen)",
+    "中美俄發表聯合和平宣言重申反對核戰並促進能源供應穩定 (China, Russia and US release joint peace declaration reaffirming nuclear deterrence and energy stability)",
+    "習近平主持亞太經合組織領導人會議宣布注資二千萬美元推動區域合作 (Xi Jinping chairs APEC plenary session and pledges $20M fund to support regional collaboration)",
+    "李家超總結深圳之行成果包括與智利簽署工作假期計劃協定 (John Lee outlines five key APEC achievements including bilateral working holiday scheme with Chile)",
+    "民主黨人推選傑弗里斯為美眾議院領袖有望成史上首位非裔議長 (Democrats nominate Hakeem Jeffries for House speaker paving way to become first Black speaker)",
+    "名媛蔡天鳳碎屍案續審前夫鄺港智首度出庭作供揭露情感與財務糾葛 (Trial into Abby Choi dismemberment continues as ex-husband Alex Kwong takes stand for first time)"
+  ],
+  "items": [
+    {
+      "word": "on the sidelines of",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "incidentally to",
+        "in parallel with"
+      ],
+      "zh": "在……的間隙；在……的周邊場合",
+      "ipa_uk": "/ɒn ðə ˈsaɪd.laɪnz əv/",
+      "ipa_us": "/ɑːn ðə ˈsaɪd.laɪnz əv/",
+      "en_ex": "The leaders held an impromptu bilateral discussion on the sidelines of the international trade conference.",
+      "zh_ex": "各國領袖在國際貿易會議的間隙舉行了一次即興雙邊會談。"
+    },
+    {
+      "word": "pioneering",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 20,
+      "band": "7.5",
+      "synonyms": [
+        "groundbreaking",
+        "innovative"
+      ],
+      "zh": "開創性的；先驅的",
+      "ipa_uk": "/ˌpaɪəˈnɪə.rɪŋ/",
+      "ipa_us": "/ˌpaɪəˈnɪr.ɪŋ/",
+      "en_ex": "The trilateral summit was praised for its pioneering significance in fostering long-term regional stability.",
+      "zh_ex": "這場三方峰會因其在促進長期區域穩定方面的開創性意義而受到讚揚。"
+    },
+    {
+      "word": "flank",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "border",
+        "surround"
+      ],
+      "zh": "位於……兩側；陪護",
+      "ipa_uk": "/flæŋk/",
+      "ipa_us": "/flæŋk/",
+      "en_ex": "The president stood at the podium, flanked by senior diplomats and defense officials during the briefing.",
+      "zh_ex": "簡報會期間，總統站在講台上，身旁兩側有高級外交官與國防官員陪同。"
+    },
+    {
+      "word": "unprecedented",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "unparalleled",
+        "novel"
+      ],
+      "zh": "史無前例的；空前的",
+      "ipa_uk": "/ʌnˈpres.ɪ.den.tɪd/",
+      "ipa_us": "/ʌnˈpres.ə.den.t̬ɪd/",
+      "en_ex": "The three major powers initiated an unprecedented round table meeting to de-escalate lingering international tensions.",
+      "zh_ex": "三大國啟動了史無前例的圓桌會議，以緩解持續存在的國際緊張局勢。"
+    },
+    {
+      "word": "shoulder",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "bear",
+        "undertake"
+      ],
+      "zh": "承擔，擔負（責任等）",
+      "ipa_uk": "/ˈʃəʊl.dər/",
+      "ipa_us": "/ˈʃoʊl.dɚ/",
+      "en_ex": "Influential superpowers must shoulder their responsibilities to preserve peace in an increasingly turbulent world.",
+      "zh_ex": "具有影響力的超級大國必須在日益動盪的世界中承擔維護和平的責任。"
+    },
+    {
+      "word": "mandatory",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "compulsory",
+        "obligatory"
+      ],
+      "zh": "強制的；必須履行的",
+      "ipa_uk": "/ˈmæn.də.tər.i/",
+      "ipa_us": "/ˈmæn.də.tɔːr.i/",
+      "en_ex": "Diplomats reiterated that constructive communication among global leaders is mandatory rather than purely optional.",
+      "zh_ex": "外交官重申，全球領導人之間的建設性溝通是強制性的，而非僅僅是可有可無的。"
+    },
+    {
+      "word": "turmoil",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "chaos",
+        "upheaval"
+      ],
+      "zh": "動盪；混亂",
+      "ipa_uk": "/ˈtɜː.mɔɪl/",
+      "ipa_us": "/ˈtɝː.mɔɪl/",
+      "en_ex": "Decisive leadership is required to guide emerging markets through severe macroeconomic and geopolitical turmoil.",
+      "zh_ex": "需要果斷的領導力來帶領新興市場度過嚴峻的宏觀經濟與地緣政治動盪。"
+    },
+    {
+      "word": "eradication",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "8.0",
+      "synonyms": [
+        "elimination",
+        "extermination"
+      ],
+      "zh": "根除；消除",
+      "ipa_uk": "/ɪˌræd.ɪˈkeɪ.ʃən/",
+      "ipa_us": "/ɪˌræd.əˈkeɪ.ʃən/",
+      "en_ex": "International delegates persistently campaigned for the total eradication of all lethal weapons of mass destruction.",
+      "zh_ex": "國際代表不斷奔走呼籲徹底根除所有致命的大規模毀滅性武器。"
+    },
+    {
+      "word": "at all costs",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "by all means",
+        "regardless of the expense"
+      ],
+      "zh": "不惜任何代價；無論如何",
+      "ipa_uk": "/æt ɔːl kɒsts/",
+      "ipa_us": "/æt ɔːl kɑːsts/",
+      "en_ex": "Diplomats agreed that an escalatory global armed conflict must be avoided at all costs.",
+      "zh_ex": "外交官們一致認為，必須不惜一切代價避免全球武裝衝突升級。"
+    },
+    {
+      "word": "trilateral",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "three-sided",
+        "tripartite"
+      ],
+      "zh": "三方的；三國的",
+      "ipa_uk": "/traɪˈlæt.ər.əl/",
+      "ipa_us": "/traɪˈlæt̬.ɚ.əl/",
+      "en_ex": "The delegates finalized a groundbreaking trilateral agreement focusing on maritime security and counter-terrorism measures.",
+      "zh_ex": "代表們敲定了一項著眼於海上安全與反恐措施的開創性三方協議。"
+    },
+    {
+      "word": "takeaway",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 1,
+      "band": "6.5",
+      "synonyms": [
+        "key point",
+        "conclusion"
+      ],
+      "zh": "要點；收穫；核心啟示",
+      "ipa_uk": "/ˈteɪk.ə.weɪ/",
+      "ipa_us": "/ˈteɪk.ə.weɪ/",
+      "en_ex": "One notable takeaway from the summit was the firm commitment to stabilizing worldwide petroleum flows.",
+      "zh_ex": "本次峰會一個顯著的核心收穫是各方對穩定全球石油供應流動的堅定承諾。"
+    },
+    {
+      "word": "reaffirm",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "reiterate",
+        "confirm"
+      ],
+      "zh": "重申；再次確認",
+      "ipa_uk": "/ˌriː.əˈfɜːm/",
+      "ipa_us": "/ˌriː.əˈfɝːm/",
+      "en_ex": "The signing states reaffirmed their solemn dedication to honoring the provisions established in international treaties.",
+      "zh_ex": "簽署國重申將嚴格遵守國際條約所規定的各項條款。"
+    },
+    {
+      "word": "proliferation",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "8.0",
+      "synonyms": [
+        "spread",
+        "expansion"
+      ],
+      "zh": "擴散；激增",
+      "ipa_uk": "/prəˌlɪf.əˈreɪ.ʃən/",
+      "ipa_us": "/prəˌlɪf.əˈreɪ.ʃən/",
+      "en_ex": "Rigorous regulatory monitoring is vital to curbing the dangerous proliferation of nuclear technology across regions.",
+      "zh_ex": "嚴格的監管監督對於遏制核技術在各地區的危險擴散至關重要。"
+    },
+    {
+      "word": "jurisdiction",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "authority",
+        "legal power"
+      ],
+      "zh": "司法管轄權；審判權",
+      "ipa_uk": "/ˌdʒʊə.rɪsˈdɪk.ʃən/",
+      "ipa_us": "/ˌdʒʊr.ɪsˈdɪk.ʃən/",
+      "en_ex": "The contentious court case questioned whether the foreign tribunal possessed lawful jurisdiction over sovereign officials.",
+      "zh_ex": "這起頗具爭議的法庭案件質疑該外國法庭是否對主權官員擁有合法的司法管轄權。"
+    },
+    {
+      "word": "immunity",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "exemption",
+        "protection"
+      ],
+      "zh": "豁免權；免除",
+      "ipa_uk": "/ɪˈmjuː.nə.ti/",
+      "ipa_us": "/ɪˈmjuː.nə.t̬i/",
+      "en_ex": "Certain foreign diplomats are granted absolute diplomatic immunity while carrying out missions in host countries.",
+      "zh_ex": "某些外國外交官在東道國執行任務期間享有完全的外交豁免權。"
+    },
+    {
+      "word": "map out",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "delineate",
+        "formulate"
+      ],
+      "zh": "規劃；詳細制訂",
+      "ipa_uk": "/mæp aʊt/",
+      "ipa_us": "/mæp aʊt/",
+      "en_ex": "Top negotiators scheduled consecutive meetings to map out a concrete roadmap for future trade negotiations.",
+      "zh_ex": "高級談判代表安排了多次連續會議，以勾勒出未來貿易談判的具體藍圖。"
+    },
+    {
+      "word": "viable",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "feasible",
+        "workable"
+      ],
+      "zh": "切實可行的；有望成功的",
+      "ipa_uk": "/ˈvaɪ.ə.bəl/",
+      "ipa_us": "/ˈvaɪ.ə.bəl/",
+      "en_ex": "Economists urged governments to establish a viable framework capable of supporting enduring economic coexistence.",
+      "zh_ex": "經濟學家敦促各國政府建立一個切實可行、能夠支撐持久經濟共存的架構。"
+    },
+    {
+      "word": "paradigm",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 1,
+      "band": "8.0",
+      "synonyms": [
+        "framework",
+        "model"
+      ],
+      "zh": "典範；範式",
+      "ipa_uk": "/ˈpær.ə.daɪm/",
+      "ipa_us": "/ˈper.ə.daɪm/",
+      "en_ex": "Technological innovation has defined an entirely new paradigm for cross-border communications and modern industrial commerce.",
+      "zh_ex": "技術創新為跨境交流與現代工業貿易確立了全新的範式。"
+    },
+    {
+      "word": "trailblazing",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 20,
+      "band": "7.5",
+      "synonyms": [
+        "innovative",
+        "pioneering"
+      ],
+      "zh": "開拓性的；引領潮流的",
+      "ipa_uk": "/ˈtreɪlˌbleɪ.zɪŋ/",
+      "ipa_us": "/ˈtreɪlˌbleɪ.zɪŋ/",
+      "en_ex": "The institution was honored for its trailblazing research into sustainable energy and advanced carbon reduction.",
+      "zh_ex": "該機構因其在可持續能源與尖端減碳領域的開拓性研究而受到表彰。"
+    },
+    {
+      "word": "tangible",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "concrete",
+        "palpable"
+      ],
+      "zh": "切實的；明確具體的",
+      "ipa_uk": "/ˈtæn.dʒə.bəl/",
+      "ipa_us": "/ˈtæn.dʒə.bəl/",
+      "en_ex": "Citizens demand that ongoing bilateral negotiations produce tangible improvements in working conditions and local wages.",
+      "zh_ex": "公民要求正在進行的雙邊談判能在工作條件與本地工資方面帶來切實改善。"
+    },
+    {
+      "word": "hold fast to",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "cling to",
+        "adhere to"
+      ],
+      "zh": "堅守；堅持（原則、信念等）",
+      "ipa_uk": "/həʊld fɑːst tuː/",
+      "ipa_us": "/hoʊld fæst tuː/",
+      "en_ex": "Leaders must hold fast to core ethical principles to prevent misunderstandings from destabilizing multilateral alliances.",
+      "zh_ex": "領導人必須堅守核心倫理原則，以防誤解破壞多邊聯盟的穩定。"
+    },
+    {
+      "word": "steer clear of",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "avoid",
+        "evade"
+      ],
+      "zh": "避開；繞開",
+      "ipa_uk": "/stɪər klɪər əv/",
+      "ipa_us": "/stɪr klɪr əv/",
+      "en_ex": "Strategic policymakers aim to steer clear of diplomatic controversies that could endanger fragile economic ties.",
+      "zh_ex": "戰略決策者旨在避開可能危及脆弱經濟關係的外交爭議。"
+    },
+    {
+      "word": "lopsided",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "unbalanced",
+        "asymmetrical"
+      ],
+      "zh": "不平衡的；傾斜失衡的",
+      "ipa_uk": "/ˌlɒpˈsaɪ.dɪd/",
+      "ipa_us": "/ˌlɑːpˈsaɪ.dɪd/",
+      "en_ex": "The newly amended economic treaty corrected a lopsided trade deficit between the two neighboring economies.",
+      "zh_ex": "新修訂的經濟條約糾正了這兩個相鄰經濟體之間失衡的貿易逆差。"
+    },
+    {
+      "word": "in the same boat",
+      "type": "phrase",
+      "pos": "idiom",
+      "topic_id": 13,
+      "band": "6.5",
+      "synonyms": [
+        "in identical circumstances",
+        "facing common challenges"
+      ],
+      "zh": "同舟共濟；處境相同",
+      "ipa_uk": "/ɪn ðə seɪm bəʊt/",
+      "ipa_us": "/ɪn ðə seɪm boʊt/",
+      "en_ex": "During unprecedented financial crises, international trading partners realize they are essentially in the same boat.",
+      "zh_ex": "在空前的金融危機中，國際貿易夥伴意識到彼此本質上同處一條船上。"
+    },
+    {
+      "word": "weather the storm",
+      "type": "phrase",
+      "pos": "idiom",
+      "topic_id": 2,
+      "band": "7.5",
+      "synonyms": [
+        "survive difficulties",
+        "endure adversity"
+      ],
+      "zh": "經受住考驗；平安度過難關",
+      "ipa_uk": "/ˈweð.ər ðə stɔːm/",
+      "ipa_us": "/ˈweð.ɚ ðə stɔːrm/",
+      "en_ex": "Close regional collaboration enables vulnerable coastal communities to weather the harsh winds and macroeconomic waves.",
+      "zh_ex": "緊密的區域合作使脆弱的沿海社區能夠安然度過狂風與宏觀經濟風浪的衝擊。"
+    },
+    {
+      "word": "elucidate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 1,
+      "band": "8.0",
+      "synonyms": [
+        "clarify",
+        "explicate"
+      ],
+      "zh": "闡明；詳細解釋",
+      "ipa_uk": "/iˈluː.sɪ.deɪt/",
+      "ipa_us": "/iˈluː.sə.deɪt/",
+      "en_ex": "The chief representative took the podium to elucidate comprehensive policy adjustments intended to revitalize manufacturing industries.",
+      "zh_ex": "首席代表走上講台，闡明旨在重振製造業的全面政策調整方案。"
+    },
+    {
+      "word": "earmark",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "allocate",
+        "designate"
+      ],
+      "zh": "撥出（專款）；專門指定",
+      "ipa_uk": "/ˈɪə.mɑːk/",
+      "ipa_us": "/ˈɪr.mɑːrk/",
+      "en_ex": "The finance committee agreed to earmark substantial revenue for improving vocational schools and public transportation.",
+      "zh_ex": "財政委員會同意撥出巨額收入，用於改善職業學校和公共交通基礎設施。"
+    },
+    {
+      "word": "stifle",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "suppress",
+        "hinder"
+      ],
+      "zh": "扼殺；抑制；阻礙",
+      "ipa_uk": "/ˈstaɪ.fəl/",
+      "ipa_us": "/ˈstaɪ.fəl/",
+      "en_ex": "Overly bureaucratic market regulations can inadvertently stifle technological innovation and discourage foreign commercial investment.",
+      "zh_ex": "過於官僚化的市場監管可能會無意中扼殺技術創新並阻礙外國商業投資。"
+    },
+    {
+      "word": "deteriorate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "worsen",
+        "degenerate"
+      ],
+      "zh": "惡化；退步",
+      "ipa_uk": "/dɪˈtɪə.ri.ə.reɪt/",
+      "ipa_us": "/dɪˈtɪr.i.ə.reɪt/",
+      "en_ex": "Diplomatic ties began to deteriorate rapidly after controversial defense rhetoric was broadcast on international media.",
+      "zh_ex": "在國際媒體播出引發爭議的國防言論後，外交關係開始迅速惡化。"
+    },
+    {
+      "word": "extend a hand of friendship",
+      "type": "phrase",
+      "pos": "idiom",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "offer an olive branch",
+        "display goodwill"
+      ],
+      "zh": "伸出友誼之手；表達和解與友好",
+      "ipa_uk": "/ɪkˈstend ə hænd əv ˈfrend.ʃɪp/",
+      "ipa_us": "/ɪkˈstend ə hænd əv ˈfrend.ʃɪp/",
+      "en_ex": "Despite ongoing ideological differences, the foreign minister chose to extend a hand of friendship to the visitors.",
+      "zh_ex": "儘管意識形態分歧依然存在，外交部長仍選擇向來訪者伸出友誼之手。"
+    },
+    {
+      "word": "in the spotlight",
+      "type": "phrase",
+      "pos": "idiom",
+      "topic_id": 8,
+      "band": "6.5",
+      "synonyms": [
+        "at center stage",
+        "in the limelight"
+      ],
+      "zh": "成為大眾關注焦點；備受矚目",
+      "ipa_uk": "/ɪn ðə ˈspɒt.laɪt/",
+      "ipa_us": "/ɪn ðə ˈspɑːt.laɪt/",
+      "en_ex": "High-level bilateral negotiations were placed firmly in the spotlight as international media converged on the summit.",
+      "zh_ex": "隨著國際媒體雲集峰會，高級別雙邊談判成為眾人矚目的焦點。"
+    },
+    {
+      "word": "resonate with",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 13,
+      "band": "7.5",
+      "synonyms": [
+        "align with",
+        "echo"
+      ],
+      "zh": "與……共鳴；與……契合",
+      "ipa_uk": "/ˈrez.ən.eɪt wɪð/",
+      "ipa_us": "/ˈrez.ən.eɪt wɪð/",
+      "en_ex": "Regional developmental strategies must closely resonate with nationwide macroeconomic priorities to maximize civic prosperity.",
+      "zh_ex": "區域發展策略必須與全國宏觀經濟重點緊密契合，以實現社會繁榮最大化。"
+    },
+    {
+      "word": "consolidate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "strengthen",
+        "solidify"
+      ],
+      "zh": "鞏固；強化",
+      "ipa_uk": "/kənˈsɒl.ɪ.deɪt/",
+      "ipa_us": "/kənˈsɑː.lə.deɪt/",
+      "en_ex": "The premier visited neighboring nations to consolidate economic pacts and enhance diplomatic communication channels.",
+      "zh_ex": "總理出訪鄰國以鞏固經貿協定並增強外交溝通管道。"
+    },
+    {
+      "word": "overwhelmingly",
+      "type": "word",
+      "pos": "adv.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "decisively",
+        "predominantly"
+      ],
+      "zh": "壓倒性地；絕大多數地",
+      "ipa_uk": "/ˌəʊ.vəˈwel.mɪŋ.li/",
+      "ipa_us": "/ˌoʊ.vɚˈwel.mɪŋ.li/",
+      "en_ex": "Committee members overwhelmingly voted to pass the comprehensive educational reform bill during Tuesday's legislative session.",
+      "zh_ex": "委員會成員在週二的立法會議上以壓倒性多數投票通過了綜合教育改革法案。"
+    },
+    {
+      "word": "brush past",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "dismiss",
+        "sweep aside"
+      ],
+      "zh": "不予理會；掃除（阻礙或質疑）",
+      "ipa_uk": "/brʌʃ pɑːst/",
+      "ipa_us": "/brʌʃ pæst/",
+      "en_ex": "The veteran politician managed to brush past internal skeptics and secure the coveted party nomination.",
+      "zh_ex": "這位資深政界人士成功掃除黨內質疑者的反對，鎖定了令人垂涎的黨內提名。"
+    },
+    {
+      "word": "gavel",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "mallet",
+        "hammer"
+      ],
+      "zh": "議事槌；法槌（象徵主持會議的權力）",
+      "ipa_uk": "/ˈɡæv.əl/",
+      "ipa_us": "/ˈɡæv.əl/",
+      "en_ex": "Taking control of the speaker's gavel grants substantial influence over the chamber's future legislative calendar.",
+      "zh_ex": "執掌議長權槌使人能對該議院未來的立法日程產生實質影響力。"
+    },
+    {
+      "word": "convene",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "assemble",
+        "gather"
+      ],
+      "zh": "召開；集合",
+      "ipa_uk": "/kənˈviːn/",
+      "ipa_us": "/kənˈviːn/",
+      "en_ex": "The national parliament will convene early next month to evaluate newly drafted environmental protection mandates.",
+      "zh_ex": "國家議會將於下月初開會，以評估新起草的環境保護指令。"
+    },
+    {
+      "word": "walks of life",
+      "type": "phrase",
+      "pos": "idiom",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "diverse backgrounds",
+        "social strata"
+      ],
+      "zh": "各行各業；社會各界",
+      "ipa_uk": "/wɔːks əv laɪf/",
+      "ipa_us": "/wɑːks əv laɪf/",
+      "en_ex": "Civic leaders encouraged volunteers from all walks of life to engage in sustainable community revitalization.",
+      "zh_ex": "民間領導人鼓勵來自各行各業的志工積極參與可持續的社區振興工作。"
+    },
+    {
+      "word": "restive",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "8.0",
+      "synonyms": [
+        "unruly",
+        "fidgety"
+      ],
+      "zh": "焦躁不安的；難以駕馭的",
+      "ipa_uk": "/ˈres.tɪv/",
+      "ipa_us": "/ˈres.tɪv/",
+      "en_ex": "The party whip confronted a restive caucus eager for drastic alterations to current economic governance.",
+      "zh_ex": "該黨黨鞭面臨著一個焦躁不安、急於徹底改變現行經濟治理方針的黨團。"
+    },
+    {
+      "word": "oust",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "depose",
+        "expel"
+      ],
+      "zh": "罷黜；逐出；擊敗",
+      "ipa_uk": "/aʊst/",
+      "ipa_us": "/aʊst/",
+      "en_ex": "Discontented citizens mobilized at the ballot box to oust the long-standing administration during the general election.",
+      "zh_ex": "不滿的民眾在全國大選中透過選票罷黜了執政已久的政府。"
+    },
+    {
+      "word": "rebuke",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "reprimand",
+        "censure"
+      ],
+      "zh": "譴責；嚴厲指責",
+      "ipa_uk": "/rɪˈbjuːk/",
+      "ipa_us": "/rɪˈbjuːk/",
+      "en_ex": "The surprise electoral defeat delivered an undeniable rebuke to the ruling party's fiscal austerity program.",
+      "zh_ex": "這場意料之外的選舉落敗，對執政黨的財政緊縮方案構成了無可否認的嚴厲批評。"
+    },
+    {
+      "word": "roll call",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "attendance check",
+        "recorded vote"
+      ],
+      "zh": "唱名點名；點名表決",
+      "ipa_uk": "/ˈrəʊl ˌkɔːl/",
+      "ipa_us": "/ˈroʊl ˌkɑːl/",
+      "en_ex": "Lawmakers demanded a formal roll call to determine transparent support for the proposed constitutional amendment.",
+      "zh_ex": "議員們要求進行正式的唱名表決，以明確透明地確定對擬議憲法修正案的支持度。"
+    },
+    {
+      "word": "milestone",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "breakthrough",
+        "landmark"
+      ],
+      "zh": "里程碑；重大轉折點",
+      "ipa_uk": "/ˈmaɪl.stəʊn/",
+      "ipa_us": "/ˈmaɪl.stoʊn/",
+      "en_ex": "Electing a diverse representative body marked a crucial historical milestone toward achieving equitable democratic representation.",
+      "zh_ex": "選出一個多元化的代表機構，是邁向實現公平民主代表權的重要歷史里程碑。"
+    },
+    {
+      "word": "dismemberment",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "mutilation",
+        "dissection"
+      ],
+      "zh": "肢解；碎屍",
+      "ipa_uk": "/dɪsˈmem.bə.mənt/",
+      "ipa_us": "/dɪsˈmem.bɚ.mənt/",
+      "en_ex": "Forensic investigators presented grim physical evidence during the shocking murder and dismemberment court trial.",
+      "zh_ex": "法證調查員在這起令人震驚的謀殺肢解案審理中展示了令人不寒而慄的物證。"
+    },
+    {
+      "word": "take the stand",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "testify",
+        "give evidence"
+      ],
+      "zh": "出庭作證；站上證人席",
+      "ipa_uk": "/teɪk ðə stænd/",
+      "ipa_us": "/teɪk ðə stænd/",
+      "en_ex": "The crucial defense witness agreed to take the stand to clarify confusing inconsistencies in previous statements.",
+      "zh_ex": "關鍵的辯方證人同意出庭作證，以澄清先前陳述中令人困惑的矛盾之處。"
+    },
+    {
+      "word": "examination in chief",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "direct examination",
+        "primary interrogation"
+      ],
+      "zh": "主訊問；主詰問（傳喚方律師對己方證人的訊問）",
+      "ipa_uk": "/ɪɡˌzæm.ɪˈneɪ.ʃən ɪn tʃiːf/",
+      "ipa_us": "/ɪɡˌzæm.əˈneɪ.ʃən ɪn tʃiːf/",
+      "en_ex": "Under examination in chief by his defense barrister, the suspect narrated his daily timeline with great precision.",
+      "zh_ex": "在辯護律師的主訊問下，嫌疑人極其精確地敘述了自己當天的時間線。"
+    },
+    {
+      "word": "volunteer information",
+      "type": "sentence",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "disclose voluntarily",
+        "offer unsolicited details"
+      ],
+      "zh": "主動提供非被問及的資訊",
+      "ipa_uk": "/ˌvɒl.ənˈtɪər ˌɪn.fəˈmeɪ.ʃən/",
+      "ipa_us": "/ˌvɑː.lənˈtɪr ˌɪn.fɚˈmeɪ.ʃən/",
+      "en_ex": "The presiding magistrate cautioned the talkative defendant not to volunteer unsolicited information before the court.",
+      "zh_ex": "主審法官提醒這名健談的被告不要在法庭上主動提供未經詢問的資訊。"
+    },
+    {
+      "word": "consecutive",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 1,
+      "band": "6.5",
+      "synonyms": [
+        "successive",
+        "sequential"
+      ],
+      "zh": "連續的；連貫的",
+      "ipa_uk": "/kənˈsek.jə.tɪv/",
+      "ipa_us": "/kənˈsek.jə.t̬ɪv/",
+      "en_ex": "The factory celebrated five consecutive months of steady export growth across Southeast Asian regional markets.",
+      "zh_ex": "該工廠慶祝東南亞區域市場的出口連續五個月保持穩定增長。"
+    },
+    {
+      "word": "cross-examination",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "counter-interrogation",
+        "cross-questioning"
+      ],
+      "zh": "交叉盤問；反詰問",
+      "ipa_uk": "/ˈkrɒs.ɪɡˌzæm.ɪˈneɪ.ʃən/",
+      "ipa_us": "/ˈkrɑːs.ɪɡˌzæm.əˈneɪ.ʃən/",
+      "en_ex": "During intense cross-examination, the prosecutor challenged the validity of the suspect's hastily crafted alibi.",
+      "zh_ex": "在激烈的交叉盤問中，檢察官質疑了嫌疑人匆忙編造的不在場證明的有效性。"
+    },
+    {
+      "word": "mental breakdown",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 4,
+      "band": "7.0",
+      "synonyms": [
+        "nervous collapse",
+        "emotional crisis"
+      ],
+      "zh": "精神崩潰；神經崩潰",
+      "ipa_uk": "/ˈmen.təl ˈbreɪk.daʊn/",
+      "ipa_us": "/ˈmen.təl ˈbreɪk.daʊn/",
+      "en_ex": "The defendant attributed his erratic domestic behavior to an acute mental breakdown caused by extreme financial stress.",
+      "zh_ex": "被告將自己反常的家庭行為歸咎於極端財務壓力引發的急性精神崩潰。"
+    }
+  ]
+}
