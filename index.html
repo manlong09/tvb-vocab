@@ -1,0 +1,2028 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>《TVB News at 7:30》每日詞彙網頁 | IELTS 7:30 News Vocab</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans TC', 'system-ui', 'sans-serif'],
+            mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+    body { font-family: 'Inter', 'Noto Sans TC', system-ui, sans-serif; }
+    .sidebar-transition { transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1), transform 0.25s cubic-bezier(0.4, 0, 0.2, 1); }
+    .blur-mask { filter: blur(6px); user-select: none; transition: filter 0.2s ease; }
+    .blur-mask:hover { filter: blur(0); }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased min-h-screen flex flex-col overflow-x-hidden">
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-5 right-5 z-50 hidden items-center gap-2 rounded-xl bg-slate-900 text-white dark:bg-indigo-600 px-4 py-2.5 text-sm font-medium shadow-lg transition-opacity">
+    <span id="toast-msg"></span>
+  </div>
+
+  <!-- Mobile Drawer Backdrop -->
+  <div id="mobile-backdrop" class="fixed inset-0 z-30 bg-slate-900/50 backdrop-blur-xs hidden lg:hidden"></div>
+
+  <div class="flex flex-1 min-h-screen min-w-0">
+    <!-- Collapsible Sidebar -->
+    <aside id="sidebar" class="sidebar-transition fixed lg:sticky top-0 left-0 z-40 h-screen bg-white dark:bg-slate-900 border-r border-slate-200 dark:border-slate-800 flex flex-col shrink-0 -translate-x-full lg:translate-x-0 w-64">
+      <!-- Sidebar Header -->
+      <div class="h-16 flex items-center justify-between px-3.5 border-b border-slate-200 dark:border-slate-800 shrink-0">
+        <div class="flex items-center gap-2.5 overflow-hidden">
+          <div class="w-9 h-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center shrink-0 font-extrabold text-xs shadow-sm tracking-tight">
+            7:30
+          </div>
+          <div class="sidebar-label whitespace-nowrap overflow-hidden">
+            <div class="font-bold text-sm tracking-tight text-slate-900 dark:text-white">TVB News at 7:30</div>
+            <div class="text-[11px] text-slate-500 dark:text-slate-400">IELTS Band 6.5–8.0 每日詞庫</div>
+          </div>
+        </div>
+        <button id="sidebar-close-mobile" class="lg:hidden p-1.5 rounded-lg text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="關閉目錄">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Nav Items & Latest 7 Days -->
+      <div class="flex-1 overflow-y-auto py-3 px-2.5 space-y-4">
+        <nav id="sidebar-nav" class="space-y-1">
+          <!-- Main Navigation rendered by JS -->
+        </nav>
+
+        <!-- Latest 7 Days News Quick List -->
+        <div class="sidebar-label pt-3 border-t border-slate-200 dark:border-slate-800">
+          <div class="px-2.5 mb-2 flex items-center justify-between">
+            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">最新 7 天新聞</span>
+            <span class="text-[10px] px-1.5 py-0.5 rounded bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-300 font-semibold">每日更新</span>
+          </div>
+          <div id="sidebar-recent-days" class="space-y-1">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Footer Quick Progress -->
+      <div class="p-3 border-t border-slate-200 dark:border-slate-800 shrink-0">
+        <div class="sidebar-label bg-indigo-50 dark:bg-indigo-950/50 rounded-xl p-3">
+          <div class="flex justify-between text-xs font-semibold text-indigo-900 dark:text-indigo-200 mb-1.5">
+            <span>總詞庫掌握率</span>
+            <span id="sidebar-pct">0%</span>
+          </div>
+          <div class="w-full h-2 bg-indigo-200 dark:bg-indigo-900 rounded-full overflow-hidden">
+            <div id="sidebar-bar" class="h-full bg-indigo-600 dark:bg-indigo-400 rounded-full transition-all duration-300" style="width: 0%"></div>
+          </div>
+          <div id="sidebar-counts" class="mt-1.5 text-[11px] text-indigo-700/80 dark:text-indigo-300/80 flex justify-between">
+            <span>已掌握: 0</span>
+            <span>溫習中: 0</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="flex-1 flex flex-col min-w-0">
+      <!-- Top Bar -->
+      <header class="sticky top-0 z-20 h-16 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-b border-slate-200 dark:border-slate-800 px-4 sm:px-6 flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3 min-w-0">
+          <button id="sidebar-toggle" class="p-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700 transition shrink-0" title="展開／縮起目錄">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+          <div class="min-w-0">
+            <h1 id="view-title" class="font-bold text-base sm:text-lg truncate">《TVB News at 7:30》每日詞彙網頁</h1>
+            <p id="view-subtitle" class="text-xs text-slate-500 dark:text-slate-400 truncate hidden sm:block">精選明珠台七點半新聞報道 IELTS Band 6.5–8.0 核心詞彙、片語與新聞原句</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2 shrink-0">
+          <!-- Accent Toggle -->
+          <div class="hidden sm:flex items-center bg-slate-100 dark:bg-slate-800 rounded-xl p-1 text-xs font-semibold">
+            <button id="btn-accent-uk" class="px-2.5 py-1 rounded-lg transition">🇬🇧 UK</button>
+            <button id="btn-accent-us" class="px-2.5 py-1 rounded-lg transition">🇺🇸 US</button>
+          </div>
+          <!-- Font Size Toggle -->
+          <button id="btn-font-size" class="px-2.5 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition" title="放大／調整全頁字體大小">字體：標準</button>
+          <!-- Speed Toggle -->
+          <button id="btn-speed" class="px-2.5 py-1.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition" title="切換語音速度">1.0x</button>
+          <!-- Backup / Restore Button -->
+          <button id="btn-backup" class="px-2.5 py-1.5 rounded-xl border border-indigo-200 dark:border-indigo-800 bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 text-xs font-semibold hover:bg-indigo-100 dark:hover:bg-indigo-900 transition" title="匯出或還原學習進度">💾 備份/還原</button>
+          <!-- Theme Toggle -->
+          <button id="btn-theme" class="p-2 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 transition" title="切換深淺色主題">
+            <svg id="icon-sun" class="w-4 h-4 hidden dark:block text-amber-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+            <svg id="icon-moon" class="w-4 h-4 block dark:hidden text-slate-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Dynamic Main Container -->
+      <main id="main-content" class="flex-1 p-4 sm:p-6 max-w-[1440px] w-full min-w-0 mx-auto space-y-6">
+        <!-- Rendered by JS -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Backup / Restore Progress Modal -->
+  <div id="backup-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/60 backdrop-blur-xs p-4">
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl max-w-lg w-full p-5 sm:p-6 shadow-2xl max-h-[90vh] overflow-y-auto space-y-4">
+      <div class="flex items-start justify-between gap-3">
+        <div>
+          <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">學習進度備份與同步</span>
+          <h3 class="text-lg font-bold mt-0.5">匯出／匯入學習紀錄</h3>
+        </div>
+        <button id="backup-modal-close" class="p-2 rounded-xl hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500" aria-label="關閉視窗">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div id="backup-summary" class="p-3 rounded-xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700 text-xs text-slate-600 dark:text-slate-300"></div>
+
+      <!-- Export Section -->
+      <div class="space-y-2">
+        <div class="text-sm font-bold">1. 匯出備份（跨裝置同步或防止清除瀏覽器資料）</div>
+        <div class="flex flex-wrap gap-2">
+          <button id="btn-export-file" class="px-3.5 py-2 rounded-xl bg-indigo-600 text-white text-xs font-semibold hover:bg-indigo-700 transition">⬇️ 下載進度檔 (.json)</button>
+          <button id="btn-copy-code" class="px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs font-semibold hover:bg-slate-100 dark:hover:bg-slate-700 transition">📋 複製進度代碼</button>
+        </div>
+      </div>
+
+      <!-- Import Section -->
+      <div class="pt-3 border-t border-slate-200 dark:border-slate-800 space-y-2.5">
+        <div class="text-sm font-bold">2. 匯入還原（從檔案或代碼恢復）</div>
+        <div>
+          <label class="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl border border-dashed border-indigo-300 dark:border-indigo-700 bg-indigo-50/60 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 text-xs font-semibold cursor-pointer hover:bg-indigo-100 dark:hover:bg-indigo-900/60 transition">
+            <span>📂 選擇 .json 備份檔匯入</span>
+            <input id="backup-file-input" type="file" accept=".json,application/json" class="hidden"/>
+          </label>
+        </div>
+        <div class="space-y-1.5">
+          <textarea id="backup-code-input" rows="3" placeholder="或在此貼上先前複製的進度代碼..." class="w-full p-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+          <div class="flex items-center justify-between gap-2">
+            <span id="backup-status" class="text-xs text-slate-500"></span>
+            <button id="btn-import-code" class="px-3.5 py-2 rounded-xl bg-emerald-600 text-white text-xs font-semibold hover:bg-emerald-700 transition">✅ 套用進度代碼</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+// ==================== 1. IELTS 20 CONTEXT CATEGORIES ====================
+const IELTS_20_TOPICS = [
+  { id: 1, name: "教育與學習", en: "Education", icon: "🎓" },
+  { id: 2, name: "環境與氣候", en: "Environment", icon: "🌍" },
+  { id: 3, name: "科技與網路", en: "Technology", icon: "💻" },
+  { id: 4, name: "健康與醫療", en: "Health", icon: "🏥" },
+  { id: 5, name: "工作與職場", en: "Work & Career", icon: "💼" },
+  { id: 6, name: "城市與住屋", en: "Urban & Housing", icon: "🏙️" },
+  { id: 7, name: "交通與旅遊", en: "Transport & Travel", icon: "🚆" },
+  { id: 8, name: "媒體與廣告", en: "Media & Ads", icon: "📺" },
+  { id: 9, name: "文化、藝術與歷史", en: "Culture & History", icon: "🏛️" },
+  { id: 10, name: "政府與社會議題", en: "Gov & Society", icon: "⚖️" },
+  { id: 11, name: "經濟與商業", en: "Economy & Business", icon: "📈" },
+  { id: 12, name: "犯罪與法律", en: "Crime & Law", icon: "🚓" },
+  { id: 13, name: "家庭與人際關係", en: "Family & Society", icon: "👨‍👩‍👧" },
+  { id: 14, name: "全球化與國際關係", en: "Global Affairs", icon: "🌐" },
+  { id: 15, name: "食物與飲食", en: "Food & Diet", icon: "🥗" },
+  { id: 16, name: "運動與休閒", en: "Sports & Leisure", icon: "⚽" },
+  { id: 17, name: "動物與自然生態", en: "Wildlife & Ecology", icon: "🌿" },
+  { id: 18, name: "能源與資源", en: "Energy & Resources", icon: "⚡" },
+  { id: 19, name: "建築與設計", en: "Architecture", icon: "🏗️" },
+  { id: 20, name: "科學研究與太空", en: "Science & Space", icon: "🔬" }
+];
+
+const TOPIC_MAP = Object.fromEntries(IELTS_20_TOPICS.map(t => [t.id, t]));
+
+// ==================== 2. EMBEDDED DEMO DATASET (7 DAYS OF TVB NEWS AT 7:30) ====================
+const EMBEDDED_NEWS_DB = {
+  "2026-11-26": {
+    date: "2026-11-26",
+    video_id: "demo_20261126",
+    duration: "19:42",
+    headlines: [
+      "政府公布北部都會區創科用地新規劃 (Government unveils new I&T land blueprint for Northern Metropolis)",
+      "金管局維持基準利率不變並關注環球通膨走勢 (HKMA holds base rate steady amid global inflation watch)",
+      "公立醫院引入人工智能輔助影像診斷縮短輪候時間 (Public hospitals adopt AI-assisted imaging to cut waiting times)",
+      "天文台預料周末受東北季候風影響氣溫顯著下降 (Observatory forecasts sharp temperature drop over weekend due to northeast monsoon)",
+      "海關破獲大型跨境走私電子零件案件拘捕五人 (Customs busts major cross-border electronics smuggling ring, five arrested)"
+    ],
+    items: [
+      { word: "blueprint", type: "word", pos: "n.", topic_id: 19, band: "7.0", synonyms: ["masterplan", "framework"], zh: "藍圖；詳細規劃方案", ipa_uk: "/ˈbluː.prɪnt/", ipa_us: "/ˈbluː.prɪnt/", en_ex: "The administration unveiled a comprehensive blueprint to transform the northern border area into an innovation hub.", zh_ex: "當局公布了一項全面藍圖，將北部邊境地區轉型為創科樞紐。" },
+      { word: "earmark", type: "word", pos: "v.", topic_id: 11, band: "7.5", synonyms: ["allocate", "designate"], zh: "指定（款項或土地）作特定用途", ipa_uk: "/ˈɪə.mɑːk/", ipa_us: "/ˈɪr.mɑːrk/", en_ex: "Over two hundred hectares have been earmarked specifically for research laboratories and university campuses.", zh_ex: "超過二百公頃土地已專門劃撥作研究實驗室及大學校園用途。" },
+      { word: "expedite", type: "word", pos: "v.", topic_id: 10, band: "7.5", synonyms: ["accelerate", "facilitate"], zh: "加速；促進（進程）", ipa_uk: "/ˈek.spə.daɪt/", ipa_us: "/ˈek.spə.daɪt/", en_ex: "Lawmakers urged officials to expedite land resumption procedures so infrastructure projects can commence early.", zh_ex: "議員促請官員加快收地程序，以便基建項目能盡早展開。" },
+      { word: "streamline", type: "word", pos: "v.", topic_id: 5, band: "7.0", synonyms: ["simplify", "optimize"], zh: "精簡（流程）；提高效率", ipa_uk: "/ˈstriːm.laɪn/", ipa_us: "/ˈstriːm.laɪn/", en_ex: "A dedicated task force will streamline approval processes for overseas technology firms setting up regional headquarters.", zh_ex: "專責小組將精簡海外科技企業設立地區總部的審批程序。" },
+      { word: "public-private partnership", type: "phrase", pos: "phr.", topic_id: 11, band: "7.0", synonyms: ["joint venture", "state-private collaboration"], zh: "公私營合作夥伴關係", ipa_uk: "/ˌpʌb.lɪk ˈpraɪ.vət ˈpɑːt.nə.ʃɪp/", ipa_us: "/ˌpʌb.lɪk ˈpraɪ.vət ˈpɑːrt.nɚ.ʃɪp/", en_ex: "Officials are exploring a public-private partnership model to share the massive upfront capital costs.", zh_ex: "官員正探討公私營合作模式，以分擔龐大的前期資本開支。" },
+      { word: "benchmark", type: "word", pos: "n. / v.", topic_id: 11, band: "7.0", synonyms: ["criterion", "standard"], zh: "基準；衡量標準", ipa_uk: "/ˈbentʃ.mɑːk/", ipa_us: "/ˈbentʃ.mɑːrk/", en_ex: "The monetary authority kept its benchmark interest rate unchanged following the latest policy meeting.", zh_ex: "金融管理局在最新一次政策會議後維持基準利率不變。" },
+      { word: "volatility", type: "word", pos: "n.", topic_id: 11, band: "7.5", synonyms: ["fluctuation", "instability"], zh: "（市場或價格的）劇烈波動；不穩定性", ipa_uk: "/ˌvɒl.əˈtɪl.ə.ti/", ipa_us: "/ˌvɑː.ləˈtɪl.ə.t̬i/", en_ex: "Commercial banks were advised to maintain ample liquidity buffers against potential financial market volatility.", zh_ex: "商業銀行獲建議維持充足流動性緩衝，以應對潛在金融市場波動。" },
+      { word: "subdued", type: "word", pos: "adj.", topic_id: 11, band: "7.5", synonyms: ["sluggish", "muted"], zh: "低迷的；受抑制的", ipa_uk: "/səbˈdjuːd/", ipa_us: "/səbˈduːd/", en_ex: "Domestic retail sentiment remained relatively subdued despite a steady recovery in inbound visitor arrivals.", zh_ex: "儘管入境旅客人數穩步復甦，本地零售氣氛依然相對低迷。" },
+      { word: "cushion the blow", type: "phrase", pos: "idiom", topic_id: 11, band: "7.5", synonyms: ["mitigate the impact", "soften the effect"], zh: "緩和衝擊；減輕打擊", ipa_uk: "/ˈkʊʃ.ən ðə bləʊ/", ipa_us: "/ˈkʊʃ.ən ðə bloʊ/", en_ex: "Targeted relief measures were introduced to cushion the blow of high borrowing costs on small businesses.", zh_ex: "當局推出針對性紓困措施，以緩和借貸成本高企對中小企的衝擊。" },
+      { word: "diagnostic", type: "word", pos: "adj.", topic_id: 4, band: "7.0", synonyms: ["clinical", "analytical"], zh: "診斷的；判斷的", ipa_uk: "/ˌdaɪ.əɡˈnɒs.tɪk/", ipa_us: "/ˌdaɪ.əɡˈnɑːs.tɪk/", en_ex: "Public hospitals have deployed artificial intelligence software to improve diagnostic accuracy in radiology scans.", zh_ex: "公立醫院已部署人工智能軟件，以提升放射影像掃描的診斷準確率。" },
+      { word: "backlog", type: "word", pos: "n.", topic_id: 4, band: "7.0", synonyms: ["accumulation", "oversupply"], zh: "積壓的工作／輪候個案", ipa_uk: "/ˈbæk.lɒɡ/", ipa_us: "/ˈbæk.lɑːɡ/", en_ex: "Hospital administrators hope the automated screening tool will clear the mounting backlog of routine check-ups.", zh_ex: "醫院管理層希望這套自動篩查工具能清理日益積壓的常規檢查個案。" },
+      { word: "alleviate", type: "word", pos: "v.", topic_id: 4, band: "7.5", synonyms: ["relieve", "mitigate"], zh: "減輕；緩和（壓力或痛苦）", ipa_uk: "/əˈliː.vi.eɪt/", ipa_us: "/əˈliː.vi.eɪt/", en_ex: "Delegating preliminary image analysis to algorithms helps alleviate the heavy workload of frontline clinicians.", zh_ex: "將初步影像分析交由演算法處理，有助減輕前線臨床醫生的繁重工作量。" },
+      { word: "stringent", type: "word", pos: "adj.", topic_id: 12, band: "7.5", synonyms: ["rigorous", "strict"], zh: "嚴格的；嚴厲的", ipa_uk: "/ˈstrɪn.dʒənt/", ipa_us: "/ˈstrɪn.dʒənt/", en_ex: "All patient records processed by the system are anonymized under stringent cybersecurity and privacy protocols.", zh_ex: "系統處理的所有病人紀錄均在嚴格的網絡安全與私隱協議下進行匿名化。" },
+      { word: "plunge", type: "word", pos: "v. / n.", topic_id: 2, band: "7.0", synonyms: ["plummet", "drop sharply"], zh: "驟降；暴跌", ipa_uk: "/plʌndʒ/", ipa_us: "/plʌndʒ/", en_ex: "Temperatures are forecast to plunge by eight degrees overnight as an intense monsoon surge reaches the coast.", zh_ex: "隨著強烈季候風潮抵達沿岸，氣溫預料將在夜間驟降八度。" },
+      { word: "vulnerable", type: "word", pos: "adj.", topic_id: 10, band: "6.5", synonyms: ["susceptible", "at-risk"], zh: "脆弱的；易受傷害的", ipa_uk: "/ˈvʌl.nər.ə.bəl/", ipa_us: "/ˈvʌl.nɚ.ə.bəl/", en_ex: "Social welfare teams have stepped up outreach visits to check on elderly residents vulnerable to cold weather.", zh_ex: "社福團隊已加強外展探訪，關顧容易受寒冷天氣影響的長者。" },
+      { word: "syndicate", type: "word", pos: "n.", topic_id: 12, band: "7.5", synonyms: ["cartel", "network"], zh: "犯罪集團；企業聯合組織", ipa_uk: "/ˈsɪn.dɪ.kət/", ipa_us: "/ˈsɪn.də.kət/", en_ex: "Customs officers dismantled a transnational smuggling syndicate attempting to ship undeclared microchips by sea.", zh_ex: "海關人員瓦解了一個企圖經海路走私未申報微晶片的跨國走私集團。" },
+      { word: "intercept", type: "word", pos: "v.", topic_id: 12, band: "7.0", synonyms: ["seize", "block"], zh: "攔截；截獲", ipa_uk: "/ˌɪn.təˈsept/", ipa_us: "/ˌɪn.t̬ɚˈsept/", en_ex: "Acting on intelligence, patrol vessels intercepted two high-powered speedboats near the western waters.", zh_ex: "巡邏船隻根據情報，在西部水域附近攔截了兩艘大馬力快艇。" },
+      { word: "clamp down on", type: "phrase", pos: "phr. v.", topic_id: 12, band: "7.0", synonyms: ["crack down on", "curb"], zh: "嚴厲打擊；取締", ipa_uk: "/klæmp daʊn ɒn/", ipa_us: "/klæmp daʊn ɑːn/", en_ex: "Law enforcement agencies vowed to step up joint operations to clamp down on illicit maritime trade.", zh_ex: "執法部門矢言加強聯合行動，嚴厲打擊非法海上貿易活動。" }
+    ]
+  },
+  "2026-11-25": {
+    date: "2026-11-25",
+    video_id: "demo_20261125",
+    duration: "20:15",
+    headlines: [
+      "立法會通過新修訂廢物徵費及減廢回收條例 (LegCo passes amended waste reduction and recycling bill)",
+      "港鐵公布東九龍智慧綠色集體運輸系統最新走線 (MTR unveils updated alignment for East Kowloon smart green transit)",
+      "大學研究揭示青少年過度使用短影音影響專注力 (University study reveals excessive short-video use impairs teen attention spans)",
+      "全球氣候峰會達成擴大再生能源融資共識 (Global climate summit reaches consensus on expanding renewable energy financing)"
+    ],
+    items: [
+      { word: "landfill", type: "word", pos: "n.", topic_id: 2, band: "6.5", synonyms: ["waste dump", "disposal site"], zh: "垃圾堆填區", ipa_uk: "/ˈlænd.fɪl/", ipa_us: "/ˈlænd.fɪl/", en_ex: "Expanding community recycling stations is vital to divert food waste away from overflowing landfills.", zh_ex: "擴展社區回收站對於將廚餘從飽和的堆填區分流至關重要。" },
+      { word: "incentivize", type: "word", pos: "v.", topic_id: 11, band: "7.5", synonyms: ["motivate", "encourage"], zh: "激勵；提供誘因促使", ipa_uk: "/ɪnˈsen.tɪ.vaɪz/", ipa_us: "/ɪnˈsen.t̬ə.vaɪz/", en_ex: "The revised scheme introduces smart reward points to incentivize households to separate recyclables.", zh_ex: "修訂後的計劃引入智能積分獎賞，以激勵住戶分類回收物。" },
+      { word: "alignment", type: "word", pos: "n.", topic_id: 7, band: "7.0", synonyms: ["route", "corridor"], zh: "（鐵路／道路的）走線；結盟", ipa_uk: "/əˈlaɪn.mənt/", ipa_us: "/əˈlaɪn.mənt/", en_ex: "Engineers adjusted the elevated transit alignment to minimize noise disturbance to nearby residential blocks.", zh_ex: "工程師調整了高架運輸系統走線，以盡量減少對附近住宅樓宇的噪音滋擾。" },
+      { word: "commuter", type: "word", pos: "n.", topic_id: 7, band: "6.5", synonyms: ["passenger", "traveler"], zh: "通勤者；上下班往返的人", ipa_uk: "/kəˈmjuː.tər/", ipa_us: "/kəˈmjuː.t̬ɚ/", en_ex: "Over three hundred thousand hillside commuters are expected to benefit from shorter morning travel times.", zh_ex: "預計超過三十萬名山上居民通勤者將受惠於更短的早晨車程。" },
+      { word: "cognitive", type: "word", pos: "adj.", topic_id: 1, band: "7.0", synonyms: ["mental", "intellectual"], zh: "認知的；思維過程的", ipa_uk: "/ˈkɒɡ.nə.tɪv/", ipa_us: "/ˈkɑːɡ.nə.t̬ɪv/", en_ex: "Researchers warned that constant scrolling fragments attention spans and weakens cognitive endurance.", zh_ex: "研究人員警告，持續滑動螢幕會使注意力碎片化並削弱認知耐力。" },
+      { word: "detrimental", type: "word", pos: "adj.", topic_id: 4, band: "7.5", synonyms: ["harmful", "adverse"], zh: "有害的；不利的", ipa_uk: "/ˌdet.rɪˈmen.təl/", ipa_us: "/ˌdet.rəˈmen.t̬əl/", en_ex: "Late-night screen exposure has a detrimental effect on adolescent sleep quality and academic performance.", zh_ex: "深夜接觸螢幕對青少年的睡眠質素及學業表現有不利影響。" },
+      { word: "decarbonization", type: "word", pos: "n.", topic_id: 18, band: "8.0", synonyms: ["emission reduction", "clean transition"], zh: "減碳；脫碳化", ipa_uk: "/diːˌkɑː.bən.aɪˈzeɪ.ʃən/", ipa_us: "/diːˌkɑːr.bən.əˈzeɪ.ʃən/", en_ex: "Developing nations called for concessional loans to accelerate industrial decarbonization over the next decade.", zh_ex: "發展中國家呼籲提供優惠貸款，以在未來十年加速工業脫碳進程。" },
+      { word: "pledge", type: "word", pos: "n. / v.", topic_id: 14, band: "7.0", synonyms: ["commitment", "undertaking"], zh: "承諾；誓言", ipa_uk: "/pledʒ/", ipa_us: "/pledʒ/", en_ex: "Delegates urged wealthy nations to honor their financial pledges for climate adaptation projects.", zh_ex: "與會代表促請富裕國家兌現其對氣候適應項目的財政承諾。" }
+    ]
+  },
+  "2026-11-24": {
+    date: "2026-11-24",
+    video_id: "demo_20261124",
+    duration: "18:50",
+    headlines: [
+      "西九文化區舉辦國際當代藝術展吸引逾十萬人次入場 (West Kowloon Cultural District contemporary art fair draws over 100,000 visitors)",
+      "消委會測試多款植物奶飲品發現鈣質與糖分差異大 (Consumer Council tests plant-based milks, finding wide gaps in calcium and sugar)",
+      "航空業加快採用可持續航空燃料應對碳排放規管 (Aviation sector accelerates adoption of sustainable aviation fuel amid emissions rules)"
+    ],
+    items: [
+      { word: "curate", type: "word", pos: "v.", topic_id: 9, band: "7.5", synonyms: ["organize", "assemble"], zh: "策展；精心挑選組織", ipa_uk: "/kjʊəˈreɪt/", ipa_us: "/ˈkjʊr.eɪt/", en_ex: "The museum collaborated with European galleries to curate an exhibition of rare post-war sculptures.", zh_ex: "該博物館與歐洲畫廊合作，策劃了一場珍貴戰後雕塑展覽。" },
+      { word: "patronage", type: "word", pos: "n.", topic_id: 9, band: "7.5", synonyms: ["sponsorship", "backing"], zh: "贊助；光顧支持", ipa_uk: "/ˈpæt.rən.ɪdʒ/", ipa_us: "/ˈpeɪ.trə.nɪdʒ/", en_ex: "Strong corporate patronage has enabled local arts groups to stage free outdoor performances.", zh_ex: "強大的企業贊助使本地藝團得以舉辦免費戶外演出。" },
+      { word: "fortified", type: "word", pos: "adj.", topic_id: 15, band: "7.0", synonyms: ["enriched", "supplemented"], zh: "（食物）強化營養的", ipa_uk: "/ˈfɔː.tɪ.faɪd/", ipa_us: "/ˈfɔːr.t̬ə.faɪd/", en_ex: "Dietitians recommend choosing unsweetened soy milk fortified with calcium and vitamin D.", zh_ex: "營養師建議選擇添加了鈣質及維他命D的無糖豆奶。" },
+      { word: "misleading", type: "word", pos: "adj.", topic_id: 8, band: "6.5", synonyms: ["deceptive", "inaccurate"], zh: "誤導性的", ipa_uk: "/ˌmɪsˈliː.dɪŋ/", ipa_us: "/ˌmɪsˈliː.dɪŋ/", en_ex: "The watchdog warned beverage makers against printing misleading health claims on product packaging.", zh_ex: "監察機構警告飲品製造商切勿在產品包裝上印製誤導性健康聲稱。" },
+      { word: "aviation", type: "word", pos: "n.", topic_id: 7, band: "7.0", synonyms: ["air transport", "flight"], zh: "航空；飛行業", ipa_uk: "/ˌeɪ.viˈeɪ.ʃən/", ipa_us: "/ˌeɪ.viˈeɪ.ʃən/", en_ex: "Global aviation regulators are tightening carbon offsetting rules for long-haul international flights.", zh_ex: "全球航空監管機構正收緊長途國際航班的碳抵銷規定。" },
+      { word: "viable", type: "word", pos: "adj.", topic_id: 18, band: "7.0", synonyms: ["feasible", "workable"], zh: "可行的；切實可行的", ipa_uk: "/ˈvaɪ.ə.bəl/", ipa_us: "/ˈvaɪ.ə.bəl/", en_ex: "Scaling up bio-fuel refineries is essential to make green jet fuel commercially viable.", zh_ex: "擴大生物燃料煉油廠規模對於使綠色航空燃油具備商業可行性至關重要。" }
+    ]
+  },
+  "2026-11-23": {
+    date: "2026-11-23",
+    video_id: "demo_20261123",
+    duration: "19:10",
+    headlines: [
+      "勞工處推出新措施鼓勵企業聘用銀髮族及提供彈性工時 (Labour Dept launches new scheme encouraging firms to hire seniors with flexible hours)",
+      "香港濕地公園錄得罕見候鳥棲息反映生態保育成效 (HK Wetland Park records rare migratory birds, reflecting conservation success)"
+    ],
+    items: [
+      { word: "demographic", type: "word", pos: "adj. / n.", topic_id: 10, band: "7.0", synonyms: ["population", "statistical"], zh: "人口結構的；人口統計", ipa_uk: "/ˌdem.əˈɡræf.ɪk/", ipa_us: "/ˌdem.əˈɡræf.ɪk/", en_ex: "Rapid demographic aging has prompted employers to rethink mandatory retirement policies.", zh_ex: "人口快速老化促使僱主重新審視強制退休政策。" },
+      { word: "retention", type: "word", pos: "n.", topic_id: 5, band: "7.0", synonyms: ["preservation", "keeping"], zh: "保留；留住（人才）", ipa_uk: "/rɪˈten.ʃən/", ipa_us: "/rɪˈten.ʃən/", en_ex: "Offering part-time mentorship roles significantly improves staff retention among experienced workers.", zh_ex: "提供兼職導師職位能顯著提升資深員工的留任率。" },
+      { word: "migratory", type: "word", pos: "adj.", topic_id: 17, band: "7.5", synonyms: ["nomadic", "seasonal"], zh: "遷徙的；候鳥的", ipa_uk: "/maɪˈɡreɪ.tər.i/", ipa_us: "/ˈmaɪ.ɡrə.tɔːr.i/", en_ex: "Coastal mudflats serve as a crucial refueling stopover for endangered migratory waterbirds.", zh_ex: "沿海泥灘是瀕危遷徙水鳥重要的補給中途站。" },
+      { word: "biodiversity", type: "word", pos: "n.", topic_id: 17, band: "7.0", synonyms: ["ecological variety", "ecosystem richness"], zh: "生物多樣性", ipa_uk: "/ˌbaɪ.əʊ.daɪˈvɜː.sə.ti/", ipa_us: "/ˌbaɪ.oʊ.dɪˈvɝː.sə.t̬i/", en_ex: "Restoring mangrove habitats has boosted local biodiversity along the northern estuary.", zh_ex: "修復紅樹林棲息地提升了北部河口沿岸的本地生物多樣性。" }
+    ]
+  },
+  "2026-11-22": {
+    date: "2026-11-22",
+    video_id: "demo_20261122",
+    duration: "17:58",
+    headlines: [
+      "國際馬拉松賽事吸引逾七萬跑手參與帶動體育旅遊經濟 (International marathon draws over 70,000 runners, boosting sports tourism)",
+      "天文學會觀測到雙子座流星雨高峰期並舉辦公眾觀星活動 (Astronomical society observes Geminid meteor shower peak and hosts stargazing event)"
+    ],
+    items: [
+      { word: "endurance", type: "word", pos: "n.", topic_id: 16, band: "7.0", synonyms: ["stamina", "resilience"], zh: "耐力；持久力", ipa_uk: "/ɪnˈdjʊə.rəns/", ipa_us: "/ɪnˈdʊr.əns/", en_ex: "Medical teams stationed along the route reminded runners to pace themselves during the endurance race.", zh_ex: "駐守沿途的醫療團隊提醒跑手在這場耐力賽中量力而為。" },
+      { word: "spectator", type: "word", pos: "n.", topic_id: 16, band: "6.5", synonyms: ["onlooker", "viewer"], zh: "（體育賽事的）現場觀眾", ipa_uk: "/spekˈteɪ.tər/", ipa_us: "/ˈspek.teɪ.t̬ɚ/", en_ex: "Thousands of spectators lined the harbourfront promenade to cheer on international athletes.", zh_ex: "數千名觀眾沿著海濱長廊兩旁為國際運動員打氣。" },
+      { word: "celestial", type: "word", pos: "adj.", topic_id: 20, band: "7.5", synonyms: ["astronomical", "planetary"], zh: "天體的；天空的", ipa_uk: "/sɪˈles.ti.əl/", ipa_us: "/səˈles.tʃəl/", en_ex: "Clear autumn skies provided ideal conditions for photographing the rare celestial phenomenon.", zh_ex: "晴朗的秋夜為拍攝這罕見天體現象提供了理想條件。" },
+      { word: "trajectory", type: "word", pos: "n.", topic_id: 20, band: "7.5", synonyms: ["path", "orbit"], zh: "軌跡；發展路徑", ipa_uk: "/trəˈdʒek.tər.i/", ipa_us: "/trəˈdʒek.tɚ.i/", en_ex: "Observatory astronomers tracked the trajectory of incoming meteors using wide-angle cameras.", zh_ex: "天文台天文學家使用廣角相機追蹤劃過天際的流星軌跡。" }
+    ]
+  },
+  "2026-11-21": {
+    date: "2026-11-21",
+    video_id: "demo_20261121",
+    duration: "18:30",
+    headlines: [
+      "舊區重建局公布歷史建築活化方案保留戰前騎樓特色 (URA unveils heritage revitalization plan preserving pre-war veranda architecture)",
+      "社交平台加強打擊深偽詐騙廣告保障長者財產安全 (Social platforms step up crackdown on deepfake scam ads to protect seniors)"
+    ],
+    items: [
+      { word: "revitalization", type: "word", pos: "n.", topic_id: 6, band: "7.5", synonyms: ["renewal", "regeneration"], zh: "活化；振興", ipa_uk: "/ˌriː.vaɪ.təl.aɪˈzeɪ.ʃən/", ipa_us: "/ˌriː.vaɪ.t̬əl.əˈzeɪ.ʃən/", en_ex: "The urban revitalization project balances structural reinforcement with preserving historical facades.", zh_ex: "該市區活化項目在結構加固與保留歷史建築立面之間取得平衡。" },
+      { word: "facade", type: "word", pos: "n.", topic_id: 19, band: "7.5", synonyms: ["exterior", "frontage"], zh: "（建築物的）正面外觀；立面", ipa_uk: "/fəˈsɑːd/", ipa_us: "/fəˈsɑːd/", en_ex: "Artisans painstakingly restored the intricate stone carvings on the building's heritage facade.", zh_ex: "工匠精心修復了該歷史建築立面上精細的石雕裝飾。" },
+      { word: "impersonation", type: "word", pos: "n.", topic_id: 12, band: "7.5", synonyms: ["identity theft", "deception"], zh: "冒充；假扮", ipa_uk: "/ɪmˌpɜː.sənˈeɪ.ʃən/", ipa_us: "/ɪmˌpɝː.sənˈeɪ.ʃən/", en_ex: "Cybersecurity experts warned investors to verify video calls amid rising AI impersonation scams.", zh_ex: "網絡安全專家警告投資者，在人工智能冒充詐騙上升之際應核實視像通話真偽。" },
+      { word: "blueprint", type: "word", pos: "n.", topic_id: 19, band: "7.0", synonyms: ["masterplan", "framework"], zh: "藍圖；規劃方案", ipa_uk: "/ˈbluː.prɪnt/", ipa_us: "/ˈbluː.prɪnt/", en_ex: "District councillors reviewed the updated renewal blueprint for aging tenement blocks.", zh_ex: "區議員審視了針對老舊唐樓的最新市區更新藍圖。" }
+    ]
+  },
+  "2026-11-20": {
+    date: "2026-11-20",
+    video_id: "demo_20261120",
+    duration: "19:05",
+    headlines: [
+      "教育局推動中小學跨學科科學與人工智能素養課程 (Education Bureau promotes interdisciplinary STEM and AI literacy curriculum in schools)",
+      "跨境電商帶動本地物流業升級自動化分揀中心 (Cross-border e-commerce drives local logistics sector to upgrade automated sorting hubs)"
+    ],
+    items: [
+      { word: "interdisciplinary", type: "word", pos: "adj.", topic_id: 1, band: "7.5", synonyms: ["cross-disciplinary", "multidisciplinary"], zh: "跨學科的", ipa_uk: "/ˌɪn.təˈdɪs.ə.plɪ.nər.i/", ipa_us: "/ˌɪn.t̬ɚˈdɪs.ə.plə.ner.i/", en_ex: "An interdisciplinary approach encourages students to apply coding skills to real-world environmental problems.", zh_ex: "跨學科教學法鼓勵學生將編程技能應用於現實世界的環境問題。" },
+      { word: "pedagogy", type: "word", pos: "n.", topic_id: 1, band: "8.0", synonyms: ["teaching methodology", "instruction"], zh: "教學法；教育學", ipa_uk: "/ˈped.ə.ɡɒdʒ.i/", ipa_us: "/ˈped.ə.ɡɑː.dʒi/", en_ex: "Teacher training workshops focused on modern pedagogy for integrating generative tools responsibly.", zh_ex: "教師培訓工作坊聚焦於如何負責任地融入生成式工具的現代教學法。" },
+      { word: "logistics", type: "word", pos: "n.", topic_id: 11, band: "7.0", synonyms: ["supply chain", "distribution"], zh: "物流；後勤運作", ipa_uk: "/ləˈdʒɪs.tɪks/", ipa_us: "/ləˈdʒɪs.tɪks/", en_ex: "Automated robotics has doubled parcel sorting capacity at major air cargo logistics hubs.", zh_ex: "自動化機械人技術使主要空運物流樞紐的包裹分揀能力翻倍。" },
+      { word: "streamline", type: "word", pos: "v.", topic_id: 5, band: "7.0", synonyms: ["simplify", "optimize"], zh: "精簡；優化流程", ipa_uk: "/ˈstriːm.laɪn/", ipa_us: "/ˈstriːm.laɪn/", en_ex: "Digital customs clearance helps streamline cross-border e-commerce shipments across the Greater Bay Area.", zh_ex: "數碼清關有助精簡大灣區內的跨境電商貨運流程。" }
+    ]
+  }
+};
+
+// ==================== 3. STATE & STORAGE ====================
+const STORAGE_KEY = 'tvb_730_ielts_vocab_v3';
+
+let state = {
+  db: { ...EMBEDDED_NEWS_DB },
+  availableDates: Object.keys(EMBEDDED_NEWS_DB).sort().reverse(),
+  selectedDate: Object.keys(EMBEDDED_NEWS_DB).sort().reverse()[0],
+  // Tabs: 'dashboard' | 'daily' | 'topics' | 'archive' | 'mastered_page' | 'review_page' | 'frequency' | 'search'
+  activeTab: 'dashboard',
+  selectedTopic: 'all',
+  viewMode: 'list', // 'list' (table) | 'grid' (cards)
+  archiveViewMode: 'list',
+  archivePage: 1,
+  globalMask: false,
+  rowRevealed: {},
+  mastered: {},    // { 'word_lower': true }
+  unfamiliar: {},  // { 'word_lower': true }
+  accent: 'uk',
+  speed: 1.0,
+  fontSize: 'normal', // 'normal' (18px) | 'large' (20.5px) | 'xlarge' (23px)
+  darkMode: false,
+  sidebarCollapsed: false,
+  calendarMonth: '2026-11',
+  // Topics page filters
+  topicsPageTopic: 1,
+  topicsPageLetter: 'ALL',
+  // Mastered & Review pages filters
+  masteredPageTopic: 'all',
+  masteredPageLetter: 'ALL',
+  reviewPageTopic: 'all',
+  reviewPageLetter: 'ALL',
+  // Frequency page filters & pagination
+  freqTopic: 'all',
+  freqLetter: 'ALL',
+  freqPage: 1,
+  // Search page filters & pagination
+  searchQuery: '',
+  searchPage: 1
+};
+
+function loadState() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    if (saved.mastered) state.mastered = saved.mastered;
+    if (saved.unfamiliar) state.unfamiliar = saved.unfamiliar;
+    if (saved.accent) state.accent = saved.accent;
+    if (saved.speed) state.speed = saved.speed;
+    if (saved.fontSize) state.fontSize = saved.fontSize;
+    if (typeof saved.darkMode === 'boolean') state.darkMode = saved.darkMode;
+    if (typeof saved.sidebarCollapsed === 'boolean') state.sidebarCollapsed = saved.sidebarCollapsed;
+  } catch (e) {
+    console.warn('Failed to load saved state', e);
+  }
+}
+
+function saveState() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({
+      mastered: state.mastered,
+      unfamiliar: state.unfamiliar,
+      accent: state.accent,
+      speed: state.speed,
+      fontSize: state.fontSize,
+      darkMode: state.darkMode,
+      sidebarCollapsed: state.sidebarCollapsed
+    }));
+  } catch (e) {
+    console.warn('Failed to save state', e);
+  }
+}
+
+async function tryLoadExternalData() {
+  try {
+    const res = await fetch('data/index.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    const indexList = await res.json();
+    if (Array.isArray(indexList) && indexList.length > 0) {
+      for (const entry of indexList) {
+        const d = typeof entry === 'string' ? entry : entry.date;
+        if (d && !state.db[d]) {
+          try {
+            const dayRes = await fetch(`data/${d}.json`, { cache: 'no-store' });
+            if (dayRes.ok) {
+              const dayData = await dayRes.json();
+              state.db[d] = dayData;
+            }
+          } catch (_) {}
+        }
+      }
+      state.availableDates = Object.keys(state.db).sort().reverse();
+      state.selectedDate = state.availableDates[0];
+      state.calendarMonth = state.selectedDate.slice(0, 7);
+      renderAll();
+    }
+  } catch (_) {}
+}
+
+// ==================== 4. SPEECH SYNTHESIS (UK / US TTS) ====================
+function speakText(text, forceAccent = null) {
+  if (!('speechSynthesis' in window)) {
+    showToast('您的瀏覽器不支援語音朗讀功能');
+    return;
+  }
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  const acc = forceAccent || state.accent;
+  utter.lang = acc === 'uk' ? 'en-GB' : 'en-US';
+  utter.rate = state.speed;
+
+  const voices = window.speechSynthesis.getVoices();
+  const preferred = voices.find(v =>
+    acc === 'uk'
+      ? (v.lang === 'en-GB' && (v.name.includes('Daniel') || v.name.includes('Kate') || v.name.includes('Google UK')))
+      : (v.lang === 'en-US' && (v.name.includes('Samantha') || v.name.includes('Alex') || v.name.includes('Google US')))
+  ) || voices.find(v => v.lang.startsWith(acc === 'uk' ? 'en-GB' : 'en-US'));
+
+  if (preferred) utter.voice = preferred;
+  window.speechSynthesis.speak(utter);
+}
+
+// ==================== 5. HELPERS & STATS ====================
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  document.getElementById('toast-msg').textContent = msg;
+  el.classList.remove('hidden');
+  el.classList.add('flex');
+  clearTimeout(window._toastTimer);
+  window._toastTimer = setTimeout(() => {
+    el.classList.add('hidden');
+    el.classList.remove('flex');
+  }, 2400);
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// Reusable Home Icon Button placed right beside every major page heading
+function renderHomeBtn() {
+  return `
+    <button onclick="switchTab('dashboard')" class="inline-flex items-center justify-center p-1.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 hover:bg-indigo-600 hover:text-white hover:border-indigo-600 text-slate-600 dark:text-slate-300 transition shrink-0 shadow-2xs" title="返回首頁總覽">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+      </svg>
+    </button>
+  `;
+}
+
+// Format headline: Chinese on first line, English in parentheses on a new line
+function formatBilingualHeadline(raw) {
+  if (!raw) return '';
+  const match = raw.match(/^(.*?)\s*\(([^()]+)\)\s*$/);
+  if (match) {
+    return `
+      <div class="font-semibold text-slate-800 dark:text-slate-100 leading-snug break-words">${escapeHtml(match[1].trim())}</div>
+      <div class="text-xs text-slate-500 dark:text-slate-400 font-normal mt-0.5 leading-snug break-words">(${escapeHtml(match[2].trim())})</div>
+    `;
+  }
+  return `<div class="font-semibold text-slate-800 dark:text-slate-100 leading-snug break-words">${escapeHtml(raw)}</div>`;
+}
+
+function getAllItemsFlattened() {
+  const list = [];
+  for (const date of state.availableDates) {
+    const dayObj = state.db[date];
+    if (!dayObj || !Array.isArray(dayObj.items)) continue;
+    dayObj.items.forEach((item, idx) => {
+      list.push({ ...item, date, idx, uid: `${date}_${idx}` });
+    });
+  }
+  return list;
+}
+
+function getWordFrequencyMap() {
+  const map = new Map();
+  for (const date of state.availableDates) {
+    const dayObj = state.db[date];
+    if (!dayObj || !Array.isArray(dayObj.items)) continue;
+    dayObj.items.forEach((item) => {
+      const key = item.word.toLowerCase().trim();
+      if (!map.has(key)) {
+        map.set(key, {
+          word: item.word,
+          key,
+          pos: item.pos,
+          topic_id: item.topic_id,
+          band: item.band,
+          synonyms: item.synonyms || [],
+          zh: item.zh,
+          ipa_uk: item.ipa_uk,
+          ipa_us: item.ipa_us,
+          count: 0,
+          latestDate: date,
+          dates: []
+        });
+      }
+      const entry = map.get(key);
+      entry.count += 1;
+      if (!entry.dates.includes(date)) entry.dates.push(date);
+      if (date > entry.latestDate) entry.latestDate = date;
+    });
+  }
+  return map;
+}
+
+function getUniqueWordStats() {
+  return Array.from(getWordFrequencyMap().values());
+}
+
+function toggleStatus(word, targetStatus) {
+  const key = word.toLowerCase().trim();
+  if (targetStatus === 'mastered') {
+    if (state.mastered[key]) {
+      delete state.mastered[key];
+      showToast(`已取消「${word}」的已掌握標記`);
+    } else {
+      state.mastered[key] = true;
+      delete state.unfamiliar[key];
+      showToast(`✅ 已將「${word}」標記為已掌握`);
+    }
+  } else if (targetStatus === 'unfamiliar') {
+    if (state.unfamiliar[key]) {
+      delete state.unfamiliar[key];
+      showToast(`已取消「${word}」的溫習標記`);
+    } else {
+      state.unfamiliar[key] = true;
+      delete state.mastered[key];
+      showToast(`📌 已將「${word}」加入溫習詞彙清單`);
+    }
+  }
+  saveState();
+  renderAll();
+}
+
+function renderPaginationBar(currentPage, totalPages, onPageChangeFnName) {
+  if (totalPages <= 1) return '';
+  return `
+    <div class="flex items-center justify-between gap-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl px-4 py-3 shadow-2xs">
+      <button onclick="${onPageChangeFnName}(${currentPage - 1})" ${currentPage <= 1 ? 'disabled' : ''} class="px-3.5 py-1.5 rounded-xl text-xs font-bold border transition ${
+        currentPage <= 1
+          ? 'border-slate-100 dark:border-slate-800 text-slate-300 dark:text-slate-600 cursor-not-allowed'
+          : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-indigo-50 dark:hover:bg-indigo-950'
+      }">← 上一頁</button>
+      <span class="text-xs font-bold text-slate-600 dark:text-slate-300">
+        第 <span class="text-indigo-600 dark:text-indigo-400">${currentPage}</span> / ${totalPages} 頁
+      </span>
+      <button onclick="${onPageChangeFnName}(${currentPage + 1})" ${currentPage >= totalPages ? 'disabled' : ''} class="px-3.5 py-1.5 rounded-xl text-xs font-bold border transition ${
+        currentPage >= totalPages
+          ? 'border-slate-100 dark:border-slate-800 text-slate-300 dark:text-slate-600 cursor-not-allowed'
+          : 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:bg-indigo-50 dark:hover:bg-indigo-950'
+      }">下一頁 →</button>
+    </div>
+  `;
+}
+
+function renderAZButtons(selectedLetter, onSelectFnName) {
+  const letters = ['ALL', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')];
+  return `
+    <div class="flex flex-wrap items-center gap-1.5">
+      <span class="text-xs font-bold text-slate-400 mr-1">A–Z 首字母：</span>
+      ${letters.map(L => {
+        const active = selectedLetter === L;
+        return `
+          <button onclick="${onSelectFnName}('${L}')" class="px-2.5 py-1 rounded-lg text-xs font-bold transition ${
+            active
+              ? 'bg-indigo-600 text-white shadow-2xs'
+              : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-indigo-100 dark:hover:bg-slate-700'
+          }">${L === 'ALL' ? '全部' : L}</button>
+        `;
+      }).join('')}
+    </div>
+  `;
+}
+
+// ==================== 6. SIDEBAR & TOPBAR RENDERING ====================
+const NAV_ITEMS = [
+  { id: 'dashboard', label: '首頁總覽 & 小月曆', icon: '🏠' },
+  { id: 'daily', label: '每日新聞詞彙表', icon: '📰' },
+  { id: 'topics', label: 'IELTS 20 語境分類', icon: '🏷️' },
+  { id: 'archive', label: '過往新聞存檔', icon: '🗂️' },
+  { id: 'mastered_page', label: '已掌握詞彙', icon: '✅' },
+  { id: 'review_page', label: '溫習詞彙', icon: '📌' },
+  { id: 'frequency', label: '字詞重複次數統計', icon: '📊' },
+  { id: 'search', label: '新聞標題關鍵字搜尋', icon: '🔍' }
+];
+
+function renderSidebar() {
+  const nav = document.getElementById('sidebar-nav');
+  nav.innerHTML = NAV_ITEMS.map(item => {
+    const active = state.activeTab === item.id;
+    return `
+      <button onclick="switchTab('${item.id}')" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold transition ${
+        active
+          ? 'bg-indigo-600 text-white shadow-sm'
+          : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+      }">
+        <span class="text-base shrink-0">${item.icon}</span>
+        <span class="sidebar-label truncate">${item.label}</span>
+      </button>
+    `;
+  }).join('');
+
+  // Latest 7 Days News Quick Sidebar
+  const recentContainer = document.getElementById('sidebar-recent-days');
+  const latest7 = state.availableDates.slice(0, 7);
+  recentContainer.innerHTML = latest7.map(d => {
+    const isCurrent = state.activeTab === 'daily' && state.selectedDate === d;
+    const count = state.db[d]?.items?.length || 0;
+    const firstTitle = (state.db[d]?.headlines?.[0] || '').split('(')[0].trim();
+    return `
+      <button onclick="openDateVocab('${d}')" class="w-full text-left px-2.5 py-2 rounded-xl transition border ${
+        isCurrent
+          ? 'bg-indigo-50 dark:bg-indigo-950/70 border-indigo-300 dark:border-indigo-700 text-indigo-800 dark:text-indigo-200'
+          : 'border-transparent hover:bg-slate-100 dark:hover:bg-slate-800/80 text-slate-700 dark:text-slate-300'
+      }">
+        <div class="flex items-center justify-between text-xs font-bold">
+          <span>📅 ${d}</span>
+          <span class="text-[10px] px-1.5 py-0.2 rounded-full bg-slate-200/80 dark:bg-slate-700 text-slate-600 dark:text-slate-300">${count}字</span>
+        </div>
+        <div class="text-[11px] text-slate-500 dark:text-slate-400 truncate mt-0.5">${escapeHtml(firstTitle)}</div>
+      </button>
+    `;
+  }).join('');
+
+  // Update Progress
+  const uniqueStats = getUniqueWordStats();
+  const totalUnique = uniqueStats.length;
+  const masteredCount = uniqueStats.filter(u => state.mastered[u.key]).length;
+  const unfamiliarCount = uniqueStats.filter(u => state.unfamiliar[u.key]).length;
+  const pct = totalUnique > 0 ? Math.round((masteredCount / totalUnique) * 100) : 0;
+
+  document.getElementById('sidebar-pct').textContent = `${pct}%`;
+  document.getElementById('sidebar-bar').style.width = `${pct}%`;
+  document.getElementById('sidebar-counts').innerHTML = `
+    <span>已掌握: ${masteredCount}</span>
+    <span>溫習中: ${unfamiliarCount}</span>
+  `;
+}
+
+function updateTopBarControls() {
+  document.documentElement.classList.toggle('dark', state.darkMode);
+
+  const ukBtn = document.getElementById('btn-accent-uk');
+  const usBtn = document.getElementById('btn-accent-us');
+  if (state.accent === 'uk') {
+    ukBtn.className = 'px-2.5 py-1 rounded-lg bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-xs transition';
+    usBtn.className = 'px-2.5 py-1 rounded-lg text-slate-500 dark:text-slate-400 hover:text-slate-800 transition';
+  } else {
+    usBtn.className = 'px-2.5 py-1 rounded-lg bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-xs transition';
+    ukBtn.className = 'px-2.5 py-1 rounded-lg text-slate-500 dark:text-slate-400 hover:text-slate-800 transition';
+  }
+
+  document.getElementById('btn-speed').textContent = `${state.speed.toFixed(1)}x`;
+
+  // Upgraded font scale: Standard = 18px, Large = 20.5px, X-Large = 23px
+  const fontLabels = { normal: '字體：標準', large: '字體：放大', xlarge: '字體：特大' };
+  document.getElementById('btn-font-size').textContent = fontLabels[state.fontSize] || '字體：標準';
+  document.documentElement.style.fontSize =
+    state.fontSize === 'xlarge' ? '23px' :
+    state.fontSize === 'large'  ? '20.5px' : '18px';
+
+  const sidebar = document.getElementById('sidebar');
+  if (state.sidebarCollapsed) {
+    sidebar.classList.remove('w-64');
+    sidebar.classList.add('w-20');
+    document.querySelectorAll('.sidebar-label').forEach(el => el.classList.add('hidden'));
+  } else {
+    sidebar.classList.remove('w-20');
+    sidebar.classList.add('w-64');
+    document.querySelectorAll('.sidebar-label').forEach(el => el.classList.remove('hidden'));
+  }
+}
+
+// ==================== 7. VIEW COMPONENTS ====================
+
+// A. Shared Vocab Table & Grid Renderer
+// Responsive layout: uses flexible wrapping & proportional column widths so enlarging font never causes horizontal page overflow!
+function renderVocabCollection(items, options = {}) {
+  const { showDateBadge = false, emptyMsg = '目前沒有符合條件的詞彙資料。' } = options;
+
+  if (!items || items.length === 0) {
+    return `
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-10 text-center space-y-2">
+        <div class="text-3xl">📭</div>
+        <div class="font-bold text-slate-700 dark:text-slate-200">${escapeHtml(emptyMsg)}</div>
+        <p class="text-xs text-slate-500">可嘗試切換其他日期、語境分類或重設篩選條件。</p>
+      </div>
+    `;
+  }
+
+  const freqMap = getWordFrequencyMap();
+
+  const controlsHtml = `
+    <div class="flex flex-wrap items-center justify-between gap-3 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-3.5 shadow-2xs">
+      <div class="flex flex-wrap items-center gap-2 text-xs font-semibold text-slate-600 dark:text-slate-300">
+        <span>共 <strong class="text-indigo-600 dark:text-indigo-400 text-sm">${items.length}</strong> 項精選詞彙／片語</span>
+        <span class="text-slate-300 dark:text-slate-700">|</span>
+        <span class="text-slate-500">按新聞主題順序排列</span>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <button onclick="toggleGlobalMask()" class="px-3 py-1.5 rounded-xl text-xs font-bold border transition flex items-center gap-1.5 ${
+          state.globalMask
+            ? 'bg-amber-500 text-white border-amber-500 shadow-xs'
+            : 'bg-amber-50 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800 hover:bg-amber-100'
+        }">
+          <span>${state.globalMask ? '👁️ 解除全部遮罩' : '🙈 一鍵全部遮罩自測'}</span>
+        </button>
+
+        <div class="flex items-center bg-slate-100 dark:bg-slate-800 rounded-xl p-1 text-xs font-semibold">
+          <button onclick="setViewMode('list')" class="px-3 py-1 rounded-lg transition flex items-center gap-1 ${
+            state.viewMode === 'list'
+              ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-2xs'
+              : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+          }">
+            <span>☰ 清單檢視</span>
+          </button>
+          <button onclick="setViewMode('grid')" class="px-3 py-1 rounded-lg transition flex items-center gap-1 ${
+            state.viewMode === 'grid'
+              ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-2xs'
+              : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+          }">
+            <span>⊞ 並排檢視</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  if (state.viewMode === 'grid') {
+    // Auto-fitting responsive grid that adapts gracefully as font size increases
+    const gridColsClass = state.fontSize === 'xlarge'
+      ? 'grid-cols-1 md:grid-cols-2'
+      : 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3';
+
+    const cardsHtml = items.map((item, i) => {
+      const key = item.word.toLowerCase().trim();
+      const isMastered = !!state.mastered[key];
+      const isUnfamiliar = !!state.unfamiliar[key];
+      const uid = item.uid || `${item.date || 'item'}_${i}`;
+      const isBlurred = (state.globalMask && !state.rowRevealed[uid]) || (!state.globalMask && !!state.rowRevealed[uid]);
+      const topicObj = TOPIC_MAP[item.topic_id] || { icon: '📌', name: '綜合新聞' };
+      const repeatCount = freqMap.get(key)?.count || 1;
+      const syns = Array.isArray(item.synonyms) ? item.synonyms.slice(0, 2) : [];
+
+      return `
+        <div class="bg-white dark:bg-slate-900 border ${
+          isMastered ? 'border-emerald-300 dark:border-emerald-800/80' : isUnfamiliar ? 'border-amber-300 dark:border-amber-800/80' : 'border-slate-200 dark:border-slate-800'
+        } rounded-2xl p-4 shadow-2xs flex flex-col justify-between gap-3 hover:shadow-md transition min-w-0">
+          <!-- Top: Status + Blur Button -->
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div class="flex flex-wrap items-center gap-1.5">
+              <button onclick="toggleStatus('${escapeHtml(item.word)}', 'mastered')" class="px-2 py-1 rounded-lg text-xs font-bold border transition ${
+                isMastered
+                  ? 'bg-emerald-600 text-white border-emerald-600'
+                  : 'bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:border-emerald-400'
+              }">✓ 已掌握</button>
+              <button onclick="toggleStatus('${escapeHtml(item.word)}', 'unfamiliar')" class="px-2 py-1 rounded-lg text-xs font-bold border transition ${
+                isUnfamiliar
+                  ? 'bg-amber-500 text-white border-amber-500'
+                  : 'bg-slate-50 dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:border-amber-400'
+              }">☆ 未熟練</button>
+            </div>
+            <button onclick="toggleSingleBlur('${uid}')" class="p-1.5 rounded-lg text-xs border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 shrink-0" title="切換此字遮罩自測">
+              ${isBlurred ? '👁️ 顯示' : '🙈 遮罩'}
+            </button>
+          </div>
+
+          <!-- Word + Audio + Repeat Count + Category + POS + 2 IELTS Synonyms -->
+          <div class="min-w-0">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-lg font-extrabold text-slate-900 dark:text-white tracking-tight break-words">${escapeHtml(item.word)}</span>
+              <button onclick="speakText('${escapeHtml(item.word)}')" class="p-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-300 hover:bg-indigo-100 transition shrink-0" title="真人發音朗讀">
+                🔊
+              </button>
+              <span class="text-xs font-mono font-semibold px-2 py-0.5 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">${escapeHtml(item.pos)}</span>
+              ${repeatCount > 1 ? `<span class="text-xs font-bold px-2 py-0.5 rounded-full bg-rose-100 dark:bg-rose-950 text-rose-700 dark:text-rose-300">🔁 出現 ${repeatCount} 次</span>` : ''}
+            </div>
+            <div class="mt-1.5 flex items-center gap-1.5 flex-wrap">
+              <span class="inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300">
+                ${topicObj.icon} ${topicObj.id}. ${topicObj.name}
+              </span>
+              ${showDateBadge && item.date ? `<span class="text-xs font-mono text-slate-400">📅 ${item.date}</span>` : ''}
+            </div>
+            ${syns.length > 0 ? `
+              <div class="mt-1.5 text-xs text-slate-500 dark:text-slate-400 break-words">
+                <span class="font-bold text-slate-600 dark:text-slate-300">IELTS 近義詞：</span>
+                <span class="font-mono text-indigo-600 dark:text-indigo-300">${syns.map(s => escapeHtml(s)).join(' / ')}</span>
+              </div>
+            ` : ''}
+          </div>
+
+          <!-- UK / US IPA -->
+          <div class="flex flex-wrap items-center gap-2 text-xs font-mono bg-slate-50 dark:bg-slate-800/60 px-2.5 py-1.5 rounded-xl">
+            <button onclick="speakText('${escapeHtml(item.word)}', 'uk')" class="hover:text-indigo-600 dark:hover:text-indigo-300 transition flex items-center gap-1 break-all" title="點擊聽英式發音">
+              <span>🇬🇧</span><span>${escapeHtml(item.ipa_uk || '-')}</span>
+            </button>
+            <span class="text-slate-300 dark:text-slate-600">|</span>
+            <button onclick="speakText('${escapeHtml(item.word)}', 'us')" class="hover:text-indigo-600 dark:hover:text-indigo-300 transition flex items-center gap-1 break-all" title="點擊聽美式發音">
+              <span>🇺🇸</span><span>${escapeHtml(item.ipa_us || '-')}</span>
+            </button>
+          </div>
+
+          <!-- Chinese Meaning -->
+          <div class="pt-1 border-t border-slate-100 dark:border-slate-800">
+            <div class="text-sm font-bold text-slate-800 dark:text-slate-100 break-words ${isBlurred ? 'blur-mask' : ''}">
+              ${escapeHtml(item.zh)}
+            </div>
+          </div>
+
+          <!-- Original Sentence + TTS + Chinese Translation -->
+          <div class="bg-slate-50 dark:bg-slate-800/50 rounded-xl p-3 space-y-1.5 text-xs">
+            <div class="flex items-start gap-2">
+              <button onclick="speakText(\`${escapeHtml(item.en_ex).replace(/`/g, '')}\`)" class="mt-0.5 shrink-0 p-1 rounded-lg bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 hover:bg-indigo-50 text-indigo-600 dark:text-indigo-300" title="朗讀新聞原句">
+                🔊
+              </button>
+              <p class="text-slate-700 dark:text-slate-200 leading-relaxed font-medium break-words">${escapeHtml(item.en_ex)}</p>
+            </div>
+            <p class="text-slate-500 dark:text-slate-400 pl-7 leading-relaxed break-words ${isBlurred ? 'blur-mask' : ''}">${escapeHtml(item.zh_ex)}</p>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    return `${controlsHtml}<div class="grid ${gridColsClass} gap-4">${cardsHtml}</div>`;
+  }
+
+  // LIST / TABLE VIEW — Fluid proportional widths (no rigid min-w pixels!) so enlarging font wraps cleanly without horizontal scrollbar
+  const rowsHtml = items.map((item, i) => {
+    const key = item.word.toLowerCase().trim();
+    const isMastered = !!state.mastered[key];
+    const isUnfamiliar = !!state.unfamiliar[key];
+    const uid = item.uid || `${item.date || 'item'}_${i}`;
+    const isBlurred = (state.globalMask && !state.rowRevealed[uid]) || (!state.globalMask && !!state.rowRevealed[uid]);
+    const topicObj = TOPIC_MAP[item.topic_id] || { icon: '📌', name: '綜合新聞' };
+    const repeatCount = freqMap.get(key)?.count || 1;
+    const syns = Array.isArray(item.synonyms) ? item.synonyms.slice(0, 2) : [];
+
+    return `
+      <tr class="border-b border-slate-100 dark:border-slate-800/80 hover:bg-slate-50/90 dark:hover:bg-slate-800/40 transition align-top ${
+        isMastered ? 'bg-emerald-50/30 dark:bg-emerald-950/10' : isUnfamiliar ? 'bg-amber-50/30 dark:bg-amber-950/10' : ''
+      }">
+        <!-- Col 1: Status (11%) -->
+        <td class="py-3.5 px-2.5 w-[11%] align-top">
+          <div class="flex flex-col gap-1.5">
+            <button onclick="toggleStatus('${escapeHtml(item.word)}', 'mastered')" class="w-full px-2 py-1 rounded-lg text-xs font-bold border transition text-center whitespace-nowrap ${
+              isMastered
+                ? 'bg-emerald-600 text-white border-emerald-600 shadow-2xs'
+                : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:border-emerald-400'
+            }">✓ 已掌握</button>
+            <button onclick="toggleStatus('${escapeHtml(item.word)}', 'unfamiliar')" class="w-full px-2 py-1 rounded-lg text-xs font-bold border transition text-center whitespace-nowrap ${
+              isUnfamiliar
+                ? 'bg-amber-500 text-white border-amber-500 shadow-2xs'
+                : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:border-amber-400'
+            }">☆ 未熟練</button>
+          </div>
+        </td>
+
+        <!-- Col 2: English Word + Audio + Repeat Badge + Category + POS + Newline 2 IELTS Synonyms (21%) -->
+        <td class="py-3.5 px-2.5 w-[21%] break-words">
+          <div class="flex items-center gap-1.5 flex-wrap">
+            <span class="font-extrabold text-base text-slate-900 dark:text-white break-words">${escapeHtml(item.word)}</span>
+            <button onclick="speakText('${escapeHtml(item.word)}')" class="p-1 rounded-lg bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-300 hover:bg-indigo-100 transition shrink-0" title="朗讀英文原字">
+              🔊
+            </button>
+            ${repeatCount > 1 ? `<span class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-rose-100 dark:bg-rose-950 text-rose-700 dark:text-rose-300" title="跨日新聞累計出現次數">🔁 ${repeatCount}次</span>` : ''}
+          </div>
+          <div class="mt-1.5 flex items-center gap-1.5 flex-wrap">
+            <span class="text-[11px] font-mono font-bold px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300">${escapeHtml(item.pos)}</span>
+            <span class="inline-flex items-center gap-1 text-[11px] font-semibold px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/80 text-indigo-700 dark:text-indigo-300">
+              ${topicObj.icon} ${topicObj.name}
+            </span>
+          </div>
+          ${syns.length > 0 ? `
+            <div class="mt-1.5 text-xs text-slate-500 dark:text-slate-400 leading-snug break-words">
+              <span class="font-semibold text-slate-600 dark:text-slate-300">近義詞：</span><span class="font-mono text-indigo-600 dark:text-indigo-300">${syns.map(s => escapeHtml(s)).join(', ')}</span>
+            </div>
+          ` : ''}
+          ${showDateBadge && item.date ? `<div class="mt-1 text-[11px] font-mono text-slate-400">📅 ${item.date}</div>` : ''}
+        </td>
+
+        <!-- Col 3: Chinese Meaning + Per-Row Blur Toggle (16%) -->
+        <td class="py-3.5 px-2.5 w-[16%] break-words">
+          <div class="flex items-start justify-between gap-1.5">
+            <span class="text-sm font-bold text-slate-800 dark:text-slate-100 leading-snug break-words ${isBlurred ? 'blur-mask' : ''}">
+              ${escapeHtml(item.zh)}
+            </span>
+            <button onclick="toggleSingleBlur('${uid}')" class="shrink-0 p-1 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-400 hover:text-indigo-600 hover:bg-slate-100 dark:hover:bg-slate-800 text-xs transition" title="模糊／顯示此列中文自測">
+              ${isBlurred ? '👁️' : '🙈'}
+            </button>
+          </div>
+        </td>
+
+        <!-- Col 4: UK & US Pronunciation IPA (14%) -->
+        <td class="py-3.5 px-2.5 w-[14%] font-mono text-xs text-slate-600 dark:text-slate-300 break-all">
+          <div class="space-y-1">
+            <button onclick="speakText('${escapeHtml(item.word)}', 'uk')" class="flex items-start gap-1 text-left hover:text-indigo-600 dark:hover:text-indigo-300 transition" title="點擊聽英式發音">
+              <span class="shrink-0">🇬🇧</span>
+              <span class="break-all">${escapeHtml(item.ipa_uk || '-')}</span>
+            </button>
+            <button onclick="speakText('${escapeHtml(item.word)}', 'us')" class="flex items-start gap-1 text-left hover:text-indigo-600 dark:hover:text-indigo-300 transition" title="點擊聽美式發音">
+              <span class="shrink-0">🇺🇸</span>
+              <span class="break-all">${escapeHtml(item.ipa_us || '-')}</span>
+            </button>
+          </div>
+        </td>
+
+        <!-- Col 5: Original News Sentence (38% - widest column for 1-2 lines display, wraps cleanly on large font) -->
+        <td class="py-3.5 px-3 w-[38%] break-words">
+          <div class="space-y-1.5">
+            <div class="flex items-start gap-2">
+              <button onclick="speakText(\`${escapeHtml(item.en_ex).replace(/`/g, '')}\`)" class="mt-0.5 shrink-0 p-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900 text-indigo-600 dark:text-indigo-300 text-xs transition" title="朗讀新聞原句">
+                🔊
+              </button>
+              <p class="text-sm text-slate-800 dark:text-slate-200 leading-snug font-medium break-words">
+                ${escapeHtml(item.en_ex)}
+              </p>
+            </div>
+            <p class="text-xs text-slate-500 dark:text-slate-400 pl-7 leading-snug break-words ${isBlurred ? 'blur-mask' : ''}">
+              ${escapeHtml(item.zh_ex)}
+            </p>
+          </div>
+        </td>
+      </tr>
+    `;
+  }).join('');
+
+  return `
+    ${controlsHtml}
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xs overflow-hidden">
+      <div class="w-full overflow-x-auto">
+        <table class="w-full table-fixed text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-50 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+              <th class="py-3 px-2.5 w-[11%]">收藏／狀態</th>
+              <th class="py-3 px-2.5 w-[21%]">英文原字（類別／詞性／近義詞）</th>
+              <th class="py-3 px-2.5 w-[16%]">中文意思（自測）</th>
+              <th class="py-3 px-2.5 w-[14%]">英美讀音</th>
+              <th class="py-3 px-3 w-[38%]">新聞原文句子（附朗讀與中文翻譯）</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rowsHtml}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+
+// B. View 1: Dashboard + Mini Calendar + Latest Preview
+function renderDashboardView() {
+  const latestDate = state.availableDates[0];
+  const latestDay = state.db[latestDate];
+  const uniqueStats = getUniqueWordStats();
+  const totalDays = state.availableDates.length;
+  const totalEntries = getAllItemsFlattened().length;
+  const masteredCount = uniqueStats.filter(u => state.mastered[u.key]).length;
+  const unfamiliarCount = uniqueStats.filter(u => state.unfamiliar[u.key]).length;
+
+  return `
+    <!-- Hero Stats Banner -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-2xs">
+        <div class="text-xs font-semibold text-slate-500 dark:text-slate-400">最新新聞日期</div>
+        <div class="text-xl sm:text-2xl font-extrabold text-indigo-600 dark:text-indigo-400 mt-1">${latestDate}</div>
+        <div class="text-[11px] text-slate-400 mt-1">TVB Pearl 7:30 News</div>
+      </div>
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-2xs">
+        <div class="text-xs font-semibold text-slate-500 dark:text-slate-400">已收錄新聞天數 / 總詞條</div>
+        <div class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white mt-1">${totalDays} 天 <span class="text-sm font-semibold text-slate-400">/ ${totalEntries} 條</span></div>
+        <div class="text-[11px] text-slate-400 mt-1">獨立不重複詞彙: ${uniqueStats.length} 字</div>
+      </div>
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-2xs">
+        <div class="text-xs font-semibold text-slate-500 dark:text-slate-400">已掌握詞彙</div>
+        <div class="text-xl sm:text-2xl font-extrabold text-emerald-600 dark:text-emerald-400 mt-1">${masteredCount} <span class="text-sm font-normal text-slate-400">字</span></div>
+        <button onclick="switchTab('mastered_page')" class="text-[11px] text-emerald-600 dark:text-emerald-400 hover:underline mt-1">查看已掌握詞彙 →</button>
+      </div>
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 shadow-2xs">
+        <div class="text-xs font-semibold text-slate-500 dark:text-slate-400">溫習詞彙</div>
+        <div class="text-xl sm:text-2xl font-extrabold text-amber-500 mt-1">${unfamiliarCount} <span class="text-sm font-normal text-slate-400">字</span></div>
+        <button onclick="switchTab('review_page')" class="text-[11px] text-amber-600 dark:text-amber-400 hover:underline mt-1">進入溫習詞彙頁 →</button>
+      </div>
+    </div>
+
+    <!-- Middle Grid: Mini Calendar + Today's Headlines -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+      <div class="lg:col-span-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs">
+        ${renderMiniCalendar()}
+      </div>
+
+      <div class="lg:col-span-7 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-3">
+            <div class="min-w-0">
+              <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">最新一集新聞重點摘要</span>
+              <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+                <h2 class="text-lg font-extrabold">📅 ${latestDate}《TVB News at 7:30》焦點新聞</h2>
+                ${renderHomeBtn()}
+              </div>
+            </div>
+            <button onclick="openDateVocab('${latestDate}')" class="px-3.5 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-700 transition shrink-0">
+              進入當日詞彙表 →
+            </button>
+          </div>
+          <ul class="space-y-2.5 mt-4">
+            ${(latestDay?.headlines || []).map((h, i) => `
+              <li class="flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-100 dark:border-slate-800 text-sm">
+                <span class="w-5 h-5 rounded-full bg-indigo-100 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">${i + 1}</span>
+                <div class="min-w-0">${formatBilingualHeadline(h)}</div>
+              </li>
+            `).join('')}
+          </ul>
+        </div>
+        <div class="mt-4 pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-xs text-slate-500">
+          <span>影片片長：${escapeHtml(latestDay?.duration || '約 20 分鐘')}</span>
+          <span>共精選 ${latestDay?.items?.length || 0} 個 IELTS Band 6.5–8.0 詞彙</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Preview of Latest Date Vocab -->
+    <div class="space-y-3">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <h2 class="text-base sm:text-lg font-extrabold">🔥 最新新聞詞彙速覽（${latestDate}）</h2>
+          ${renderHomeBtn()}
+        </div>
+        <button onclick="openDateVocab('${latestDate}')" class="text-xs font-bold text-indigo-600 dark:text-indigo-400 hover:underline">完整檢視與篩選 →</button>
+      </div>
+      ${renderVocabCollection(latestDay?.items || [])}
+    </div>
+  `;
+}
+
+// Mini Calendar Component
+function renderMiniCalendar(customTitle = '新聞日曆導航') {
+  const [yearStr, monthStr] = state.calendarMonth.split('-');
+  const year = parseInt(yearStr, 10);
+  const month = parseInt(monthStr, 10);
+  const firstDayWeekday = new Date(year, month - 1, 1).getDay();
+  const daysInMonth = new Date(year, month, 0).getDate();
+
+  const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
+  let cellsHtml = '';
+
+  for (let i = 0; i < firstDayWeekday; i++) {
+    cellsHtml += `<div class="h-10"></div>`;
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const dStr = `${yearStr}-${monthStr}-${String(day).padStart(2, '0')}`;
+    const hasData = !!state.db[dStr];
+    const isSelected = state.selectedDate === dStr;
+    const headlineTip = hasData ? (state.db[dStr].headlines?.[0] || '') : '無新聞紀錄';
+
+    if (hasData) {
+      cellsHtml += `
+        <button onclick="openDateVocab('${dStr}')" title="${escapeHtml(headlineTip)}" class="h-10 rounded-xl flex flex-col items-center justify-center text-xs font-bold transition relative ${
+          isSelected
+            ? 'bg-indigo-600 text-white shadow-sm'
+            : 'bg-indigo-50 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 dark:hover:bg-indigo-900 border border-indigo-200 dark:border-indigo-800'
+        }">
+          <span>${day}</span>
+          <span class="w-1.5 h-1.5 rounded-full ${isSelected ? 'bg-white' : 'bg-indigo-500'} mt-0.5"></span>
+        </button>
+      `;
+    } else {
+      cellsHtml += `
+        <div class="h-10 rounded-xl flex items-center justify-center text-xs text-slate-400 dark:text-slate-600">
+          ${day}
+        </div>
+      `;
+    }
+  }
+
+  return `
+    <div class="flex items-center justify-between mb-4">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">${escapeHtml(customTitle)}</span>
+        <h3 class="text-base font-extrabold mt-0.5">🗓️ ${year} 年 ${month} 月</h3>
+      </div>
+      <div class="flex items-center gap-1">
+        <button onclick="changeCalendarMonth(-1)" class="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-xs font-bold">◀</button>
+        <button onclick="changeCalendarMonth(1)" class="p-1.5 rounded-lg border border-slate-200 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-xs font-bold">▶</button>
+      </div>
+    </div>
+    <div class="grid grid-cols-7 gap-1 text-center text-[11px] font-bold text-slate-400 mb-1.5">
+      ${weekdays.map(w => `<div>${w}</div>`).join('')}
+    </div>
+    <div class="grid grid-cols-7 gap-1.5">
+      ${cellsHtml}
+    </div>
+    <div class="mt-3 pt-2.5 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between text-[11px] text-slate-500">
+      <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-indigo-500 inline-block"></span> 藍底日期有收錄新聞（點擊直達當日詞彙表）</span>
+    </div>
+  `;
+}
+
+// C. View 2: Daily News Vocab View (Replaced date pills with Mini Calendar + Home icon beside major title)
+function renderDailyView() {
+  const dayObj = state.db[state.selectedDate] || state.db[state.availableDates[0]];
+  const items = dayObj?.items || [];
+  const filteredItems = state.selectedTopic === 'all'
+    ? items
+    : items.filter(it => it.topic_id === Number(state.selectedTopic));
+
+  const presentTopicIds = [...new Set(items.map(i => i.topic_id))];
+  const topicFilterHtml = `
+    <div class="flex items-center gap-1.5 flex-wrap">
+      <button onclick="setTopicFilter('all')" class="px-3 py-1.5 rounded-xl text-xs font-bold border transition ${
+        state.selectedTopic === 'all'
+          ? 'bg-slate-900 dark:bg-indigo-600 text-white border-transparent'
+          : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:bg-slate-100'
+      }">全部主題 (${items.length})</button>
+      ${presentTopicIds.map(tid => {
+        const t = TOPIC_MAP[tid];
+        if (!t) return '';
+        const cnt = items.filter(i => i.topic_id === tid).length;
+        const active = String(state.selectedTopic) === String(tid);
+        return `
+          <button onclick="setTopicFilter('${tid}')" class="px-3 py-1.5 rounded-xl text-xs font-bold border transition ${
+            active
+              ? 'bg-indigo-600 text-white border-indigo-600'
+              : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800 hover:border-indigo-300'
+          }">${t.icon} ${t.name} (${cnt})</button>
+        `;
+      }).join('')}
+    </div>
+  `;
+
+  return `
+    <!-- Top Section: Mini Calendar Date Picker + Day Headlines Summary -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+      <div class="lg:col-span-5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 sm:p-5 shadow-2xs">
+        ${renderMiniCalendar('點選小月曆切換新聞日期')}
+      </div>
+
+      <div class="lg:col-span-7 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-4 sm:p-5 shadow-2xs space-y-3 flex flex-col justify-between">
+        <div>
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400">《TVB News at 7:30》明珠台七點半新聞報道</span>
+              <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+                <h2 class="text-lg sm:text-xl font-extrabold">📅 ${dayObj.date} 焦點新聞與核心詞彙</h2>
+                ${renderHomeBtn()}
+              </div>
+            </div>
+            <span class="text-xs font-semibold px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+              片長 ${escapeHtml(dayObj.duration || '20:00')} ・ 精選 ${items.length} 字
+            </span>
+          </div>
+          <div class="space-y-2 pt-3">
+            ${(dayObj.headlines || []).map((h, idx) => `
+              <div class="flex items-start gap-2.5 text-xs bg-slate-50 dark:bg-slate-800/60 px-3.5 py-2.5 rounded-xl border border-slate-100 dark:border-slate-800">
+                <span class="font-extrabold text-indigo-600 dark:text-indigo-400 shrink-0 mt-0.5">#${idx + 1}</span>
+                <div class="min-w-0">${formatBilingualHeadline(h)}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Topic Filter Bar -->
+    ${topicFilterHtml}
+
+    <!-- Vocab List / Grid -->
+    ${renderVocabCollection(filteredItems)}
+  `;
+}
+
+// D. View 3: IELTS 20 Context Categories View
+function renderTopicsView() {
+  const allItems = getAllItemsFlattened();
+  const activeTopicId = Number(state.topicsPageTopic || 1);
+  const currentTopic = TOPIC_MAP[activeTopicId] || IELTS_20_TOPICS[0];
+
+  let matchedItems = allItems.filter(it => it.topic_id === activeTopicId);
+  if (state.topicsPageLetter !== 'ALL') {
+    matchedItems = matchedItems.filter(it => it.word.toUpperCase().startsWith(state.topicsPageLetter));
+  }
+
+  const buttonsGrid = IELTS_20_TOPICS.map(t => {
+    const count = allItems.filter(it => it.topic_id === t.id).length;
+    const isSelected = t.id === activeTopicId;
+    return `
+      <button onclick="selectContextTopic(${t.id})" class="p-3 rounded-2xl border text-left transition flex flex-col justify-between gap-1.5 ${
+        isSelected
+          ? 'bg-indigo-600 text-white border-indigo-600 shadow-sm'
+          : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-indigo-400 text-slate-800 dark:text-slate-200'
+      }">
+        <div class="flex items-center justify-between">
+          <span class="text-lg">${t.icon}</span>
+          <span class="text-[11px] font-bold px-2 py-0.5 rounded-full ${
+            isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400'
+          }">${count} 字</span>
+        </div>
+        <div>
+          <div class="text-xs font-extrabold leading-tight">${t.id}. ${t.name}</div>
+          <div class="text-[10px] ${isSelected ? 'text-indigo-100' : 'text-slate-400'} mt-0.5">${t.en}</div>
+        </div>
+      </button>
+    `;
+  }).join('');
+
+  return `
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs space-y-4">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">IELTS Writing & Speaking 20 大高頻語境</span>
+        <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+          <h2 class="text-lg font-extrabold">🏷️ 按 IELTS 20 語境分類瀏覽跨日新聞詞彙</h2>
+          ${renderHomeBtn()}
+        </div>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2.5">
+        ${buttonsGrid}
+      </div>
+      <div class="pt-3 border-t border-slate-100 dark:border-slate-800">
+        ${renderAZButtons(state.topicsPageLetter, 'setTopicsPageLetter')}
+      </div>
+    </div>
+
+    <div class="space-y-3">
+      <div class="flex items-center gap-2 flex-wrap">
+        <h3 class="text-base font-extrabold">
+          ${currentTopic.icon} 語境分類：${currentTopic.id}. ${currentTopic.name}（${currentTopic.en}）
+          ${state.topicsPageLetter !== 'ALL' ? `・ 首字母「${state.topicsPageLetter}」` : ''} — 共 ${matchedItems.length} 筆
+        </h3>
+        ${renderHomeBtn()}
+      </div>
+      ${renderVocabCollection(matchedItems, {
+        showDateBadge: true,
+        emptyMsg: `目前「${currentTopic.name}」${state.topicsPageLetter !== 'ALL' ? `（字母 ${state.topicsPageLetter} 開頭）` : ''} 尚未累積新聞詞彙。`
+      })}
+    </div>
+  `;
+}
+
+// E. View 4: Past News Archive Page
+function renderArchiveView() {
+  const months = [...new Set(state.availableDates.map(d => d.slice(0, 7)))].sort().reverse();
+  const totalPages = Math.max(1, months.length);
+  if (state.archivePage > totalPages) state.archivePage = totalPages;
+  if (state.archivePage < 1) state.archivePage = 1;
+
+  const activeMonth = months[state.archivePage - 1] || state.calendarMonth;
+  const datesInMonth = state.availableDates.filter(d => d.startsWith(activeMonth));
+
+  const viewToggleHtml = `
+    <div class="flex items-center bg-slate-100 dark:bg-slate-800 rounded-xl p-1 text-xs font-semibold">
+      <button onclick="setArchiveViewMode('list')" class="px-3 py-1 rounded-lg transition flex items-center gap-1 ${
+        state.archiveViewMode === 'list'
+          ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-2xs'
+          : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+      }">
+        <span>☰ 清單檢視</span>
+      </button>
+      <button onclick="setArchiveViewMode('grid')" class="px-3 py-1 rounded-lg transition flex items-center gap-1 ${
+        state.archiveViewMode === 'grid'
+          ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-2xs'
+          : 'text-slate-500 hover:text-slate-800 dark:hover:text-slate-200'
+      }">
+        <span>⊞ 並排檢視</span>
+      </button>
+    </div>
+  `;
+
+  let archiveContentHtml = '';
+  if (state.archiveViewMode === 'grid') {
+    archiveContentHtml = `
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        ${datesInMonth.map(d => {
+          const dayObj = state.db[d];
+          const items = dayObj?.items || [];
+          const masteredInDay = items.filter(it => state.mastered[it.word.toLowerCase().trim()]).length;
+          return `
+            <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs hover:border-indigo-400 transition flex flex-col justify-between gap-4">
+              <div class="space-y-2.5">
+                <div class="flex items-center justify-between gap-2">
+                  <span class="text-base font-extrabold text-indigo-600 dark:text-indigo-400">📅 ${d}</span>
+                  <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
+                    ${items.length} 字 ・ 已掌握 ${masteredInDay}
+                  </span>
+                </div>
+                <ul class="space-y-2 text-xs">
+                  ${(dayObj?.headlines || []).map(h => `
+                    <li class="flex items-start gap-2">
+                      <span class="text-indigo-500 mt-0.5">•</span>
+                      <div>${formatBilingualHeadline(h)}</div>
+                    </li>
+                  `).join('')}
+                </ul>
+              </div>
+              <div class="pt-3 border-t border-slate-100 dark:border-slate-800 flex items-center justify-between">
+                <span class="text-[11px] text-slate-400">片長 ${escapeHtml(dayObj?.duration || '20:00')}</span>
+                <button onclick="openDateVocab('${d}')" class="px-3.5 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-700 transition">
+                  打開當日詞彙表 →
+                </button>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  } else {
+    archiveContentHtml = `
+      <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xs overflow-hidden">
+        <div class="w-full overflow-x-auto">
+          <table class="w-full table-fixed text-left border-collapse">
+            <thead>
+              <tr class="bg-slate-50 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-500 uppercase">
+                <th class="py-3 px-4 w-[18%]">新聞日期</th>
+                <th class="py-3 px-4 w-[52%]">當日焦點新聞標題</th>
+                <th class="py-3 px-4 w-[15%]">收錄字數／進度</th>
+                <th class="py-3 px-4 w-[15%]">操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${datesInMonth.map(d => {
+                const dayObj = state.db[d];
+                const items = dayObj?.items || [];
+                const masteredInDay = items.filter(it => state.mastered[it.word.toLowerCase().trim()]).length;
+                return `
+                  <tr class="border-b border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/40 transition align-top">
+                    <td class="py-3.5 px-4 break-words">
+                      <div class="font-extrabold text-sm text-indigo-600 dark:text-indigo-400">📅 ${d}</div>
+                      <div class="text-[11px] text-slate-400 mt-0.5">片長 ${escapeHtml(dayObj?.duration || '20:00')}</div>
+                    </td>
+                    <td class="py-3.5 px-4 break-words">
+                      <ul class="space-y-1.5 text-xs">
+                        ${(dayObj?.headlines || []).map(h => `
+                          <li class="flex items-start gap-1.5">
+                            <span class="text-indigo-500 font-bold shrink-0">•</span>
+                            <div class="min-w-0">${formatBilingualHeadline(h)}</div>
+                          </li>
+                        `).join('')}
+                      </ul>
+                    </td>
+                    <td class="py-3.5 px-4 text-xs">
+                      <span class="font-bold text-slate-800 dark:text-slate-200">${items.length} 字</span>
+                      <div class="text-[11px] text-emerald-600 dark:text-emerald-400 mt-0.5">已掌握 ${masteredInDay} 字</div>
+                    </td>
+                    <td class="py-3.5 px-4">
+                      <button onclick="openDateVocab('${d}')" class="px-3 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-700 transition">
+                        進入詞彙表 →
+                      </button>
+                    </td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }
+
+  return `
+    <!-- Header Banner -->
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">歷史新聞資料庫（每頁顯示 1 個月）</span>
+        <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+          <h2 class="text-lg font-extrabold">🗂️ 過往新聞存檔 — ${activeMonth} 月份（共 ${datesInMonth.length} 集）</h2>
+          ${renderHomeBtn()}
+        </div>
+      </div>
+      ${viewToggleHtml}
+    </div>
+
+    <!-- Mini Calendar Right After Title -->
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs">
+      ${renderMiniCalendar('點選小月曆日期直接開啟該日新聞詞彙表')}
+    </div>
+
+    <!-- Archive List / Grid -->
+    ${archiveContentHtml}
+
+    <!-- Month Pagination -->
+    ${renderPaginationBar(state.archivePage, totalPages, 'setArchivePage')}
+  `;
+}
+
+// F. View 5 & 6: Separate Mastered Page & Review (溫習詞彙) Page
+// Requirement #5: "全部語境分類" occupies its own full row first, followed by a new row starting "1. 教育與學習" with 5 categories per row!
+// Requirement #6: Renamed to "溫習詞彙"
+function renderPersonalVocabPage(mode) {
+  const isMasteredPage = mode === 'mastered_page';
+  const activeTopic = isMasteredPage ? state.masteredPageTopic : state.reviewPageTopic;
+  const activeLetter = isMasteredPage ? state.masteredPageLetter : state.reviewPageLetter;
+
+  const allItems = getAllItemsFlattened();
+  const seen = new Set();
+  const uniqueItems = [];
+  for (const it of allItems) {
+    const k = it.word.toLowerCase().trim();
+    if (!seen.has(k)) {
+      seen.add(k);
+      uniqueItems.push(it);
+    }
+  }
+
+  let baseList = uniqueItems.filter(it => {
+    const k = it.word.toLowerCase().trim();
+    return isMasteredPage ? !!state.mastered[k] : !!state.unfamiliar[k];
+  });
+
+  const totalBaseCount = baseList.length;
+
+  if (activeTopic !== 'all') {
+    baseList = baseList.filter(it => it.topic_id === Number(activeTopic));
+  }
+  if (activeLetter !== 'ALL') {
+    baseList = baseList.filter(it => it.word.toUpperCase().startsWith(activeLetter));
+  }
+
+  // Row 1: "全部語境分類" standalone full-width row
+  const allCategoryRowHtml = `
+    <div class="mb-2.5">
+      <button onclick="${isMasteredPage ? "setMasteredPageTopic('all')" : "setReviewPageTopic('all')"}" class="w-full sm:w-auto min-w-[220px] px-4 py-2.5 rounded-xl border text-left transition flex items-center justify-between gap-3 ${
+        activeTopic === 'all'
+          ? 'bg-indigo-600 text-white border-indigo-600 shadow-2xs'
+          : 'bg-slate-50 dark:bg-slate-800/60 border-slate-200 dark:border-slate-700 hover:border-indigo-400'
+      }">
+        <span class="text-xs font-extrabold">📚 全部語境分類</span>
+        <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full ${activeTopic === 'all' ? 'bg-white/20 text-white' : 'bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300'}">${totalBaseCount} 字</span>
+      </button>
+    </div>
+  `;
+
+  // Row 2+: 20 categories arranged strictly 5 per row on desktop (grid-cols-2 sm:grid-cols-3 md:grid-cols-5)
+  const twentyCategoriesGridHtml = `
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2">
+      ${IELTS_20_TOPICS.map(t => {
+        const cnt = uniqueItems.filter(it => {
+          const k = it.word.toLowerCase().trim();
+          const inBucket = isMasteredPage ? !!state.mastered[k] : !!state.unfamiliar[k];
+          return inBucket && it.topic_id === t.id;
+        }).length;
+        const selected = String(activeTopic) === String(t.id);
+        return `
+          <button onclick="${isMasteredPage ? `setMasteredPageTopic(${t.id})` : `setReviewPageTopic(${t.id})`}" class="p-2.5 rounded-xl border text-left transition flex items-center justify-between gap-1.5 min-w-0 ${
+            selected
+              ? 'bg-indigo-600 text-white border-indigo-600 shadow-2xs'
+              : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-indigo-400'
+          }">
+            <span class="text-xs font-bold leading-snug break-words">${t.icon} ${t.id}.${t.name}</span>
+            <span class="text-[11px] font-bold px-1.5 py-0.5 rounded-full shrink-0 ${
+              selected ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400'
+            }">${cnt}</span>
+          </button>
+        `;
+      }).join('')}
+    </div>
+  `;
+
+  return `
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs space-y-4">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider ${isMasteredPage ? 'text-emerald-600 dark:text-emerald-400' : 'text-amber-600 dark:text-amber-400'}">
+            ${isMasteredPage ? '學習成就詞庫' : '重點強化單字本'}
+          </span>
+          <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+            <h2 class="text-lg font-extrabold">
+              ${isMasteredPage ? `✅ 已掌握詞彙（共 ${totalBaseCount} 字）` : `📌 溫習詞彙（共 ${totalBaseCount} 字）`}
+            </h2>
+            ${renderHomeBtn()}
+          </div>
+        </div>
+        <button onclick="switchTab('${isMasteredPage ? 'review_page' : 'mastered_page'}')" class="px-3.5 py-2 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition">
+          ${isMasteredPage ? '切換至「溫習詞彙」→' : '切換至「已掌握詞彙」→'}
+        </button>
+      </div>
+
+      <!-- IELTS 20 Context Category Filter -->
+      <div class="pt-2 border-t border-slate-100 dark:border-slate-800">
+        <div class="text-xs font-bold text-slate-500 mb-2">按 IELTS 20 語境分類瀏覽跨日新聞詞彙：</div>
+        ${allCategoryRowHtml}
+        ${twentyCategoriesGridHtml}
+      </div>
+
+      <!-- A-Z Filter -->
+      <div class="pt-3 border-t border-slate-100 dark:border-slate-800">
+        ${renderAZButtons(activeLetter, isMasteredPage ? 'setMasteredPageLetter' : 'setReviewPageLetter')}
+      </div>
+    </div>
+
+    ${renderVocabCollection(baseList, {
+      showDateBadge: true,
+      emptyMsg: isMasteredPage
+        ? '目前此篩選條件下沒有「已掌握」詞彙，在每日新聞中點擊「✓ 已掌握」即可加入！'
+        : '目前此篩選條件下沒有「溫習詞彙」，在每日新聞中點擊「☆ 未熟練」即可加入重點複習！'
+    })}
+  `;
+}
+
+// G. View 7: Word Frequency Statistics
+function renderFrequencyView() {
+  const allStats = getUniqueWordStats().sort((a, b) => b.count - a.count || a.word.localeCompare(b.word));
+
+  let filtered = allStats;
+  if (state.freqTopic !== 'all') {
+    filtered = filtered.filter(s => s.topic_id === Number(state.freqTopic));
+  }
+  if (state.freqLetter !== 'ALL') {
+    filtered = filtered.filter(s => s.word.toUpperCase().startsWith(state.freqLetter));
+  }
+
+  const pageSize = 50;
+  const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
+  if (state.freqPage > totalPages) state.freqPage = totalPages;
+  if (state.freqPage < 1) state.freqPage = 1;
+
+  const startIdx = (state.freqPage - 1) * pageSize;
+  const pageSlice = filtered.slice(startIdx, startIdx + pageSize);
+
+  const topicButtonsHtml = `
+    <div class="mb-2.5">
+      <button onclick="setFreqTopic('all')" class="w-full sm:w-auto min-w-[220px] px-4 py-2.5 rounded-xl border text-left transition flex items-center justify-between gap-3 ${
+        state.freqTopic === 'all'
+          ? 'bg-indigo-600 text-white border-indigo-600 shadow-2xs'
+          : 'bg-slate-50 dark:bg-slate-800/60 border-slate-200 dark:border-slate-700 hover:border-indigo-400'
+      }">
+        <span class="text-xs font-extrabold">📚 全部 20 語境</span>
+        <span class="text-[11px] font-bold px-2.5 py-0.5 rounded-full ${state.freqTopic === 'all' ? 'bg-white/20 text-white' : 'bg-white dark:bg-slate-700 text-slate-600 dark:text-slate-300'}">${allStats.length} 字</span>
+      </button>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2">
+      ${IELTS_20_TOPICS.map(t => {
+        const cnt = allStats.filter(s => s.topic_id === t.id).length;
+        const selected = String(state.freqTopic) === String(t.id);
+        return `
+          <button onclick="setFreqTopic(${t.id})" class="p-2.5 rounded-xl border text-left transition flex items-center justify-between gap-1.5 min-w-0 ${
+            selected
+              ? 'bg-indigo-600 text-white border-indigo-600 shadow-2xs'
+              : 'bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800 hover:border-indigo-400'
+          }">
+            <span class="text-xs font-bold leading-snug break-words">${t.icon} ${t.id}.${t.name}</span>
+            <span class="text-[11px] font-bold px-1.5 py-0.5 rounded-full shrink-0 ${
+              selected ? 'bg-white/20 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400'
+            }">${cnt}</span>
+          </button>
+        `;
+      }).join('')}
+    </div>
+  `;
+
+  const rows = pageSlice.map(s => {
+    const topicObj = TOPIC_MAP[s.topic_id] || { icon: '📌', name: '綜合' };
+    return `
+      <tr class="border-b border-slate-100 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/40 transition">
+        <!-- Col 1: 重複次數 -->
+        <td class="py-3 px-3 w-[12%]">
+          <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-extrabold ${
+            s.count >= 2
+              ? 'bg-rose-100 dark:bg-rose-950 text-rose-700 dark:text-rose-300'
+              : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300'
+          }">
+            ${s.count} 次
+          </span>
+        </td>
+
+        <!-- Col 2: 英文原字 -->
+        <td class="py-3 px-3 w-[25%] break-words">
+          <div class="flex items-center gap-1.5 flex-wrap">
+            <span class="font-extrabold text-sm text-slate-900 dark:text-white break-words">${escapeHtml(s.word)}</span>
+            <button onclick="speakText('${escapeHtml(s.word)}')" class="text-xs p-1 rounded bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-300 shrink-0" title="朗讀單字">🔊</button>
+            <span class="text-[11px] font-mono text-slate-500">${escapeHtml(s.pos)}</span>
+          </div>
+        </td>
+
+        <!-- Col 3: 中文意思 -->
+        <td class="py-3 px-3 w-[25%] text-xs font-semibold text-slate-700 dark:text-slate-200 break-words">${escapeHtml(s.zh)}</td>
+
+        <!-- Col 4: 語境 -->
+        <td class="py-3 px-3 w-[20%] text-xs">
+          <span class="inline-block px-2.5 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950 text-indigo-700 dark:text-indigo-300 font-semibold">
+            ${topicObj.icon} ${topicObj.name}
+          </span>
+        </td>
+
+        <!-- Col 5: 出現新聞日期 (只顯示最新出現日期) -->
+        <td class="py-3 px-3 w-[18%]">
+          <button onclick="openDateVocab('${s.latestDate}')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900 text-xs font-mono font-bold text-indigo-600 dark:text-indigo-300 transition" title="點擊跳轉至該日新聞詞彙表">
+            📅 ${s.latestDate}
+          </button>
+        </td>
+      </tr>
+    `;
+  }).join('');
+
+  return `
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs space-y-4">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">跨日高頻新聞詞彙分析（每頁最多 50 筆）</span>
+        <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+          <h2 class="text-lg font-extrabold">📊 字詞重複次數統計（共 ${filtered.length} 個不重複詞彙）</h2>
+          ${renderHomeBtn()}
+        </div>
+      </div>
+
+      <!-- 20 Context Category Buttons Before A-Z -->
+      <div class="pt-2 border-t border-slate-100 dark:border-slate-800">
+        <div class="text-xs font-bold text-slate-500 mb-2">1. 先選擇 IELTS 20 語境分類：</div>
+        ${topicButtonsHtml}
+      </div>
+
+      <!-- A-Z Filter -->
+      <div class="pt-3 border-t border-slate-100 dark:border-slate-800">
+        ${renderAZButtons(state.freqLetter, 'setFreqLetter')}
+      </div>
+    </div>
+
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xs overflow-hidden">
+      <div class="w-full overflow-x-auto">
+        <table class="w-full table-fixed text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-50 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-800 text-xs font-bold text-slate-500 uppercase">
+              <th class="py-3 px-3 w-[12%]">重複次數</th>
+              <th class="py-3 px-3 w-[25%]">英文原字</th>
+              <th class="py-3 px-3 w-[25%]">中文意思</th>
+              <th class="py-3 px-3 w-[20%]">語境</th>
+              <th class="py-3 px-3 w-[18%]">出現新聞日期（最新）</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows || `<tr><td colspan="5" class="py-8 text-center text-sm text-slate-500">目前篩選條件下暫無收錄詞彙。</td></tr>`}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    ${renderPaginationBar(state.freqPage, totalPages, 'setFreqPage')}
+  `;
+}
+
+// H. View 8: News Headline Keyword Search (Max 10 per page + Prev/Next)
+function renderSearchView() {
+  const q = state.searchQuery.trim().toLowerCase();
+  const matchedDays = state.availableDates.filter(d => {
+    if (!q) return true;
+    const dayObj = state.db[d];
+    const inHeadlines = (dayObj?.headlines || []).some(h => h.toLowerCase().includes(q));
+    const inWords = (dayObj?.items || []).some(it =>
+      it.word.toLowerCase().includes(q) || it.zh.toLowerCase().includes(q)
+    );
+    return inHeadlines || inWords;
+  });
+
+  const pageSize = 10;
+  const totalPages = Math.max(1, Math.ceil(matchedDays.length / pageSize));
+  if (state.searchPage > totalPages) state.searchPage = totalPages;
+  if (state.searchPage < 1) state.searchPage = 1;
+
+  const startIdx = (state.searchPage - 1) * pageSize;
+  const pageDays = matchedDays.slice(startIdx, startIdx + pageSize);
+
+  return `
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs space-y-4">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400">全庫檢索（每頁最多顯示 10 集）</span>
+        <div class="flex items-center gap-2 mt-0.5 flex-wrap">
+          <h2 class="text-lg font-extrabold">🔍 新聞標題關鍵字搜尋（支援中文或英文關鍵字）</h2>
+          ${renderHomeBtn()}
+        </div>
+      </div>
+      <div class="flex gap-2">
+        <input
+          id="headline-search-input"
+          type="text"
+          value="${escapeHtml(state.searchQuery)}"
+          oninput="updateSearchQuery(this.value)"
+          placeholder="輸入新聞標題或詞彙關鍵字，例如：北部都會區、AI、inflation、climate、醫療..."
+          class="flex-1 min-w-0 px-4 py-2.5 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        />
+        ${state.searchQuery ? `<button onclick="updateSearchQuery('')" class="px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-bold hover:bg-slate-100 dark:hover:bg-slate-800 shrink-0">清除</button>` : ''}
+      </div>
+    </div>
+
+    <div class="space-y-4">
+      <div class="text-xs font-bold text-slate-500">找到 ${matchedDays.length} 集相關新聞節目</div>
+      ${pageDays.map(d => {
+        const dayObj = state.db[d];
+        return `
+          <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 shadow-2xs space-y-3">
+            <div class="flex items-center justify-between gap-2 flex-wrap">
+              <h3 class="text-base font-extrabold text-indigo-600 dark:text-indigo-400">📅 ${d}《TVB News at 7:30》</h3>
+              <button onclick="openDateVocab('${d}')" class="px-3.5 py-1.5 rounded-xl bg-indigo-600 text-white text-xs font-bold hover:bg-indigo-700 transition">
+                檢視當日 ${dayObj.items.length} 個詞彙 →
+              </button>
+            </div>
+            <ul class="space-y-2 text-sm">
+              ${(dayObj.headlines || []).map(h => {
+                const isHit = q && h.toLowerCase().includes(q);
+                return `
+                  <li class="p-2.5 rounded-xl ${isHit ? 'bg-amber-50 dark:bg-amber-950/50 border border-amber-200 dark:border-amber-800' : 'bg-slate-50/70 dark:bg-slate-800/40'}">
+                    ${formatBilingualHeadline(h)}
+                  </li>
+                `;
+              }).join('')}
+            </ul>
+          </div>
+        `;
+      }).join('')}
+    </div>
+
+    ${renderPaginationBar(state.searchPage, totalPages, 'setSearchPage')}
+  `;
+}
+
+// ==================== 8. INTERACTION HANDLERS ====================
+function switchTab(tabId) {
+  state.activeTab = tabId;
+  closeMobileSidebar();
+  renderAll();
+}
+
+function openDateVocab(dateStr) {
+  state.selectedDate = dateStr;
+  state.calendarMonth = dateStr.slice(0, 7);
+  state.selectedTopic = 'all';
+  state.activeTab = 'daily';
+  closeMobileSidebar();
+  renderAll();
+}
+
+function setTopicFilter(tid) {
+  state.selectedTopic = tid;
+  renderMainContent();
+}
+
+function selectContextTopic(tid) {
+  state.topicsPageTopic = tid;
+  renderMainContent();
+}
+
+function setTopicsPageLetter(letter) {
+  state.topicsPageLetter = letter;
+  renderMainContent();
+}
+
+function setArchiveViewMode(mode) {
+  state.archiveViewMode = mode;
+  renderMainContent();
+}
+
+function setArchivePage(page) {
+  state.archivePage = page;
+  renderMainContent();
+}
+
+function setMasteredPageTopic(tid) {
+  state.masteredPageTopic = tid;
+  renderMainContent();
+}
+
+function setMasteredPageLetter(letter) {
+  state.masteredPageLetter = letter;
+  renderMainContent();
+}
+
+function setReviewPageTopic(tid) {
+  state.reviewPageTopic = tid;
+  renderMainContent();
+}
+
+function setReviewPageLetter(letter) {
+  state.reviewPageLetter = letter;
+  renderMainContent();
+}
+
+function setFreqTopic(tid) {
+  state.freqTopic = tid;
+  state.freqPage = 1;
+  renderMainContent();
+}
+
+function setFreqLetter(letter) {
+  state.freqLetter = letter;
+  state.freqPage = 1;
+  renderMainContent();
+}
+
+function setFreqPage(page) {
+  state.freqPage = page;
+  renderMainContent();
+}
+
+function setSearchPage(page) {
+  state.searchPage = page;
+  renderMainContent();
+}
+
+function setViewMode(mode) {
+  state.viewMode = mode;
+  renderMainContent();
+}
+
+function toggleGlobalMask() {
+  state.globalMask = !state.globalMask;
+  state.rowRevealed = {};
+  showToast(state.globalMask ? '🙈 已開啟全部中文遮罩自測模式' : '👁️ 已解除全部遮罩');
+  renderMainContent();
+}
+
+function toggleSingleBlur(uid) {
+  state.rowRevealed[uid] = !state.rowRevealed[uid];
+  renderMainContent();
+}
+
+function changeCalendarMonth(delta) {
+  const [y, m] = state.calendarMonth.split('-').map(Number);
+  const dt = new Date(y, m - 1 + delta, 1);
+  state.calendarMonth = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}`;
+  renderMainContent();
+}
+
+function updateSearchQuery(val) {
+  state.searchQuery = val;
+  state.searchPage = 1;
+  renderMainContent();
+  const inp = document.getElementById('headline-search-input');
+  if (inp) {
+    inp.focus();
+    inp.setSelectionRange(val.length, val.length);
+  }
+}
+
+function renderMainContent() {
+  const main = document.getElementById('main-content');
+  if (state.activeTab === 'dashboard') main.innerHTML = renderDashboardView();
+  else if (state.activeTab === 'daily') main.innerHTML = renderDailyView();
+  else if (state.activeTab === 'topics') main.innerHTML = renderTopicsView();
+  else if (state.activeTab === 'archive') main.innerHTML = renderArchiveView();
+  else if (state.activeTab === 'mastered_page') main.innerHTML = renderPersonalVocabPage('mastered_page');
+  else if (state.activeTab === 'review_page') main.innerHTML = renderPersonalVocabPage('review_page');
+  else if (state.activeTab === 'frequency') main.innerHTML = renderFrequencyView();
+  else if (state.activeTab === 'search') main.innerHTML = renderSearchView();
+}
+
+function renderAll() {
+  updateTopBarControls();
+  renderSidebar();
+  renderMainContent();
+}
+
+// ==================== 9. GLOBAL EVENT LISTENERS & BACKUP MODAL ====================
+function closeMobileSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const backdrop = document.getElementById('mobile-backdrop');
+  sidebar.classList.add('-translate-x-full');
+  backdrop.classList.add('hidden');
+}
+
+document.getElementById('sidebar-toggle').addEventListener('click', () => {
+  if (window.innerWidth < 1024) {
+    document.getElementById('sidebar').classList.toggle('-translate-x-full');
+    document.getElementById('mobile-backdrop').classList.toggle('hidden');
+  } else {
+    state.sidebarCollapsed = !state.sidebarCollapsed;
+    saveState();
+    updateTopBarControls();
+  }
+});
+
+document.getElementById('sidebar-close-mobile').addEventListener('click', closeMobileSidebar);
+document.getElementById('mobile-backdrop').addEventListener('click', closeMobileSidebar);
+
+document.getElementById('btn-accent-uk').addEventListener('click', () => {
+  state.accent = 'uk';
+  saveState();
+  updateTopBarControls();
+  showToast('🇬🇧 已切換為英式發音 (UK)');
+});
+
+document.getElementById('btn-accent-us').addEventListener('click', () => {
+  state.accent = 'us';
+  saveState();
+  updateTopBarControls();
+  showToast('🇺🇸 已切換為美式發音 (US)');
+});
+
+document.getElementById('btn-speed').addEventListener('click', () => {
+  const speeds = [1.0, 0.8, 1.2];
+  const next = speeds[(speeds.indexOf(state.speed) + 1) % speeds.length];
+  state.speed = next;
+  saveState();
+  updateTopBarControls();
+  showToast(`語音朗讀速度：${next.toFixed(1)}x`);
+});
+
+document.getElementById('btn-font-size').addEventListener('click', () => {
+  const sizes = ['normal', 'large', 'xlarge'];
+  state.fontSize = sizes[(sizes.indexOf(state.fontSize) + 1) % sizes.length];
+  saveState();
+  updateTopBarControls();
+  renderMainContent();
+});
+
+document.getElementById('btn-theme').addEventListener('click', () => {
+  state.darkMode = !state.darkMode;
+  saveState();
+  updateTopBarControls();
+});
+
+const backupModal = document.getElementById('backup-modal');
+document.getElementById('btn-backup').addEventListener('click', () => {
+  const mCount = Object.keys(state.mastered).length;
+  const uCount = Object.keys(state.unfamiliar).length;
+  document.getElementById('backup-summary').innerHTML = `
+    目前本機學習紀錄：已掌握 <strong class="text-emerald-600">${mCount}</strong> 個單字，溫習詞彙 <strong class="text-amber-600">${uCount}</strong> 個單字。
+  `;
+  backupModal.classList.remove('hidden');
+  backupModal.classList.add('flex');
+});
+
+document.getElementById('backup-modal-close').addEventListener('click', () => {
+  backupModal.classList.add('hidden');
+  backupModal.classList.remove('flex');
+});
+
+document.getElementById('btn-export-file').addEventListener('click', () => {
+  const payload = JSON.stringify({ mastered: state.mastered, unfamiliar: state.unfamiliar, exportedAt: new Date().toISOString() }, null, 2);
+  const blob = new Blob([payload], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `tvb_730_vocab_backup_${new Date().toISOString().slice(0, 10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showToast('⬇️ 已下載學習進度備份檔');
+});
+
+document.getElementById('btn-copy-code').addEventListener('click', async () => {
+  const payload = JSON.stringify({ mastered: state.mastered, unfamiliar: state.unfamiliar });
+  try {
+    await navigator.clipboard.writeText(payload);
+    showToast('📋 已複製進度代碼到剪貼簿');
+  } catch (_) {
+    showToast('請手動從下載檔案備份');
+  }
+});
+
+function applyImportedPayload(rawText) {
+  try {
+    const data = JSON.parse(rawText);
+    if (data.mastered && typeof data.mastered === 'object') state.mastered = data.mastered;
+    if (data.unfamiliar && typeof data.unfamiliar === 'object') state.unfamiliar = data.unfamiliar;
+    saveState();
+    renderAll();
+    document.getElementById('backup-status').textContent = '✅ 匯入成功！';
+    showToast('✅ 學習進度已成功還原');
+  } catch (e) {
+    document.getElementById('backup-status').textContent = '❌ 格式錯誤，請確認 JSON 代碼完整。';
+  }
+}
+
+document.getElementById('btn-import-code').addEventListener('click', () => {
+  const code = document.getElementById('backup-code-input').value.trim();
+  if (code) applyImportedPayload(code);
+});
+
+document.getElementById('backup-file-input').addEventListener('change', (e) => {
+  const file = e.target.files?.[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => applyImportedPayload(reader.result);
+  reader.readAsText(file);
+});
+
+// ==================== 10. INIT ====================
+loadState();
+renderAll();
+tryLoadExternalData();
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.getVoices();
+}
+</script>
+</body>
+</html>
