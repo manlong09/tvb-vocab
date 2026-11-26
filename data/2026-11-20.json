@@ -1,0 +1,817 @@
+{
+  "date": "2026-11-20",
+  "video_id": "dd9mIAy_wms",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "港府擬修訂建築物條例收緊大維修監管 (Government proposes amending Buildings Ordinance to tighten regulation over major repair works)",
+    "當局擬重罰嚴重僭建物並寬減晾衫架等低風險設施 (Authorities propose heavy penalties for serious unauthorized building works while easing low-risk rules)",
+    "寒冷天氣警告生效強烈季候風致本港氣溫急降 (Cold weather warning in force as strong monsoon causes sharp temperature drop)",
+    "中美俄三國領袖深圳峰會後發表和平宣言 (Leaders of China, Russia, and US issue peace declaration after historic Shenzhen summit)",
+    "人工智能巨頭Anthropic上市首日大漲創歷史規模 (AI giant Anthropic surges in record-breaking public trading debut)",
+    "歐洲盟友柏林會晤重申支持烏克蘭並敦促參與和談 (European allies meet in Berlin to back Ukraine and demand seat at peace talks)",
+    "聯合國最高法院裁定緬甸對羅興亞人犯下種族滅絕罪 (UN top court finds Myanmar guilty of genocide against Rohingya minority)",
+    "醫生涉濫發免針紙洗黑錢等罪成及兩宗謀殺案審訊進展 (Doctor convicted over fake vaccine exemption certificates and updates on High Court murder trials)"
+  ],
+  "items": [
+    {
+      "word": "amend",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "modify",
+        "revise"
+      ],
+      "zh": "修訂（法規或條款）",
+      "ipa_uk": "/əˈmend/",
+      "ipa_us": "/əˈmend/",
+      "en_ex": "The government is amending the ordinance to tighten supervision over building inspections and renovation projects.",
+      "zh_ex": "政府正修訂該條例，以收緊對樓宇檢驗與翻新工程的監管。"
+    },
+    {
+      "word": "stipulate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "specify",
+        "prescribe"
+      ],
+      "zh": "明確規定；約定",
+      "ipa_uk": "/ˈstɪp.jə.leɪt/",
+      "ipa_us": "/ˈstɪp.jə.leɪt/",
+      "en_ex": "New building regulations will stipulate that registered inspectors cannot simultaneously serve as site supervisors.",
+      "zh_ex": "新建築法規將明確規定，註冊檢驗人員不得同時兼任工地監督員。"
+    },
+    {
+      "word": "sever conflicts of interest",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "eliminate bias",
+        "resolve conflicts"
+      ],
+      "zh": "切斷利益衝突",
+      "ipa_uk": "/ˈsev.ər ˈkɒn.flɪkts əv ˈɪn.trəst/",
+      "ipa_us": "/ˈsev.ɚ ˈkɑːn.flɪkts əv ˈɪn.trəst/",
+      "en_ex": "Officials separated inspection and supervision roles in order to sever conflicts of interest among private contractors.",
+      "zh_ex": "官員分開了檢驗與監管角色，以切斷私人承建商之間的利益衝突。"
+    },
+    {
+      "word": "deviation",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 19,
+      "band": "7.0",
+      "synonyms": [
+        "departure",
+        "divergence"
+      ],
+      "zh": "偏離；背離",
+      "ipa_uk": "/ˌdiː.viˈeɪ.ʃən/",
+      "ipa_us": "/ˌdiː.viˈeɪ.ʃən/",
+      "en_ex": "Contractors face severe legal penalties for major deviations from prescribed construction plans without prior approval.",
+      "zh_ex": "承建商若未經事先批准而嚴重偏離既定施工圖則，將面臨嚴厲的法律處罰。"
+    },
+    {
+      "word": "unauthorized building works",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 6,
+      "band": "7.0",
+      "synonyms": [
+        "illegal alterations",
+        "unlicensed construction"
+      ],
+      "zh": "僭建物；未經授權的建築工程",
+      "ipa_uk": "/ʌnˈɔː.θər.aɪzd ˈbɪl.dɪŋ wɜːks/",
+      "ipa_us": "/ʌnˈɑː.θɚ.aɪzd ˈbɪl.dɪŋ wɝːks/",
+      "en_ex": "Property owners who refuse to demolish unauthorized building works will face heavier fines and potential imprisonment.",
+      "zh_ex": "拒絕拆除僭建物的物業業主將面臨更嚴厲的罰款及潛在的監禁刑罰。"
+    },
+    {
+      "word": "abide by",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "6.5",
+      "synonyms": [
+        "comply with",
+        "adhere to"
+      ],
+      "zh": "遵守；恪守",
+      "ipa_uk": "/əˈbaɪd baɪ/",
+      "ipa_us": "/əˈbaɪd baɪ/",
+      "en_ex": "Homeowners are required to abide by removal orders issued by building authorities within the specified timeframe.",
+      "zh_ex": "業主須在規定期限內遵守屋宇署發出的清拆命令。"
+    },
+    {
+      "word": "loosen regulations",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "relax rules",
+        "ease restrictions"
+      ],
+      "zh": "放寬法規",
+      "ipa_uk": "/ˈluː.sən ˌreɡ.jəˈleɪ.ʃənz/",
+      "ipa_us": "/ˈluː.sən ˌreɡ.jəˈleɪ.ʃənz/",
+      "en_ex": "The administration plans to loosen regulations on low-risk structures like domestic drying racks and window canopies.",
+      "zh_ex": "當局計劃放寬對晾衫架和窗戶雨篷等低風險結構的規管。"
+    },
+    {
+      "word": "mercury",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "temperature",
+        "thermal reading"
+      ],
+      "zh": "水銀柱；氣溫",
+      "ipa_uk": "/ˈmɜː.kjə.ri/",
+      "ipa_us": "/ˈmɝː.kjə.ri/",
+      "en_ex": "A strong continental monsoon triggered a sudden plunge in the mercury across the coastal territory.",
+      "zh_ex": "強烈大陸季候風引發沿海地區氣溫驟降。"
+    },
+    {
+      "word": "brace",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 2,
+      "band": "6.5",
+      "synonyms": [
+        "prepare",
+        "fortify"
+      ],
+      "zh": "準備迎接；嚴陣以待",
+      "ipa_uk": "/breɪs/",
+      "ipa_us": "/breɪs/",
+      "en_ex": "Residents put on thermal clothing as the coastal metropolis prepared to brace another bitterly cold morning.",
+      "zh_ex": "隨著這座沿海大都市準備迎接另一個嚴寒的早晨，居民紛紛穿上保暖衣物。"
+    },
+    {
+      "word": "gust",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 2,
+      "band": "6.5",
+      "synonyms": [
+        "blast",
+        "squall"
+      ],
+      "zh": "陣風；一陣強風",
+      "ipa_uk": "/ɡʌst/",
+      "ipa_us": "/ɡʌst/",
+      "en_ex": "Powerful gusts flipped pedestrians' umbrellas inside out during the passage of the monsoon front yesterday.",
+      "zh_ex": "昨日季候風鋒面過境期間，強勁陣風將行人的雨傘吹至向外翻轉。"
+    },
+    {
+      "word": "overcast",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 2,
+      "band": "6.5",
+      "synonyms": [
+        "cloudy",
+        "gloomy"
+      ],
+      "zh": "陰沉的；多雲蔽日的",
+      "ipa_uk": "/ˌəʊ.vəˈkɑːst/",
+      "ipa_us": "/ˌoʊ.vɚˈkæst/",
+      "en_ex": "Persistent overcast skies prevented solar heating and kept afternoon temperatures exceptionally low across urban areas.",
+      "zh_ex": "持續陰沉的天空阻礙了太陽加熱，令市區午後氣溫持續偏低。"
+    },
+    {
+      "word": "tropical cyclone",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "typhoon",
+        "hurricane"
+      ],
+      "zh": "熱帶氣旋",
+      "ipa_uk": "/ˈtrɒp.ɪ.kəl ˈsaɪ.kləʊn/",
+      "ipa_us": "/ˈtrɑː.pɪ.kəl ˈsaɪ.kloʊn/",
+      "en_ex": "Forecasters linked the extensive rainband to an intense tropical cyclone active over the distant ocean.",
+      "zh_ex": "預報員將廣闊雨帶歸因於遠洋活動強烈的熱帶氣旋。"
+    },
+    {
+      "word": "edge towards",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "advance toward",
+        "approach"
+      ],
+      "zh": "緩緩逼近；向…移近",
+      "ipa_uk": "/edʒ təˈwɔːdz/",
+      "ipa_us": "/edʒ tɔːrdz/",
+      "en_ex": "A fresh surge of winter monsoon is forecast to edge towards the southern coastline next week.",
+      "zh_ex": "預計下周一股新的冬季季候風將向華南沿岸緩緩逼近。"
+    },
+    {
+      "word": "trilateral",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "tripartite",
+        "three-sided"
+      ],
+      "zh": "三方的；三邊的",
+      "ipa_uk": "/ˌtraɪˈlæt.ər.əl/",
+      "ipa_us": "/ˌtraɪˈlæt̬.ɚ.əl/",
+      "en_ex": "The leaders concluded a historic trilateral summit aimed at defusing regional tensions and nuclear risks.",
+      "zh_ex": "三國領導人結束了一場旨在化解地區緊張局勢及核風險的歷史性三邊峰會。"
+    },
+    {
+      "word": "go down in history",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 9,
+      "band": "7.5",
+      "synonyms": [
+        "be remembered forever",
+        "make history"
+      ],
+      "zh": "載入史冊；留名青史",
+      "ipa_uk": "/ɡəʊ daʊn ɪn ˈhɪs.tər.i/",
+      "ipa_us": "/ɡoʊ daʊn ɪn ˈhɪs.tɚ.i/",
+      "en_ex": "Diplomats asserted that this unprecedented peace agreement will go down in history as a major diplomatic milestone.",
+      "zh_ex": "外交官斷言，這項前所未有的和平協議將作為重大外交里程碑載入史冊。"
+    },
+    {
+      "word": "jurisdiction",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "legal authority",
+        "remit"
+      ],
+      "zh": "司法管轄權；審判權",
+      "ipa_uk": "/ˌdʒʊə.rɪsˈdɪk.ʃən/",
+      "ipa_us": "/ˌdʒʊr.ɪsˈdɪk.ʃən/",
+      "en_ex": "The joint declaration warned international judicial bodies against exceeding their defined legal jurisdiction over sovereign nations.",
+      "zh_ex": "聯合宣言警告國際司法機構不得逾越其對主權國家所界定的法定司法管轄權。"
+    },
+    {
+      "word": "underpin",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "substantiate",
+        "strengthen"
+      ],
+      "zh": "鞏固；支持",
+      "ipa_uk": "/ˌʌn.dəˈpɪn/",
+      "ipa_us": "/ˌʌn.dɚˈpɪn/",
+      "en_ex": "Constructive dialogue between superpowers is essential to underpin international stability and economic development.",
+      "zh_ex": "超級大國之間的建設性對話對於鞏固國際穩定與經濟發展至關重要。"
+    },
+    {
+      "word": "coexistence",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "harmony",
+        "peaceful living"
+      ],
+      "zh": "和平共處；共存",
+      "ipa_uk": "/ˌkəʊ.ɪɡˈzɪs.təns/",
+      "ipa_us": "/ˌkoʊ.ɪɡˈzɪs.təns/",
+      "en_ex": "Both administrations emphasized that peaceful coexistence remains the foundation of long-term global trade relationships.",
+      "zh_ex": "兩國政府均強調，和平共處仍是長期全球貿易關係的基石。"
+    },
+    {
+      "word": "heightened scrutiny",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "increased vigilance",
+        "closer examination"
+      ],
+      "zh": "高度審查；嚴密注視",
+      "ipa_uk": "/ˈhaɪ.tənd ˈskruː.tɪ.ni/",
+      "ipa_us": "/ˈhaɪ.tənd ˈskruː.t̬ən.i/",
+      "en_ex": "Advanced technology exports to overseas markets now face heightened scrutiny from defense and security committees.",
+      "zh_ex": "向海外市場出口先進技術目前面臨國防及安全委員會的高度審查。"
+    },
+    {
+      "word": "alleged",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "purported",
+        "supposed"
+      ],
+      "zh": "涉嫌的；聲稱的",
+      "ipa_uk": "/əˈledʒd/",
+      "ipa_us": "/əˈledʒd/",
+      "en_ex": "Lawmakers raised concerns after intelligence agencies uncovered alleged corporate ties to foreign military networks.",
+      "zh_ex": "在情報部門揭露涉嫌與外國軍事網絡有關的企業關聯後，議員們表達了關切。"
+    },
+    {
+      "word": "trading debut",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "market premiere",
+        "first public session"
+      ],
+      "zh": "首日掛牌交易",
+      "ipa_uk": "/ˈtreɪ.dɪŋ ˈdeɪ.bjuː/",
+      "ipa_us": "/ˈtreɪ.dɪŋ deɪˈbjuː/",
+      "en_ex": "The technology unicorn enjoyed a triumphant trading debut on Wall Street, surging over seventeen percent.",
+      "zh_ex": "這家科技獨角獸在華爾街迎來首日交易開門紅，大漲逾百分之十七。"
+    },
+    {
+      "word": "haul",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "proceeds",
+        "windfall"
+      ],
+      "zh": "籌得款項；大筆收益",
+      "ipa_uk": "/hɔːl/",
+      "ipa_us": "/hɑːl/",
+      "en_ex": "The private placement yielded an impressive financial haul that exceeded initial expectations of market analysts.",
+      "zh_ex": "該私募發行獲得了令人矚目的籌款收益，超出了市場分析師最初的預期。"
+    },
+    {
+      "word": "vested stock",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 5,
+      "band": "7.5",
+      "synonyms": [
+        "earned shares",
+        "entitled equity"
+      ],
+      "zh": "既得股權；已成熟股票",
+      "ipa_uk": "/ˈves.tɪd stɒk/",
+      "ipa_us": "/ˈves.tɪd stɑːk/",
+      "en_ex": "Employees who cashed in their vested stock following the public listing turned into millionaires overnight.",
+      "zh_ex": "上市後兌現既得股權的員工們在一夜之間晉身百萬富翁。"
+    },
+    {
+      "word": "dominance",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "supremacy",
+        "preponderance"
+      ],
+      "zh": "支配地位；主導優勢",
+      "ipa_uk": "/ˈdɒm.ɪ.nəns/",
+      "ipa_us": "/ˈdɑː.mə.nəns/",
+      "en_ex": "Rival artificial intelligence firms are locked in an intensive struggle for global technological dominance.",
+      "zh_ex": "相互競爭的人工智能企業正陷入一場爭奪全球技術主導地位的激烈競賽。"
+    },
+    {
+      "word": "outpace",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 3,
+      "band": "7.5",
+      "synonyms": [
+        "outstrip",
+        "surpass"
+      ],
+      "zh": "超過；跑得比…快",
+      "ipa_uk": "/ˌaʊtˈpeɪs/",
+      "ipa_us": "/ˌaʊtˈpeɪs/",
+      "en_ex": "Critics fear that rapid computational advances could quickly outpace humanity's capacity to regulate safety risks.",
+      "zh_ex": "批評人士擔心，計算能力的飛速進步可能會迅速超過人類防範安全風險的能力。"
+    },
+    {
+      "word": "harness",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "utilize",
+        "exploit"
+      ],
+      "zh": "控制並利用；駕馭",
+      "ipa_uk": "/ˈhɑː.nəs/",
+      "ipa_us": "/ˈhɑːr.nəs/",
+      "en_ex": "Governments must collaborate effectively to harness breakthrough technologies for the ultimate benefit of society.",
+      "zh_ex": "各國政府必須有效合作，以駕馭突破性技術，造福全社會。"
+    },
+    {
+      "word": "backlash",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "counter-reaction",
+        "repercussion"
+      ],
+      "zh": "強烈抵制；反彈",
+      "ipa_uk": "/ˈbæk.læʃ/",
+      "ipa_us": "/ˈbæk.læʃ/",
+      "en_ex": "Tech conglomerates are confronting a severe public backlash over massive energy consumption in data centres.",
+      "zh_ex": "大型科技企業正因數據中心的龐大能耗而面臨公眾的強烈抵制。"
+    },
+    {
+      "word": "bend to pressure",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "succumb to demands",
+        "yield to influence"
+      ],
+      "zh": "屈服於壓力",
+      "ipa_uk": "/bend tə ˈpreʃ.ər/",
+      "ipa_us": "/bend tə ˈpreʃ.ɚ/",
+      "en_ex": "The chief executive insisted that his organization would never bend to commercial or political pressure.",
+      "zh_ex": "該執行長堅稱其機構絕不會屈服於商業或政治壓力。"
+    },
+    {
+      "word": "race to the top",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 11,
+      "band": "8.0",
+      "synonyms": [
+        "pursuit of excellence",
+        "upward competition"
+      ],
+      "zh": "向上競賽；良性競爭",
+      "ipa_uk": "/reɪs tə ðə tɒp/",
+      "ipa_us": "/reɪs tə ðə tɑːp/",
+      "en_ex": "Industry leaders advocate a constructive race to the top by establishing higher ethical benchmarks for AI safety.",
+      "zh_ex": "行業領袖倡導透過樹立更高的人工智能安全倫理標竿，推動良性的向上競賽。"
+    },
+    {
+      "word": "advent",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 3,
+      "band": "7.5",
+      "synonyms": [
+        "arrival",
+        "emergence"
+      ],
+      "zh": "來臨；問世",
+      "ipa_uk": "/ˈæd.vent/",
+      "ipa_us": "/ˈæd.vent/",
+      "en_ex": "The advent of machine intelligence has presented civilization with unprecedented philosophical and economic dilemmas.",
+      "zh_ex": "機器智能的問世為人類文明帶來了前所未有的哲學與經濟困境。"
+    },
+    {
+      "word": "seminal",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 20,
+      "band": "8.0",
+      "synonyms": [
+        "groundbreaking",
+        "influential"
+      ],
+      "zh": "具有重大開創性的；影響深遠的",
+      "ipa_uk": "/ˈsem.ɪ.nəl/",
+      "ipa_us": "/ˈsem.ə.nəl/",
+      "en_ex": "Pioneering researchers described this AI breakthrough as a seminal moment in contemporary human history.",
+      "zh_ex": "開拓性研究人員將這一AI突破描述為當代人類歷史上具有深遠影響的開創性時刻。"
+    },
+    {
+      "word": "over their heads",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "without their consultation",
+        "bypassing them"
+      ],
+      "zh": "越過他們（私自決策）；不徵求當事人意見",
+      "ipa_uk": "/ˈəʊ.və ðeər hedz/",
+      "ipa_us": "/ˈoʊ.vɚ ðer hedz/",
+      "en_ex": "Allied ministers warned Washington against negotiating a binding international settlement over their heads.",
+      "zh_ex": "盟國部長警告華盛頓當局不要越過他們私下談判具有約束力的國際協議。"
+    },
+    {
+      "word": "coalition of the willing",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "alliance of partners",
+        "voluntary confederation"
+      ],
+      "zh": "自願同盟；意願聯盟",
+      "ipa_uk": "/ˌkəʊ.əˈlɪʃ.ən əv ðə ˈwɪl.ɪŋ/",
+      "ipa_us": "/ˌkoʊ.əˈlɪʃ.ən əv ðə ˈwɪl.ɪŋ/",
+      "en_ex": "European powers formed a coalition of the willing to ensure continuous financial and military aid.",
+      "zh_ex": "歐洲大國組成了意願聯盟，以確保持續的財政和軍事援助。"
+    },
+    {
+      "word": "outlast",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "survive longer than",
+        "endure beyond"
+      ],
+      "zh": "比…持久；熬過",
+      "ipa_uk": "/ˌaʊtˈlɑːst/",
+      "ipa_us": "/ˌaʊtˈlæst/",
+      "en_ex": "Western leaders declared that aggressive adversaries could never outlast the united determination of their democratic alliance.",
+      "zh_ex": "西方領導人宣稱，侵略性對手永遠不可能熬過民主聯盟的團結決心。"
+    },
+    {
+      "word": "steadfast",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "resolute",
+        "unwavering"
+      ],
+      "zh": "堅定不移的；不動搖的",
+      "ipa_uk": "/ˈsted.fɑːst/",
+      "ipa_us": "/ˈsted.fæst/",
+      "en_ex": "Allied nations reaffirmed their steadfast commitment to supporting the rebuilding of war-torn regional infrastructure.",
+      "zh_ex": "盟國重申了他們對支持戰亂地區重建基礎設施的堅定承諾。"
+    },
+    {
+      "word": "diplomatic coup",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "8.0",
+      "synonyms": [
+        "diplomatic triumph",
+        "strategic masterstroke"
+      ],
+      "zh": "重大的外交斬獲；外交上的漂亮勝仗",
+      "ipa_uk": "/ˌdɪp.ləˈmæt.ɪk kuː/",
+      "ipa_us": "/ˌdɪp.ləˈmæt̬.ɪk kuː/",
+      "en_ex": "Securing bilateral recognition at the summit was widely hailed as an impressive diplomatic coup.",
+      "zh_ex": "在峰會上爭取到雙邊承認被廣泛譽為一次令人矚目的外交重大斬獲。"
+    },
+    {
+      "word": "multilateral",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "international",
+        "pluralistic"
+      ],
+      "zh": "多邊的；多國參與的",
+      "ipa_uk": "/ˌmʌl.tiˈlæt.ər.əl/",
+      "ipa_us": "/ˌmʌl.tiˈlæt̬.ɚ.əl/",
+      "en_ex": "The envoy called for multilateral negotiations involving all key global stakeholders to guarantee regional stability.",
+      "zh_ex": "特使呼籲舉行涉及所有主要全球利益攸關方的多邊談判，以確保地區穩定。"
+    },
+    {
+      "word": "sustain",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "suffer",
+        "experience"
+      ],
+      "zh": "遭受（損壞或傷害）",
+      "ipa_uk": "/səˈsteɪn/",
+      "ipa_us": "/səˈsteɪn/",
+      "en_ex": "Several diplomatic compounds sustained minor structural damage during the drone attack yesterday morning.",
+      "zh_ex": "數座外交公館在昨晨的無人機襲擊中遭受了輕微結構性損壞。"
+    },
+    {
+      "word": "genocide",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "mass extermination",
+        "ethnic cleansing"
+      ],
+      "zh": "種族滅絕",
+      "ipa_uk": "/ˈdʒen.ə.saɪd/",
+      "ipa_us": "/ˈdʒen.ə.saɪd/",
+      "en_ex": "The United Nations International Court of Justice determined that the regime was legally culpable for genocide.",
+      "zh_ex": "聯合國國際法院裁定該政權在法律上犯有種族滅絕罪。"
+    },
+    {
+      "word": "heinous",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "atrocious",
+        "monstrous"
+      ],
+      "zh": "極端邪惡的；令人髮指的",
+      "ipa_uk": "/ˈheɪ.nəs/",
+      "ipa_us": "/ˈheɪ.nəs/",
+      "en_ex": "The rights commissioner condemned the massacre as one of the most heinous crimes committed against humankind.",
+      "zh_ex": "人權事務高級專員譴責該大屠殺是針對人類犯下的最令人髮指的罪行之一。"
+    },
+    {
+      "word": "impunity",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "exemption from punishment",
+        "immunity"
+      ],
+      "zh": "免受懲處；不受法律制裁",
+      "ipa_uk": "/ɪmˈpjuː.nə.ti/",
+      "ipa_us": "/ɪmˈpjuː.nə.t̬i/",
+      "en_ex": "Global legal bodies must coordinate their actions to bring an end to pervasive impunity for state actors.",
+      "zh_ex": "全球司法機構必須協調行動，以終結國家行為者普遍免受懲處的現象。"
+    },
+    {
+      "word": "remedy",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "redress",
+        "reparation"
+      ],
+      "zh": "補救措施；法律救濟",
+      "ipa_uk": "/ˈrem.ə.di/",
+      "ipa_us": "/ˈrem.ə.di/",
+      "en_ex": "Judges ordered the administration to implement comprehensive legal remedies for displaced minority families immediately.",
+      "zh_ex": "法官命令當局立即為流離失所的少數族裔家庭實施全面的法律救濟。"
+    },
+    {
+      "word": "hold to account",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "make answerable",
+        "hold responsible"
+      ],
+      "zh": "追究責任；問責",
+      "ipa_uk": "/həʊld tə əˈkaʊnt/",
+      "ipa_us": "/hoʊld tə əˈkaʊnt/",
+      "en_ex": "International courts sent a stern reminder that military commanders will eventually be held to account.",
+      "zh_ex": "國際法庭發出嚴正警示，軍事指揮官終將會被追究責任。"
+    },
+    {
+      "word": "dishonest access to a computer",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "fraudulent system access",
+        "unlawful computer usage"
+      ],
+      "zh": "不誠實取用電腦罪",
+      "ipa_uk": "/dɪsˈɒn.ɪst ˈæk.ses tə ə kəmˈpjuː.tər/",
+      "ipa_us": "/dɪsˈɑː.nɪst ˈæk.ses tə ə kəmˈpjuː.t̬ɚ/",
+      "en_ex": "The private doctor was formally convicted of dishonest access to a computer during public health operations.",
+      "zh_ex": "該私人醫生在公共衛生行動期間因不誠實取用電腦罪被正式定罪。"
+    },
+    {
+      "word": "money laundering",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "illicit fund processing",
+        "financial concealment"
+      ],
+      "zh": "洗黑錢；洗錢",
+      "ipa_uk": "/ˈmʌn.i ˌlɔːn.drɪŋ/",
+      "ipa_us": "/ˈmʌn.i ˌlɑːn.dɚ.ɪŋ/",
+      "en_ex": "Prosecutors proved that millions of illicit dollars passed through foreign bank accounts in an extensive money laundering scheme.",
+      "zh_ex": "檢控官證明數百萬非法資金透過外國銀行帳戶流轉，構成龐大的洗黑錢計劃。"
+    },
+    {
+      "word": "life imprisonment",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "life sentence",
+        "perpetual confinement"
+      ],
+      "zh": "終身監禁；無期徒刑",
+      "ipa_uk": "/ˌlaɪf ɪmˈprɪz.ən.mənt/",
+      "ipa_us": "/ˌlaɪf ɪmˈprɪz.ən.mənt/",
+      "en_ex": "The High Court sentenced the convicted murderer to mandatory life imprisonment after a unanimous jury verdict.",
+      "zh_ex": "陪審團一致裁決謀殺罪成後，高等法院判處該名犯人終身監禁。"
+    },
+    {
+      "word": "unanimously",
+      "type": "word",
+      "pos": "adv.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "concurrently",
+        "without dissent"
+      ],
+      "zh": "全體一致地；毫無異議地",
+      "ipa_uk": "/juːˈnæn.ɪ.məs.li/",
+      "ipa_us": "/juːˈnæn.ə.məs.li/",
+      "en_ex": "The seven-member jury voted unanimously to convict the accused of pre-meditated homicide.",
+      "zh_ex": "七人陪審團一致投票裁定被告預謀殺人罪名成立。"
+    },
+    {
+      "word": "mitigation letter",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "plea in mitigation",
+        "clemency appeal"
+      ],
+      "zh": "求情信",
+      "ipa_uk": "/ˌmɪt.ɪˈɡeɪ.ʃən ˈlet.ər/",
+      "ipa_us": "/ˌmɪt̬.əˈɡeɪ.ʃən ˈlet̬.ɚ/",
+      "en_ex": "Defence lawyers presented an emotional mitigation letter asking the presiding magistrate to consider rehabilitation potential.",
+      "zh_ex": "辯方律師呈交了一封真情實感的求情信，請求主審法官考慮其改過自新的可能。"
+    },
+    {
+      "word": "testimony",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "deposition",
+        "evidence under oath"
+      ],
+      "zh": "證詞；口供",
+      "ipa_uk": "/ˈtes.tɪ.mə.ni/",
+      "ipa_us": "/ˈtes.tə.moʊ.ni/",
+      "en_ex": "The key witness resumed giving testimony in court after rigorous questioning by senior prosecuting counsel.",
+      "zh_ex": "主要證人在接受高級檢控官的嚴格盤問後，在法庭上繼續出庭作證。"
+    },
+    {
+      "word": "point a finger towards",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "cast blame on",
+        "implicate"
+      ],
+      "zh": "指責；把矛頭指向…",
+      "ipa_uk": "/pɔɪnt ə ˈfɪŋ.ɡər təˈwɔːdz/",
+      "ipa_us": "/pɔɪnt ə ˈfɪŋ.ɡɚ tɔːrdz/",
+      "en_ex": "During his cross-examination, the defendant pointed a finger towards his co-accused to disclaim direct responsibility.",
+      "zh_ex": "在接受盤問時，被告將矛頭指向共同被告，以推卸直接責任。"
+    }
+  ]
+}
