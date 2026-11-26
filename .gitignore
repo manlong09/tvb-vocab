@@ -2,3 +2,5 @@
 run_daily.bat
 update_log.txt
 __pycache__/
+backfill_7days.py
+*.bak

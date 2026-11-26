@@ -417,18 +417,21 @@ async function tryLoadExternalData() {
     if (!res.ok) return;
     const indexList = await res.json();
     if (Array.isArray(indexList) && indexList.length > 0) {
-      for (const entry of indexList) {
-        const d = typeof entry === 'string' ? entry : entry.date;
-        if (d && !state.db[d]) {
-          try {
-            const dayRes = await fetch(`data/${d}.json`, { cache: 'no-store' });
-            if (dayRes.ok) {
-              const dayData = await dayRes.json();
-              state.db[d] = dayData;
-            }
-          } catch (_) {}
+      // 以 data/ 內的真實資料為準，完全取代內置示範資料（示範資料只在無法載入 data/ 時使用）
+      const dates = indexList
+        .map(entry => (typeof entry === 'string' ? entry : entry?.date))
+        .filter(Boolean);
+      const results = await Promise.all(dates.map(async d => {
+        try {
+          const dayRes = await fetch(`data/${d}.json`, { cache: 'no-store' });
+          return dayRes.ok ? [d, await dayRes.json()] : null;
+        } catch (_) {
+          return null;
         }
-      }
+      }));
+      const realDb = Object.fromEntries(results.filter(Boolean));
+      if (Object.keys(realDb).length === 0) return;
+      state.db = realDb;
       state.availableDates = Object.keys(state.db).sort().reverse();
       state.selectedDate = state.availableDates[0];
       state.calendarMonth = state.selectedDate.slice(0, 7);
