@@ -1,0 +1,817 @@
+{
+  "date": "2026-11-21",
+  "video_id": "3dC8y_HJ0Ck",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "黃埔苑大火承包商董事遭消防處正式檢控 (FSD prosecutes director of Whampoa Court contractor)",
+    "羅淑佩對訪港旅客增長達標表示信心 (Rosanna Law expresses confidence in achieving tourism growth target)",
+    "特朗普稱美中俄深圳三方峰會具劃時代意義 (Trump hails trilateral meeting with Xi and Putin as momentous)",
+    "英歐簽署後脫歐時代貿易與碳排放歷史性協議 (UK and EU ink ambitious post-Brexit deal on trade and emissions)",
+    "疑似俄羅斯導彈及無人機侵入波蘭領空引發警惕 (Suspected Russian missiles and drone breach Polish airspace during drill)",
+    "聯合國氣候大會在土耳其閉幕惟缺乏減碳具體協議 (COP31 climate summit concludes in Turkey without concrete fossil fuel deal)",
+    "辛辛那提動物園明星河馬菲奧娜誤吞毛帽病逝 (Beloved hippo Fiona dies at Cincinnati Zoo after swallowing cap)",
+    "中環著名大牌檔牌照擬破例允許家屬繼承 (Authorities consider allowing family to inherit Central Dai Pai Dong license)"
+  ],
+  "items": [
+    {
+      "word": "prosecute",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "6.5",
+      "synonyms": [
+        "indict",
+        "sue"
+      ],
+      "zh": "起訴；檢控",
+      "ipa_uk": "/ˈprɒs.ɪ.kjuːt/",
+      "ipa_us": "/ˈprɑː.sə.kjuːt/",
+      "en_ex": "Authorities decided to prosecute the contractor for severe violations of fire safety regulations.",
+      "zh_ex": "當局決定就嚴重違反消防安全規例起訴該工程承包商。"
+    },
+    {
+      "word": "aid and abet",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "assist in",
+        "complicity"
+      ],
+      "zh": "教唆並協助；夥同作案",
+      "ipa_uk": "/ˌeɪd ənd əˈbet/",
+      "ipa_us": "/ˌeɪd ənd əˈbet/",
+      "en_ex": "The executive was accused of aiding and abetting the firm to issue fraudulent safety certificates.",
+      "zh_ex": "該主管被指控協助並教唆公司出具虛假安全證明書。"
+    },
+    {
+      "word": "bogus",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "counterfeit",
+        "fraudulent"
+      ],
+      "zh": "假冒的；偽造的",
+      "ipa_uk": "/ˈbəʊ.ɡəs/",
+      "ipa_us": "/ˈboʊ.ɡəs/",
+      "en_ex": "The building was shut down after inspectors uncovered several bogus compliance documents.",
+      "zh_ex": "在督察人員發現數份偽造的合規文件後，該大廈被下令封閉。"
+    },
+    {
+      "word": "implausible",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "unconvincing",
+        "far-fetched"
+      ],
+      "zh": "難以置信的；不合情理的",
+      "ipa_uk": "/ɪmˈplɔː.zə.bəl/",
+      "ipa_us": "/ɪmˈplɑː.zə.bəl/",
+      "en_ex": "The inquiry committee dismissed his explanation regarding the disabled alarms as entirely implausible.",
+      "zh_ex": "調查委員會駁回了他關於警報系統被關閉的解釋，認為完全不合情理。"
+    },
+    {
+      "word": "dereliction of duty",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "gross negligence",
+        "abandonment of duty"
+      ],
+      "zh": "玩忽職守；失職",
+      "ipa_uk": "/ˌder.əˈlɪk.ʃən əv ˈdjuː.ti/",
+      "ipa_us": "/ˌder.əˈlɪk.ʃən əv ˈduː.t̬i/",
+      "en_ex": "The inquiry board severely reprimanded the contractor for a serious dereliction of duty.",
+      "zh_ex": "調查委員會對承包商嚴重玩忽職守的行為予以嚴厲譴責。"
+    },
+    {
+      "word": "initiate prosecution",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "file charges",
+        "bring legal action"
+      ],
+      "zh": "提起檢控；啟動司法程序",
+      "ipa_uk": "/ɪˈnɪʃ.i.eɪt ˌprɒs.ɪˈkjuː.ʃən/",
+      "ipa_us": "/ɪˈnɪʃ.i.eɪt ˌprɑː.səˈkjuː.ʃən/",
+      "en_ex": "The department confirmed it would initiate prosecution against the company after the fatal blaze.",
+      "zh_ex": "該部門證實將在致命大火後對該公司正式提起檢控。"
+    },
+    {
+      "word": "year-on-year",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "annual",
+        "compared with previous year"
+      ],
+      "zh": "按年計算的；與去年同期相比的",
+      "ipa_uk": "/ˌjɪər.ɒnˈjɪər/",
+      "ipa_us": "/ˌjɪr.ɑːnˈjɪr/",
+      "en_ex": "The retail market recorded an eight percent year-on-year increase in overall domestic consumer spending.",
+      "zh_ex": "零售市場錄得整體本地消費支出按年增長百分之八。"
+    },
+    {
+      "word": "occupancy rate",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "capacity utilization",
+        "booking rate"
+      ],
+      "zh": "入住率；佔用率",
+      "ipa_uk": "/ˈɒk.jə.pən.si reɪt/",
+      "ipa_us": "/ˈɑː.kjə.pən.si reɪt/",
+      "en_ex": "Local hotel managers noted their average occupancy rate surpassed ninety percent during the summit.",
+      "zh_ex": "本地酒店經理指出，峰會期間平均入住率超過了百分之九十。"
+    },
+    {
+      "word": "laud",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 8,
+      "band": "7.5",
+      "synonyms": [
+        "praise",
+        "extol"
+      ],
+      "zh": "盛讚；稱讚",
+      "ipa_uk": "/lɔːd/",
+      "ipa_us": "/lɑːd/",
+      "en_ex": "State media published an editorial lauding the diplomatic breakthroughs achieved during the talks.",
+      "zh_ex": "官方媒體發表社論，盛讚會談期間取得的外交突破。"
+    },
+    {
+      "word": "paradigm shift",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "8.0",
+      "synonyms": [
+        "fundamental change",
+        "transformation"
+      ],
+      "zh": "範式轉移；根本性變革",
+      "ipa_uk": "/ˈpær.ə.daɪm ʃɪft/",
+      "ipa_us": "/ˈper.ə.daɪm ʃɪft/",
+      "en_ex": "The summit represents a major paradigm shift in how global superpowers manage their relations.",
+      "zh_ex": "該峰會代表了全球大國處理彼此關係方式的根本性轉變。"
+    },
+    {
+      "word": "coexistence",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "concord",
+        "harmony"
+      ],
+      "zh": "共處；共存",
+      "ipa_uk": "/ˌkəʊ.ɪɡˈzɪs.təns/",
+      "ipa_us": "/ˌkoʊ.ɪɡˈzɪs.təns/",
+      "en_ex": "Both leaders reaffirmed their commitment to the core principles of peaceful coexistence.",
+      "zh_ex": "兩國領導人重申了對和平共處核心原則的承諾。"
+    },
+    {
+      "word": "escalation",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "intensification",
+        "expansion"
+      ],
+      "zh": "升級；擴大化",
+      "ipa_uk": "/ˌes.kəˈleɪ.ʃən/",
+      "ipa_us": "/ˌes.kəˈleɪ.ʃən/",
+      "en_ex": "Effective crisis communication mechanisms are essential to prevent any inadvertent military escalation.",
+      "zh_ex": "有效的危機溝通機制對於防止任何意外的軍事衝突升級至關重要。"
+    },
+    {
+      "word": "consecutive",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "successive",
+        "sequential"
+      ],
+      "zh": "連續的；連貫的",
+      "ipa_uk": "/kənˈsek.jə.tɪv/",
+      "ipa_us": "/kənˈsek.jə.t̬ɪv/",
+      "en_ex": "The former president asserted that completing two consecutive terms would have guaranteed international stability.",
+      "zh_ex": "這位前總統堅稱，連任兩屆本可確保國際局勢的穩定。"
+    },
+    {
+      "word": "on the sidelines of",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "on the margin of",
+        "parallel to"
+      ],
+      "zh": "在……間隙；在……場邊",
+      "ipa_uk": "/ɒn ðə ˈsaɪd.laɪnz əv/",
+      "ipa_us": "/ɑːn ðə ˈsaɪd.laɪnz əv/",
+      "en_ex": "The leaders held bilateral discussions on the sidelines of the international trade conference.",
+      "zh_ex": "各國領導人在國際貿易會議間隙舉行了雙邊會談。"
+    },
+    {
+      "word": "momentous",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "historic",
+        "consequential"
+      ],
+      "zh": "舉足輕重的；重大的",
+      "ipa_uk": "/məˈmen.təs/",
+      "ipa_us": "/moʊˈmen.t̬əs/",
+      "en_ex": "The signing of the security pact was hailed as a momentous achievement by diplomats.",
+      "zh_ex": "該安全條約的簽署被外交官們譽為一項重大成就。"
+    },
+    {
+      "word": "make inroads into",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "penetrate",
+        "make progress in"
+      ],
+      "zh": "取得實質進展；打入",
+      "ipa_uk": "/meɪk ˈɪn.rəʊdz ˈɪn.tuː/",
+      "ipa_us": "/meɪk ˈɪn.roʊdz ˈɪn.tuː/",
+      "en_ex": "The delegation managed to make incredible inroads into resolving long-standing trade disagreements.",
+      "zh_ex": "代表團在解決長期存在的貿易分歧方面取得了令人矚目的實質進展。"
+    },
+    {
+      "word": "bilateral",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "6.5",
+      "synonyms": [
+        "two-sided",
+        "mutual"
+      ],
+      "zh": "雙邊的；兩國的",
+      "ipa_uk": "/ˌbaɪˈlæt.ər.əl/",
+      "ipa_us": "/ˌbaɪˈlæt̬.ɚ.əl/",
+      "en_ex": "Both countries agreed to hold bilateral negotiations to de-escalate simmering border tensions.",
+      "zh_ex": "兩國同意舉行雙邊談判，以緩解一觸即發的邊界緊張局勢。"
+    },
+    {
+      "word": "disembark",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "alight",
+        "exit"
+      ],
+      "zh": "走下（飛機、船隻）；離機",
+      "ipa_uk": "/ˌdɪs.ɪmˈbɑːk/",
+      "ipa_us": "/ˌdɪs.ɪmˈbɑːrk/",
+      "en_ex": "All passengers safely disembarked the aircraft via emergency slides after smoke filled the cabin.",
+      "zh_ex": "機艙冒煙後，所有乘客均通過充氣滑梯安全撤離飛機。"
+    },
+    {
+      "word": "divert",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 7,
+      "band": "6.5",
+      "synonyms": [
+        "reroute",
+        "redirect"
+      ],
+      "zh": "改變航線；使轉向",
+      "ipa_uk": "/daɪˈvɜːt/",
+      "ipa_us": "/daɪˈvɝːt/",
+      "en_ex": "Pilots decided to divert the passenger jet to the nearest international airport for an emergency landing.",
+      "zh_ex": "機師決定將客機轉飛至最近的國際機場緊急迫降。"
+    },
+    {
+      "word": "ink a deal",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "sign a pact",
+        "seal an agreement"
+      ],
+      "zh": "簽署協議",
+      "ipa_uk": "/ɪŋk ə diːl/",
+      "ipa_us": "/ɪŋk ə diːl/",
+      "en_ex": "Negotiators finally managed to ink an ambitious deal covering cross-border environmental regulations.",
+      "zh_ex": "談判代表最終成功簽署了一項涵蓋跨境環保法規的雄心勃勃的協議。"
+    },
+    {
+      "word": "turning point",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "6.5",
+      "synonyms": [
+        "milestone",
+        "watershed"
+      ],
+      "zh": "轉捩點；轉折關頭",
+      "ipa_uk": "/ˈtɜː.nɪŋ pɔɪnt/",
+      "ipa_us": "/ˈtɝː.nɪŋ pɔɪnt/",
+      "en_ex": "Diplomats hailed the post-Brexit treaty as an unprecedented turning point in European integration.",
+      "zh_ex": "外交官們稱讚該後脫歐條約是歐洲一體化進程中前所未有的轉捩點。"
+    },
+    {
+      "word": "scrap",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "abolish",
+        "eliminate"
+      ],
+      "zh": "廢除；取消",
+      "ipa_uk": "/skræp/",
+      "ipa_us": "/skræp/",
+      "en_ex": "The new framework agreed to scrap cumbersome customs checks on key agricultural commodities.",
+      "zh_ex": "新框架同意取消對主要農產品繁瑣的海關檢查。"
+    },
+    {
+      "word": "status quo",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "existing state",
+        "current situation"
+      ],
+      "zh": "現狀",
+      "ipa_uk": "/ˌsteɪ.təs ˈkwəʊ/",
+      "ipa_us": "/ˌsteɪ.t̬əs ˈkwoʊ/",
+      "en_ex": "Voters felt that maintaining the status quo was unsustainable for long-term economic prosperity.",
+      "zh_ex": "選民認為維持現狀對長遠的經濟繁榮而言是難以為繼的。"
+    },
+    {
+      "word": "in tune with",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "aligned with",
+        "consistent with"
+      ],
+      "zh": "與……契合；符合",
+      "ipa_uk": "/ɪn tjuːn wɪð/",
+      "ipa_us": "/ɪn tuːn wɪð/",
+      "en_ex": "Ministers argued that the revised policy was completely in tune with domestic public sentiment.",
+      "zh_ex": "部長們辯稱，修訂後的政策完全符合國內公眾的普遍心聲。"
+    },
+    {
+      "word": "indivisibility",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "8.0",
+      "synonyms": [
+        "inseparability",
+        "unity"
+      ],
+      "zh": "不可分割性",
+      "ipa_uk": "/ˌɪn.dɪˌvɪz.əˈbɪl.ə.ti/",
+      "ipa_us": "/ˌɪn.dəˌvɪz.əˈbɪl.ə.t̬i/",
+      "en_ex": "The council reaffirmed the strict indivisibility of the single market's four core freedoms.",
+      "zh_ex": "理事會重申了單一市場四項核心自由嚴格的不可分割性。"
+    },
+    {
+      "word": "rejuvenate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "revitalize",
+        "renew"
+      ],
+      "zh": "使恢復活力；重煥生機",
+      "ipa_uk": "/rɪˈdʒuː.vən.eɪt/",
+      "ipa_us": "/rɪˈdʒuː.vən.eɪt/",
+      "en_ex": "Both leaders pledged to rejuvenate their diplomatic alliance through deeper economic collaboration.",
+      "zh_ex": "兩國領導人誓言通過深化經濟合作，使彼此的外交同盟重煥生機。"
+    },
+    {
+      "word": "airspace",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "6.5",
+      "synonyms": [
+        "sky territory",
+        "flight zone"
+      ],
+      "zh": "領空",
+      "ipa_uk": "/ˈeə.speɪs/",
+      "ipa_us": "/ˈer.speɪs/",
+      "en_ex": "Military radars intercepted an unidentified flying object violating the sovereign nation's airspace.",
+      "zh_ex": "軍方雷達攔截到一架侵犯該主權國家領空的不明飛行物。"
+    },
+    {
+      "word": "incursion",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "intrusion",
+        "invasion"
+      ],
+      "zh": "侵入；侵犯",
+      "ipa_uk": "/ɪnˈkɜː.ʃən/",
+      "ipa_us": "/ɪnˈkɝː.ʒən/",
+      "en_ex": "Security officials interpreted the aerial incursion as a deliberate provocation aimed at the alliance.",
+      "zh_ex": "安全官員將這次空中侵入解讀為針對該聯盟的蓄意挑釁。"
+    },
+    {
+      "word": "unprecedented",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "unequaled",
+        "groundbreaking"
+      ],
+      "zh": "前所未有的；空前的",
+      "ipa_uk": "/ʌnˈpres.ɪ.den.tɪd/",
+      "ipa_us": "/ʌnˈpres.ə.den.t̬ɪd/",
+      "en_ex": "Eleven partner nations participated in an unprecedented joint military drill along the eastern frontier.",
+      "zh_ex": "十一個夥伴國在東部邊界參加了一場前所未有的聯合軍事演習。"
+    },
+    {
+      "word": "judge someone on what they do, not on what they say",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "actions speak louder than words",
+        "deeds over words"
+      ],
+      "zh": "聽其言不如觀其行",
+      "ipa_uk": "/dʒʌdʒ ˈsʌm.wʌn ɒn wɒt ðeɪ duː nɒt ɒn wɒt ðeɪ seɪ/",
+      "ipa_us": "/dʒʌdʒ ˈsʌm.wʌn ɑːn wɑːt ðeɪ duː nɑːt ɑːn wɑːt ðeɪ seɪ/",
+      "en_ex": "Allies stressed that foreign adversaries must be judged on what they do, not on what they say.",
+      "zh_ex": "盟友們強調，評判外國對手必須是「聽其言不如觀其行」。"
+    },
+    {
+      "word": "wage war",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "conduct warfare",
+        "engage in combat"
+      ],
+      "zh": "發動戰爭",
+      "ipa_uk": "/weɪdʒ wɔːr/",
+      "ipa_us": "/weɪdʒ wɔːr/",
+      "en_ex": "No nation can preach about regional harmony while simultaneously waging war against its neighbor.",
+      "zh_ex": "沒有任何國家可以在對鄰國發動戰爭的同時宣揚地區和諧。"
+    },
+    {
+      "word": "security guarantee",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "defense assurance",
+        "protective commitment"
+      ],
+      "zh": "安全保證",
+      "ipa_uk": "/sɪˈkjʊə.rə.ti ˌɡær.ənˈtiː/",
+      "ipa_us": "/səˈkjʊr.ə.t̬i ˌɡer.ənˈtiː/",
+      "en_ex": "Envoys discussed whether binding security guarantees would deter future territorial aggression.",
+      "zh_ex": "特使們討論了具約束力的安全保證是否能遏制未來的領土侵略。"
+    },
+    {
+      "word": "plenary",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "general assembly",
+        "full session"
+      ],
+      "zh": "全體會議",
+      "ipa_uk": "/ˈpliː.nər.i/",
+      "ipa_us": "/ˈpliː.nɚ.i/",
+      "en_ex": "A demonstrator disrupted the environmental conference just as the final plenary was about to commence.",
+      "zh_ex": "正當最後一次全體大會即將開始時，一名示威者擾亂了這場環保會議。"
+    },
+    {
+      "word": "slash",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 2,
+      "band": "6.5",
+      "synonyms": [
+        "reduce drastically",
+        "curtail"
+      ],
+      "zh": "大幅削減；急遽減少",
+      "ipa_uk": "/slæʃ/",
+      "ipa_us": "/slæʃ/",
+      "en_ex": "Developing nations vowed to slash reliance on fossil fuels to meet long-term climate targets.",
+      "zh_ex": "發展中國家誓言大幅削減對化石燃料的依賴，以實現長遠氣候目標。"
+    },
+    {
+      "word": "fossil fuels",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 2,
+      "band": "6.5",
+      "synonyms": [
+        "hydrocarbons",
+        "non-renewable energy"
+      ],
+      "zh": "化石燃料",
+      "ipa_uk": "/ˈfɒs.əl ˌfjuː.əlz/",
+      "ipa_us": "/ˈfɑː.səl ˌfjuː.əlz/",
+      "en_ex": "Environmental scientists insist that phasing out fossil fuels is paramount to preventing ecological disaster.",
+      "zh_ex": "環境科學家堅稱，逐步淘汰化石燃料對於防止生態災難至關重要。"
+    },
+    {
+      "word": "avert",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 2,
+      "band": "7.5",
+      "synonyms": [
+        "prevent",
+        "stave off"
+      ],
+      "zh": "避免；防止",
+      "ipa_uk": "/əˈvɜːt/",
+      "ipa_us": "/əˈvɝːt/",
+      "en_ex": "Urgent intervention is urgently demanded to avert catastrophic droughts triggered by global warming.",
+      "zh_ex": "迫切需要進行緊急干預，以防止全球變暖引發的災難性乾旱。"
+    },
+    {
+      "word": "catastrophic",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "disastrous",
+        "calamitous"
+      ],
+      "zh": "災難性的；毀滅性的",
+      "ipa_uk": "/ˌkæt.əˈstrɒf.ɪk/",
+      "ipa_us": "/ˌkæt̬.əˈstrɑː.fɪk/",
+      "en_ex": "Failure to curb industrial carbon emissions could produce catastrophic consequences for marine ecosystems.",
+      "zh_ex": "未能遏制工業碳排放可能會對海洋生態系統造成災難性後果。"
+    },
+    {
+      "word": "mourner",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 13,
+      "band": "7.0",
+      "synonyms": [
+        "bereaved",
+        "griever"
+      ],
+      "zh": "哀悼者；悼念者",
+      "ipa_uk": "/ˈmɔː.nər/",
+      "ipa_us": "/ˈmɔːr.nɚ/",
+      "en_ex": "Dozens of mourners gathered outside the enclosure to lay flowers and remember the beloved animal.",
+      "zh_ex": "數十名哀悼者聚集在獸欄外獻花，緬懷這隻深受喜愛的動物。"
+    },
+    {
+      "word": "viable",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 20,
+      "band": "7.0",
+      "synonyms": [
+        "feasible",
+        "workable"
+      ],
+      "zh": "切實可行的；有望成功的",
+      "ipa_uk": "/ˈvaɪ.ə.bəl/",
+      "ipa_us": "/ˈvaɪ.ə.bəl/",
+      "en_ex": "Veterinary surgeons concluded that undergoing major abdominal surgery was no longer medically viable.",
+      "zh_ex": "獸醫專家斷定，進行大型腹部手術在醫學上已不再切實可行。"
+    },
+    {
+      "word": "accommodate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 7,
+      "band": "6.5",
+      "synonyms": [
+        "facilitate",
+        "make room for"
+      ],
+      "zh": "配合；容納",
+      "ipa_uk": "/əˈkɒm.ə.deɪt/",
+      "ipa_us": "/əˈkɑː.mə.deɪt/",
+      "en_ex": "Train service will suspend operations two hours early to accommodate essential track extension works.",
+      "zh_ex": "列車服務將提前兩小時暫停營運，以配合關鍵的軌道延伸工程。"
+    },
+    {
+      "word": "inherit",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "6.5",
+      "synonyms": [
+        "succeed to",
+        "assume"
+      ],
+      "zh": "繼承；接替",
+      "ipa_uk": "/ɪnˈher.ɪt/",
+      "ipa_us": "/ɪnˈher.ɪt/",
+      "en_ex": "The council is reconsidering strict municipal policies to allow spouses to inherit operating hawker licenses.",
+      "zh_ex": "市政局正在重新審視嚴格法規，以允許配偶繼承熟食小販經營牌照。"
+    },
+    {
+      "word": "lapse",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "expire",
+        "become invalid"
+      ],
+      "zh": "失效；作廢",
+      "ipa_uk": "/læps/",
+      "ipa_us": "/læps/",
+      "en_ex": "Under current legislation, traditional vendor licenses automatically lapse when the registered holder passes away.",
+      "zh_ex": "根據現行法例，傳統小販牌照會在持有人過世時自動作廢失效。"
+    },
+    {
+      "word": "culinary heritage",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 9,
+      "band": "7.5",
+      "synonyms": [
+        "gastronomic legacy",
+        "food tradition"
+      ],
+      "zh": "飲食文化遺產",
+      "ipa_uk": "/ˈkʌl.ɪ.nər.i ˈher.ɪ.tɪdʒ/",
+      "ipa_us": "/ˈkʌl.ə.ner.i ˈher.ə.t̬ɪdʒ/",
+      "en_ex": "Lawmakers urged municipal departments to devise protective schemes to safeguard the city's unique culinary heritage.",
+      "zh_ex": "議員們敦促市政部門制定保護計劃，以捍衛這座城市獨特的飲食文化遺產。"
+    },
+    {
+      "word": "know-how",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "expertise",
+        "technical competence"
+      ],
+      "zh": "專業技能；實用技術",
+      "ipa_uk": "/ˈnəʊ.haʊ/",
+      "ipa_us": "/ˈnoʊ.haʊ/",
+      "en_ex": "The joint venture blends creative entertainment know-how with advanced artificial intelligence manufacturing capabilities.",
+      "zh_ex": "這家合資企業將創意娛樂專業技能與先進的人工智能製造實力融為一體。"
+    },
+    {
+      "word": "woo",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "entice",
+        "court"
+      ],
+      "zh": "爭取；吸引",
+      "ipa_uk": "/wuː/",
+      "ipa_us": "/wuː/",
+      "en_ex": "The government launched generous subsidy packages to woo high-profile international cultural and musical stars.",
+      "zh_ex": "政府推出了慷慨的補貼方案，以爭取國際知名文藝巨星前來表演。"
+    },
+    {
+      "word": "beckon",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "invite",
+        "signal"
+      ],
+      "zh": "召喚；預示",
+      "ipa_uk": "/ˈbek.ən/",
+      "ipa_us": "/ˈbek.ən/",
+      "en_ex": "A thriving innovation ecosystem beckons a pivotal role for the region in global entertainment.",
+      "zh_ex": "蓬勃發展的創新生態體系預示著該地區在全球娛樂業中將扮演舉足輕重的角色。"
+    },
+    {
+      "word": "revolutionize",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "transform",
+        "modernize"
+      ],
+      "zh": "徹底改革；顛覆",
+      "ipa_uk": "/ˌrev.əˈluː.ʃən.aɪz/",
+      "ipa_us": "/ˌrev.əˈluː.ʃən.aɪz/",
+      "en_ex": "Engineers and animators hope autonomous humanoid robots will revolutionize traditional stage performance styles.",
+      "zh_ex": "工程師和動畫設計師希望自主仿生機器人能徹底顛覆傳統的舞台表演模式。"
+    },
+    {
+      "word": "evoke",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 9,
+      "band": "7.0",
+      "synonyms": [
+        "elicit",
+        "conjure up"
+      ],
+      "zh": "喚起；激起",
+      "ipa_uk": "/ɪˈvəʊk/",
+      "ipa_us": "/ɪˈvoʊk/",
+      "en_ex": "Artistic performances must evoke deep emotional resonance among diverse audiences to attain true success.",
+      "zh_ex": "藝術表演必須在多元觀眾群體中喚起深層次的情感共鳴，方能取得真正的成功。"
+    },
+    {
+      "word": "diversify one's portfolio",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "expand range",
+        "broaden investments"
+      ],
+      "zh": "使業務或投資組合多元化",
+      "ipa_uk": "/daɪˈvɜː.sɪ.faɪ wʌnz ˌpɔːtˈfəʊ.li.əʊ/",
+      "ipa_us": "/daɪˈvɝː.sə.faɪ wʌnz ˌpɔːrtˈfoʊ.li.oʊ/",
+      "en_ex": "Leading media companies actively diversify their entertainment portfolios to safeguard against volatile market shifts.",
+      "zh_ex": "龍頭傳媒公司積極使其娛樂業務組合多元化，以抵禦動盪的市場變化。"
+    },
+    {
+      "word": "emotional highs and lows",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 13,
+      "band": "7.5",
+      "synonyms": [
+        "emotional fluctuations",
+        "ups and downs"
+      ],
+      "zh": "情感的起伏跌宕",
+      "ipa_uk": "/ɪˈməʊ.ʃən.əl haɪz ənd ləʊz/",
+      "ipa_us": "/ɪˈmoʊ.ʃən.əl haɪz ənd loʊz/",
+      "en_ex": "Advanced interactive technologies strive to simulate the complex emotional highs and lows of human experiences.",
+      "zh_ex": "先進的互動科技力求模擬出人類經歷中錯綜複雜的情感起伏跌宕。"
+    }
+  ]
+}

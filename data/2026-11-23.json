@@ -1,0 +1,817 @@
+{
+  "date": "2026-11-23",
+  "video_id": "EfQwVGSq1Yw",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "兩電料調高明年電費並向基層提供補貼 (Power utilities set to raise 2027 electricity tariffs amid subsidies for underprivileged)",
+    "執法部門瓦解涉及樓宇維修工程的圍標集團 (Joint task force busts major bid-rigging syndicate in building maintenance)",
+    "國際刑警大會下週在港舉行實施特別交通及禁飛安排 (Stringent traffic curbs and citywide no-fly zone imposed for Interpol General Assembly)",
+    "輝達晶片涉外洩案續受美方審視及各界關注 (Nvidia faces scrutiny over executive conduct and chip sales compliance)",
+    "達美航空航機重力計算系統故障致千班航班延誤 (Delta flights delayed following weight calculation system outage)",
+    "聯合國氣候大會未達核心協議引發各界失望 (COP climate talks conclude without overarching deal on fossil fuels)",
+    "蔡天鳳碎屍案被告繼續作供披露關係爭議 (Abby Choi murder trial continues as ex-husband Alex Kwong testifies)",
+    "神舟二十四號將迎巴基斯坦太空人載人合作創新猷 (Shenzhou 24 mission to make history with Pakistan's first astronaut)"
+  ],
+  "items": [
+    {
+      "word": "tariff",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 18,
+      "band": "7.0",
+      "synonyms": [
+        "charge",
+        "rate"
+      ],
+      "zh": "價目表；收費標準",
+      "ipa_uk": "/ˈtær.ɪf/",
+      "ipa_us": "/ˈter.ɪf/",
+      "en_ex": "Power companies announced upcoming electricity tariff adjustments to reflect fluctuating generation costs.",
+      "zh_ex": "電力公司公布了即將進行的電費調整，以反映波動作響的發電成本。"
+    },
+    {
+      "word": "hike",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "increase",
+        "rise"
+      ],
+      "zh": "大幅調升；上漲",
+      "ipa_uk": "/haɪk/",
+      "ipa_us": "/haɪk/",
+      "en_ex": "Economists predict there will likely be another sharp tariff hike by utility suppliers.",
+      "zh_ex": "經濟學家預測公用事業供應商很可能會再次大幅調高收費。"
+    },
+    {
+      "word": "year-on-year",
+      "type": "phrase",
+      "pos": "adv.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "annually",
+        "interannually"
+      ],
+      "zh": "按年；與去年同期相比",
+      "ipa_uk": "/ˌjɪər.ɒnˈjɪər/",
+      "ipa_us": "/ˌjɪr.ɑːnˈjɪr/",
+      "en_ex": "Basic electricity rates dropped slightly year-on-year before recent geopolitical tensions escalated.",
+      "zh_ex": "在近期地緣政治緊張局勢升溫前，基本電費與去年同期相比略有下降。"
+    },
+    {
+      "word": "factor in",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "take into account",
+        "consider"
+      ],
+      "zh": "將……納入考量；計入",
+      "ipa_uk": "/ˈfæk.tər ɪn/",
+      "ipa_us": "/ˈfæk.tɚ ɪn/",
+      "en_ex": "When factoring in fuel costs, power suppliers experienced a dramatic rise in expenditure.",
+      "zh_ex": "若將燃料成本計入在內，供電機構的開支出現了顯著上升。"
+    },
+    {
+      "word": "blockade",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "obstruct",
+        "barricade"
+      ],
+      "zh": "封鎖；堵塞",
+      "ipa_uk": "/blɒkˈeɪd/",
+      "ipa_us": "/blɑːˈkeɪd/",
+      "en_ex": "Vital commercial waterways being blockaded disrupted international maritime trade and raised shipping tariffs.",
+      "zh_ex": "關鍵商業航道遭封鎖打亂了國際海運貿易，並推高了運輸費用。"
+    },
+    {
+      "word": "transparent",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "open",
+        "accountable"
+      ],
+      "zh": "透明的；公開的",
+      "ipa_uk": "/trænˈspær.ənt/",
+      "ipa_us": "/trænˈsper.ənt/",
+      "en_ex": "Lawmakers demanded that private utilities become more transparent regarding their operational accounting methods.",
+      "zh_ex": "議員們要求私營公用事業公司對其營運核算方式更加公開透明。"
+    },
+    {
+      "word": "alleviate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "ease",
+        "mitigate"
+      ],
+      "zh": "減輕；緩和",
+      "ipa_uk": "/əˈliː.vi.eɪt/",
+      "ipa_us": "/əˈliː.vi.eɪt/",
+      "en_ex": "Targeted government subsidies are urgently needed to alleviate the financial burden on vulnerable families.",
+      "zh_ex": "急需具針對性的政府補貼，以減輕弱勢家庭的財務負擔。"
+    },
+    {
+      "word": "allocate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "apportion",
+        "distribute"
+      ],
+      "zh": "分派；撥出（資金）",
+      "ipa_uk": "/ˈæl.ə.keɪt/",
+      "ipa_us": "/ˈæl.ə.keɪt/",
+      "en_ex": "The enterprise promised to allocate millions of dollars to assist low-income tenants.",
+      "zh_ex": "該企業承諾撥出數百萬元以資助低收入租戶。"
+    },
+    {
+      "word": "grassroots",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "community-level",
+        "ordinary"
+      ],
+      "zh": "基層的；民間的",
+      "ipa_uk": "/ˈɡrɑːs.ruːts/",
+      "ipa_us": "/ˈɡræs.ruːts/",
+      "en_ex": "Financial assistance packages are designed specifically to support impoverished grassroots households.",
+      "zh_ex": "財政援助方案專為支援貧困基層家庭而設計。"
+    },
+    {
+      "word": "bid rigging",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "collusive tendering",
+        "price-fixing"
+      ],
+      "zh": "圍標；串通投標",
+      "ipa_uk": "/ˈbɪd ˌrɪɡ.ɪŋ/",
+      "ipa_us": "/ˈbɪd ˌrɪɡ.ɪŋ/",
+      "en_ex": "Law enforcers cracked down on illegal bid rigging in residential maintenance projects.",
+      "zh_ex": "執法人員嚴厲打擊住宅維修工程中的非法圍標行為。"
+    },
+    {
+      "word": "syndicate",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "cartel",
+        "gang"
+      ],
+      "zh": "犯罪集團；同盟",
+      "ipa_uk": "/ˈsɪn.dɪ.kət/",
+      "ipa_us": "/ˈsɪn.də.kət/",
+      "en_ex": "Police neutralized a criminal syndicate that manipulated municipal housing refurbishment contracts.",
+      "zh_ex": "警方瓦解了一個操縱市區樓宇翻新合約的犯罪集團。"
+    },
+    {
+      "word": "dismantle",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "break up",
+        "demolish"
+      ],
+      "zh": "拆除；瓦解（組織）",
+      "ipa_uk": "/dɪsˈmæn.təl/",
+      "ipa_us": "/dɪsˈmæn.t̬əl/",
+      "en_ex": "Authorities successfully dismantled an illicit network involved in commercial fraud and bribery.",
+      "zh_ex": "當局成功瓦解了一個涉及商業詐騙及受賄的非法網絡。"
+    },
+    {
+      "word": "forgery",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "falsification",
+        "counterfeiting"
+      ],
+      "zh": "偽造；偽造罪",
+      "ipa_uk": "/ˈfɔː.dʒər.i/",
+      "ipa_us": "/ˈfɔːr.dʒɚ.i/",
+      "en_ex": "Multiple suspects faced severe criminal charges including documentation forgery and conspiracy to defraud.",
+      "zh_ex": "多名嫌疑人面臨包括偽造文件和串謀詐騙在內的嚴重刑事指控。"
+    },
+    {
+      "word": "conspiracy to defraud",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "collusive fraud",
+        "fraudulent conspiracy"
+      ],
+      "zh": "串謀詐騙",
+      "ipa_uk": "/kənˈspɪr.ə.si tuː dɪˈfrɔːd/",
+      "ipa_us": "/kənˈspɪr.ə.si tuː dɪˈfrɑːd/",
+      "en_ex": "Corporate directors were formally convicted of conspiracy to defraud over inflated public tenders.",
+      "zh_ex": "企業董事因涉及虛報投標金額的串謀詐騙罪而被正式定罪。"
+    },
+    {
+      "word": "no-fly zone",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "air exclusion zone",
+        "restricted airspace"
+      ],
+      "zh": "禁飛區",
+      "ipa_uk": "/nəʊˈflaɪ ˌzəʊn/",
+      "ipa_us": "/noʊˈflaɪ ˌzoʊn/",
+      "en_ex": "Security officials established a temporary no-fly zone across the downtown district during the summit.",
+      "zh_ex": "保安官員在峰會期間於市中心區域設立了臨時禁飛區。"
+    },
+    {
+      "word": "liaise",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 5,
+      "band": "7.0",
+      "synonyms": [
+        "collaborate",
+        "coordinate"
+      ],
+      "zh": "聯絡；溝通協調",
+      "ipa_uk": "/liˈeɪz/",
+      "ipa_us": "/liˈeɪz/",
+      "en_ex": "Police forces must closely liaise with urban planners to minimize transit disruptions.",
+      "zh_ex": "警隊必須與城市規劃部門緊密協調，以盡量減少交通中斷。"
+    },
+    {
+      "word": "vicinity",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 6,
+      "band": "7.0",
+      "synonyms": [
+        "proximity",
+        "surroundings"
+      ],
+      "zh": "鄰近地區；周邊",
+      "ipa_uk": "/vɪˈsɪn.ə.ti/",
+      "ipa_us": "/vəˈsɪn.ə.t̬i/",
+      "en_ex": "Heavy congestion is anticipated in the vicinity of the exhibition convention center.",
+      "zh_ex": "會展中心周邊預計將會出現嚴重交通擁擠。"
+    },
+    {
+      "word": "convene",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "assemble",
+        "summon"
+      ],
+      "zh": "召開；召集",
+      "ipa_uk": "/kənˈviːn/",
+      "ipa_us": "/kənˈviːn/",
+      "en_ex": "The global law enforcement body convenes annually to negotiate cross-border crime intelligence.",
+      "zh_ex": "該全球執法機構每年召開會議，商討跨國犯罪情報。"
+    },
+    {
+      "word": "compliance",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "conformity",
+        "adherence"
+      ],
+      "zh": "合規；遵從",
+      "ipa_uk": "/kəmˈplaɪ.əns/",
+      "ipa_us": "/kəmˈplaɪ.əns/",
+      "en_ex": "The audit committee scrutinized internal records to verify corporate compliance with international export rules.",
+      "zh_ex": "審計委員會審查內部紀錄，以核實企業對國際出口法規的合規情況。"
+    },
+    {
+      "word": "scrutiny",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "inspection",
+        "examination"
+      ],
+      "zh": "嚴格審查；仔細檢查",
+      "ipa_uk": "/ˈskruː.tɪ.ni/",
+      "ipa_us": "/ˈskruː.t̬ən.i/",
+      "en_ex": "Tech conglomerates face growing regulatory scrutiny regarding their overseas trading operations.",
+      "zh_ex": "科技巨頭在海外貿易運作上面臨日益嚴格的監管審查。"
+    },
+    {
+      "word": "revelation",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 8,
+      "band": "7.0",
+      "synonyms": [
+        "disclosure",
+        "unveiling"
+      ],
+      "zh": "披露；揭示出的真相",
+      "ipa_uk": "/ˌrev.əˈleɪ.ʃən/",
+      "ipa_us": "/ˌrev.əˈleɪ.ʃən/",
+      "en_ex": "Startling revelations about executive relationships sent shockwaves throughout the semiconductor industry.",
+      "zh_ex": "有關高管關係的驚人披露在半導體產業引發震動。"
+    },
+    {
+      "word": "cast doubt on",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 8,
+      "band": "7.5",
+      "synonyms": [
+        "question",
+        "discredit"
+      ],
+      "zh": "對……質疑；使……產生懷疑",
+      "ipa_uk": "/kɑːst daʊt ɒn/",
+      "ipa_us": "/kæst daʊt ɑːn/",
+      "en_ex": "Government analysts have cast doubt on initial media reports regarding covert espionage activities.",
+      "zh_ex": "政府分析人士對媒體最初有關秘密間諜活動的報導提出了質疑。"
+    },
+    {
+      "word": "espionage",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "8.0",
+      "synonyms": [
+        "spying",
+        "intelligence-gathering"
+      ],
+      "zh": "間諜活動；間諜罪",
+      "ipa_uk": "/ˈes.pi.ə.nɑːʒ/",
+      "ipa_us": "/ˈes.pi.ə.nɑːʒ/",
+      "en_ex": "Diplomatic ties worsened significantly following allegations of state-sponsored economic espionage.",
+      "zh_ex": "在出現國家級經濟間諜活動的指控後，外交關係顯著惡化。"
+    },
+    {
+      "word": "smuggle",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "traffic",
+        "bootleg"
+      ],
+      "zh": "走私；偷運",
+      "ipa_uk": "/ˈsmʌɡ.əl/",
+      "ipa_us": "/ˈsmʌɡ.əl/",
+      "en_ex": "Federal authorities opened investigations into clandestine attempts to smuggle microchips across borders.",
+      "zh_ex": "聯邦機構對企圖跨界走私微晶片的秘密行動展開了調查。"
+    },
+    {
+      "word": "behoove",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "8.0",
+      "synonyms": [
+        "befit",
+        "obligate"
+      ],
+      "zh": "理應；對……有必要",
+      "ipa_uk": "/bɪˈhuːv/",
+      "ipa_us": "/bɪˈhuːv/",
+      "en_ex": "It behooves senior leaders to act transparently when public confidence begins to erode.",
+      "zh_ex": "當公眾信心開始動搖時，高層領導人理應採取透明的行動。"
+    },
+    {
+      "word": "fulsome",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 8,
+      "band": "8.0",
+      "synonyms": [
+        "comprehensive",
+        "exhaustive"
+      ],
+      "zh": "詳盡的；全面的",
+      "ipa_uk": "/ˈfʊl.səm/",
+      "ipa_us": "/ˈfʊl.səm/",
+      "en_ex": "Regulators demanded a fulsome and coherent response to clarify suspected regulatory discrepancies.",
+      "zh_ex": "監管機構要求給出詳盡且連貫的答覆，以澄清涉嫌違規之處。"
+    },
+    {
+      "word": "where the buck stops",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 5,
+      "band": "8.0",
+      "synonyms": [
+        "ultimate responsibility",
+        "final accountability"
+      ],
+      "zh": "責任由誰承擔；終極責任歸屬",
+      "ipa_uk": "/weər ðə bʌk stɒps/",
+      "ipa_us": "/wer ðə bʌk stɑːps/",
+      "en_ex": "Independent investigators must determine where the buck stops regarding systemic supply chain compliance errors.",
+      "zh_ex": "獨立調查人員必須查明供應鏈系統性合規錯誤的最終責任歸屬。"
+    },
+    {
+      "word": "leave the door open",
+      "type": "phrase",
+      "pos": "idiom",
+      "topic_id": 5,
+      "band": "7.5",
+      "synonyms": [
+        "keep options open",
+        "allow room"
+      ],
+      "zh": "保留餘地；留下可能性",
+      "ipa_uk": "/liːv ðə dɔːr ˈəʊ.pən/",
+      "ipa_us": "/liːv ðə dɔːr ˈoʊ.pən/",
+      "en_ex": "The board decided to leave the door open for the departed executive to return.",
+      "zh_ex": "董事會決定為該名離任高層的回歸保留餘地。"
+    },
+    {
+      "word": "malfunction",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "fail",
+        "break down"
+      ],
+      "zh": "發生故障；運轉不正常",
+      "ipa_uk": "/ˌmælˈfʌŋk.ʃən/",
+      "ipa_us": "/ˌmælˈfʌŋk.ʃən/",
+      "en_ex": "Automated aviation software began to malfunction, creating extensive operational backlogs across international terminals.",
+      "zh_ex": "自動化航空軟體開始發生故障，在各國際客運大樓造成大面積的作業積壓。"
+    },
+    {
+      "word": "ground stop",
+      "type": "phrase",
+      "pos": "n.",
+      "topic_id": 7,
+      "band": "7.5",
+      "synonyms": [
+        "flight suspension",
+        "ground delay"
+      ],
+      "zh": "停飛令；地面停飛管制",
+      "ipa_uk": "/ˈɡraʊnd ˌstɒp/",
+      "ipa_us": "/ˈɡraʊnd ˌstɑːp/",
+      "en_ex": "Aviation agencies issued a ground stop after computerized weight calculation systems crashed.",
+      "zh_ex": "電腦化重量計算系統崩潰後，航空機構發布了地面停飛管制令。"
+    },
+    {
+      "word": "workaround",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 3,
+      "band": "7.5",
+      "synonyms": [
+        "alternative solution",
+        "temporary fix"
+      ],
+      "zh": "替代辦法；權宜之計",
+      "ipa_uk": "/ˈwɜːk.ə.raʊnd/",
+      "ipa_us": "/ˈwɝːk.ə.raʊnd/",
+      "en_ex": "Technicians deployed a manual workaround to safely expedite passenger departures without computer guidance.",
+      "zh_ex": "技術人員採用了手動權宜措施，以便在沒有電腦指引的情況下安全加速旅客出發。"
+    },
+    {
+      "word": "fizzle out",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "peter out",
+        "collapse"
+      ],
+      "zh": "草草收場；虎頭蛇尾",
+      "ipa_uk": "/ˈfɪz.əl aʊt/",
+      "ipa_us": "/ˈfɪz.əl aʊt/",
+      "en_ex": "Multilateral diplomatic talks fizzled out without establishing concrete emission reduction targets.",
+      "zh_ex": "多邊外交會談草草收場，未能確立具體的減排目標。"
+    },
+    {
+      "word": "overarching",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "8.0",
+      "synonyms": [
+        "comprehensive",
+        "all-embracing"
+      ],
+      "zh": "總體的；包羅萬象的",
+      "ipa_uk": "/ˌəʊ.vərˈɑː.tʃɪŋ/",
+      "ipa_us": "/ˌoʊ.vɚˈɑːr.tʃɪŋ/",
+      "en_ex": "Nations struggled to establish an overarching treaty capable of addressing catastrophic environmental shifts.",
+      "zh_ex": "各國難以達成一項能夠應對災難性環境變化的總體條約。"
+    },
+    {
+      "word": "setback",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "6.5",
+      "synonyms": [
+        "hindrance",
+        "impediment"
+      ],
+      "zh": "挫折；阻礙",
+      "ipa_uk": "/ˈset.bæk/",
+      "ipa_us": "/ˈset.bæk/",
+      "en_ex": "The collapse of ministerial climate negotiations represents a disappointing setback for global governance.",
+      "zh_ex": "部長級氣候談判的破裂代表了全球治理中令人失望的挫折。"
+    },
+    {
+      "word": "lament",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "mourn",
+        "deplore"
+      ],
+      "zh": "感嘆；哀悼；對……表示遺憾",
+      "ipa_uk": "/ləˈment/",
+      "ipa_us": "/ləˈment/",
+      "en_ex": "Environmental advocates lamented the lack of political willpower displayed by industrialized states.",
+      "zh_ex": "環保倡議者對工業化國家所展現的政治意願不足深感遺憾。"
+    },
+    {
+      "word": "volatility",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "instability",
+        "fluctuation"
+      ],
+      "zh": "波動性；不穩定性",
+      "ipa_uk": "/ˌvɒl.əˈtɪl.ə.ti/",
+      "ipa_us": "/ˌvɑː.ləˈtɪl.ə.t̬i/",
+      "en_ex": "Abrupt fuel supply restrictions frequently trigger drastic price volatility throughout international energy markets.",
+      "zh_ex": "突然的燃料供應限制往往會在國際能源市場引發劇烈的價格波動。"
+    },
+    {
+      "word": "unconscionable",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "8.0",
+      "synonyms": [
+        "unacceptable",
+        "indefensible"
+      ],
+      "zh": "不合理的；昧著良心的",
+      "ipa_uk": "/ʌnˈkɒn.ʃən.ə.bəl/",
+      "ipa_us": "/ʌnˈkɑːn.ʃən.ə.bəl/",
+      "en_ex": "It is unconscionable to endorse a treaty that ignores the perilous consequences of fossil fuels.",
+      "zh_ex": "簽署一項漠視化石燃料危險後果的條約是泯滅良心的。"
+    },
+    {
+      "word": "carbon capture and storage",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 2,
+      "band": "8.0",
+      "synonyms": [
+        "carbon sequestration",
+        "CCS"
+      ],
+      "zh": "碳捕集與封存",
+      "ipa_uk": "/ˈkɑː.bən ˌkæp.tʃər ænd ˈstɔː.rɪdʒ/",
+      "ipa_us": "/ˈkɑːr.bən ˌkæp.tʃɚ ənd ˈstɔːr.ɪdʒ/",
+      "en_ex": "Advanced carbon capture and storage technologies are heavily contested among climate experts and industry lobbyists.",
+      "zh_ex": "先進的碳捕集與封存技術在氣候專家和行業說客之間引起了激烈爭論。"
+    },
+    {
+      "word": "pushback",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "resistance",
+        "opposition"
+      ],
+      "zh": "反對；抗拒",
+      "ipa_uk": "/ˈpʊʃ.bæk/",
+      "ipa_us": "/ˈpʊʃ.bæk/",
+      "en_ex": "The proposal encountered fierce pushback from climate activists who favored direct emission cuts.",
+      "zh_ex": "該提議遭到了主張直接減少排放的氣候活動家們的強烈反對。"
+    },
+    {
+      "word": "red line",
+      "type": "phrase",
+      "pos": "idiom",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "non-negotiable limit",
+        "threshold"
+      ],
+      "zh": "紅線；底線",
+      "ipa_uk": "/ˌred ˈlaɪn/",
+      "ipa_us": "/ˌred ˈlaɪn/",
+      "en_ex": "Diplomats maintained unyielding red lines on the issue of external sovereign debt exemptions.",
+      "zh_ex": "外交官在外債豁免問題上堅守著不可退讓的底線。"
+    },
+    {
+      "word": "rise to the moment",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 10,
+      "band": "8.0",
+      "synonyms": [
+        "rise to the occasion",
+        "meet the challenge"
+      ],
+      "zh": "挺身而出承擔重任；及時應對挑戰",
+      "ipa_uk": "/raɪz tuː ðə ˈməʊ.mənt/",
+      "ipa_us": "/raɪz tuː ðə ˈmoʊ.mənt/",
+      "en_ex": "Global authorities must rise to the moment to curb climate warming before catastrophe unfolds.",
+      "zh_ex": "全球領導當局必須及時承擔重任，在災難爆發前抑制氣候變暖。"
+    },
+    {
+      "word": "cross-examine",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "interrogate",
+        "quiz"
+      ],
+      "zh": "盤問；反詰（證人）",
+      "ipa_uk": "/ˌkrɒs.ɪɡˈzæm.ɪn/",
+      "ipa_us": "/ˌkrɑːs.ɪɡˈzæm.ɪn/",
+      "en_ex": "The defense attorney will thoroughly cross-examine the prosecution witness during upcoming courtroom proceedings.",
+      "zh_ex": "辯方律師將在接下來的庭審程序中深入盤問控方證人。"
+    },
+    {
+      "word": "banter",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 13,
+      "band": "7.0",
+      "synonyms": [
+        "repartee",
+        "chitchat"
+      ],
+      "zh": "打趣；玩笑",
+      "ipa_uk": "/ˈbæn.tər/",
+      "ipa_us": "/ˈbæn.t̬ɚ/",
+      "en_ex": "The defendant insisted that previous verbal disputes were merely innocent banter between close acquaintances.",
+      "zh_ex": "被告堅持聲稱先前的言語爭執只不過是熟人之間善意的玩笑打趣。"
+    },
+    {
+      "word": "undermine",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "subvert",
+        "weaken"
+      ],
+      "zh": "削弱；損害",
+      "ipa_uk": "/ˌʌn.dəˈmaɪn/",
+      "ipa_us": "/ˌʌn.dɚˈmaɪn/",
+      "en_ex": "Contradictory witness statements threaten to undermine the overall credibility of the defense case.",
+      "zh_ex": "互相矛盾的證人陳詞恐將削弱辯方申辯的整體公信力。"
+    },
+    {
+      "word": "fabricate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "concoct",
+        "forge"
+      ],
+      "zh": "捏造；虛構",
+      "ipa_uk": "/ˈfæb.rɪ.keɪt/",
+      "ipa_us": "/ˈfæb.rɪ.keɪt/",
+      "en_ex": "Prosecutors argued that the accused attempted to fabricate deceptive evidence to divert suspicion.",
+      "zh_ex": "控方指稱被告企圖捏造誤導性證據以轉移嫌疑。"
+    },
+    {
+      "word": "tout",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 8,
+      "band": "7.5",
+      "synonyms": [
+        "promote",
+        "herald"
+      ],
+      "zh": "大力宣傳；吹捧",
+      "ipa_uk": "/taʊt/",
+      "ipa_us": "/taʊt/",
+      "en_ex": "Liaison officials tout record voting turnout as a demonstration of high-quality local governance.",
+      "zh_ex": "聯絡官員盛讚創紀錄的投票率，指其充分展現了優質的地方治理。"
+    },
+    {
+      "word": "overhaul",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "revamp",
+        "reconstruct"
+      ],
+      "zh": "徹底改革；全面改造",
+      "ipa_uk": "/ˌəʊ.vəˈhɔːl/",
+      "ipa_us": "/ˌoʊ.vɚˈhɑːl/",
+      "en_ex": "Legislative leaders worked together to overhaul electoral procedures to ensure greater national administrative stability.",
+      "zh_ex": "立法機關負責人通力合作全面改革選舉程序，以確保國家行政的更大穩定。"
+    },
+    {
+      "word": "payload",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 20,
+      "band": "7.5",
+      "synonyms": [
+        "cargo",
+        "freight"
+      ],
+      "zh": "有效載荷；載重",
+      "ipa_uk": "/ˈpeɪ.ləʊd/",
+      "ipa_us": "/ˈpeɪ.loʊd/",
+      "en_ex": "The foreign astronaut was trained extensively to operate scientific apparatus as a payload specialist.",
+      "zh_ex": "外籍太空人接受了廣泛訓練，以有效載荷專家的身分操作科學儀器。"
+    },
+    {
+      "word": "integrate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "assimilate",
+        "incorporate"
+      ],
+      "zh": "融入；使一體化",
+      "ipa_uk": "/ˈɪn.tɪ.ɡreɪt/",
+      "ipa_us": "/ˈɪn.t̬ə.ɡreɪt/",
+      "en_ex": "Aerospace partnerships help diverse ethnic minorities to integrate more closely into wider domestic society.",
+      "zh_ex": "航天合作有助於不同的少數族裔更緊密地融入更廣泛的本土社會。"
+    },
+    {
+      "word": "roll out",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "introduce",
+        "launch"
+      ],
+      "zh": "推出；開展",
+      "ipa_uk": "/rəʊl aʊt/",
+      "ipa_us": "/roʊl aʊt/",
+      "en_ex": "Organizers will review public sentiment before deciding whether to roll out the financial incentive scheme.",
+      "zh_ex": "主辦方在決定是否正式推行該項財務激勵機制前，將檢視公眾反應。"
+    }
+  ]
+}

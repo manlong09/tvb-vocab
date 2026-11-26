@@ -1,0 +1,817 @@
+{
+  "date": "2026-11-24",
+  "video_id": "6h2_d55C51E",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "兩電明年起加電費中電升1.8%港燈加7.9% (CLP and HK Electric announce tariff hikes of 1.8% and 7.9% for next year)",
+    "神舟二十四號航天員名單公佈巴基斯坦宇航員首度參與 (Shenzhou-24 crew revealed with Pakistani astronaut joining historic space mission)",
+    "黃仁勳重返英偉達執掌行政總裁帶動美股反彈 (Jensen Huang reinstated as Nvidia CEO propelling Wall Street rally)",
+    "美國加碼晶片禁令制裁涉英偉達風波新加坡雲端企業 (US blacklists Singapore firm over alleged breaches of AI chip export controls)",
+    "烏軍無人艇空襲利比亞俄艦德國防長警告局勢恐升溫 (Ukraine launches drone strike on Russian naval vessel as Germany warns of escalation)",
+    "大埔宏福苑大火近一周年政府為災民增設兩項財政資助 (Government introduces two new subsidies for Wang Fuk Court fire victims ahead of anniversary)",
+    "蔡天鳳碎屍案續審前夫涉以圖轉作污點證人換取免責 (Abby Choi murder trial continues as ex-husband sought immunity from prosecution)",
+    "六合彩金多寶首次推攪珠增額頭獎基金估計逾七千萬 (Mark Six Snowball pilots jackpot boost lifting top prize to over seventy million)"
+  ],
+  "items": [
+    {
+      "word": "tariff",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "rate",
+        "charge"
+      ],
+      "zh": "價目表；關稅；電費",
+      "ipa_uk": "/ˈtær.ɪf/",
+      "ipa_us": "/ˈter.ɪf/",
+      "en_ex": "The two power companies announced that electricity tariffs will rise significantly starting next year.",
+      "zh_ex": "兩家電力公司宣佈，電費將從明年初開始顯著調漲。"
+    },
+    {
+      "word": "come into effect",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "take effect",
+        "become operational"
+      ],
+      "zh": "生效；開始實施",
+      "ipa_uk": "/kʌm ˈɪn.tuː ɪˈfekt/",
+      "ipa_us": "/kʌm ˈɪn.tuː əˈfekt/",
+      "en_ex": "The controversial price adjustments are scheduled to come into effect at the start of next year.",
+      "zh_ex": "這些備受爭議的價格調整定於明年初正式生效。"
+    },
+    {
+      "word": "drastic",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "severe",
+        "radical"
+      ],
+      "zh": "嚴厲的；劇烈的",
+      "ipa_uk": "/ˈdræs.tɪk/",
+      "ipa_us": "/ˈdræs.tɪk/",
+      "en_ex": "HK Electric decided to implement a more drastic rate hike compared to its counterpart.",
+      "zh_ex": "與另一家公司相比，港燈決定實施更劇烈的加價幅度。"
+    },
+    {
+      "word": "pronounced",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "noticeable",
+        "marked"
+      ],
+      "zh": "顯著的；明顯的",
+      "ipa_uk": "/prəˈnaʊnst/",
+      "ipa_us": "/prəˈnaʊnst/",
+      "en_ex": "Energy analysts observed that the price disparity between the two suppliers has become far more pronounced.",
+      "zh_ex": "能源分析師指出，兩家公用事業公司之間的價格差距變得遠更為顯著。"
+    },
+    {
+      "word": "in a bid to",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "in an attempt to",
+        "in order to"
+      ],
+      "zh": "為了；企圖以……",
+      "ipa_uk": "/ɪn ə bɪd tuː/",
+      "ipa_us": "/ɪn ə bɪd tuː/",
+      "en_ex": "The government is determined to reform the energy market in a bid to stabilize household bills.",
+      "zh_ex": "政府決心改革能源市場，以期穩定家庭電費開支。"
+    },
+    {
+      "word": "grassroots",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "ordinary people",
+        "rank and file"
+      ],
+      "zh": "基層群眾；基層",
+      "ipa_uk": "/ˈɡrɑːs.ruːts/",
+      "ipa_us": "/ˈɡræs.ruːts/",
+      "en_ex": "Community leaders warned that the utility hike will place a substantial financial burden on the grassroots.",
+      "zh_ex": "社區領袖警告，公用事業加價將為基層民眾帶來沉重的經濟負擔。"
+    },
+    {
+      "word": "alleviate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "mitigate",
+        "ease"
+      ],
+      "zh": "減輕；緩和",
+      "ipa_uk": "/əˈliː.vi.eɪt/",
+      "ipa_us": "/əˈliː.vi.eɪt/",
+      "en_ex": "Subsidies were distributed to low-income households in hopes of alleviating their escalating cost of living.",
+      "zh_ex": "當局向低收入家庭派發補貼，希望能緩和他們日益沉重的生活成本。"
+    },
+    {
+      "word": "on the cusp of",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 20,
+      "band": "8.0",
+      "synonyms": [
+        "on the threshold of",
+        "on the verge of"
+      ],
+      "zh": "即將迎來；處於……的關鍵時刻",
+      "ipa_uk": "/ɒn ðə kʌsp ɒv/",
+      "ipa_us": "/ɑːn ðə kʌsp əv/",
+      "en_ex": "The foreign astronaut is on the cusp of embarking on a historic space exploration journey.",
+      "zh_ex": "該位外籍宇航員即將踏上具有歷史意義的太空探索征程。"
+    },
+    {
+      "word": "unveil",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 20,
+      "band": "7.0",
+      "synonyms": [
+        "reveal",
+        "disclose"
+      ],
+      "zh": "公佈；展示；公諸於世",
+      "ipa_uk": "/ʌnˈveɪl/",
+      "ipa_us": "/ʌnˈveɪl/",
+      "en_ex": "The space agency formally unveiled the three crew members at a televised international press conference.",
+      "zh_ex": "航天機構在電視直播的國際新聞發布會上正式公佈了三名宇航員人選。"
+    },
+    {
+      "word": "blast off",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 20,
+      "band": "6.5",
+      "synonyms": [
+        "launch",
+        "take off"
+      ],
+      "zh": "點火升空；發射",
+      "ipa_uk": "/blɑːst ɒf/",
+      "ipa_us": "/blæst ɑːf/",
+      "en_ex": "The carrier rocket is scheduled to blast off from the remote northwestern launch pad tomorrow.",
+      "zh_ex": "該運載火箭預計將於明日從西北部偏遠的發射台點火升空。"
+    },
+    {
+      "word": "laud",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "8.0",
+      "synonyms": [
+        "praise",
+        "acclaim"
+      ],
+      "zh": "讚揚；稱讚",
+      "ipa_uk": "/lɔːd/",
+      "ipa_us": "/lɑːd/",
+      "en_ex": "Space agency officials publicly lauded the specialist for demonstrating extraordinary synergy during technical operations.",
+      "zh_ex": "航天機構官員公開稱讚該專家在技術操作中展現出的卓越協同能力。"
+    },
+    {
+      "word": "defining moment",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "watershed moment",
+        "turning point"
+      ],
+      "zh": "決定性時刻；關鍵節點",
+      "ipa_uk": "/dɪˈfaɪ.nɪŋ ˈməʊ.mənt/",
+      "ipa_us": "/dɪˈfaɪ.nɪŋ ˈmoʊ.mənt/",
+      "en_ex": "The historic joint mission was widely hailed as a defining moment for international aerospace cooperation.",
+      "zh_ex": "這項歷史性的聯合任務被廣泛譽為國際航天合作的決定性時刻。"
+    },
+    {
+      "word": "cope",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 4,
+      "band": "6.5",
+      "synonyms": [
+        "manage",
+        "endure"
+      ],
+      "zh": "應付；承受（壓力）",
+      "ipa_uk": "/kəʊp/",
+      "ipa_us": "/koʊp/",
+      "en_ex": "Scientists are conducting rigorous research into how the human body copes with extended zero gravity.",
+      "zh_ex": "科學家正進行嚴謹研究，探討人體如何承受長期的零重力環境。"
+    },
+    {
+      "word": "reinstate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 5,
+      "band": "7.5",
+      "synonyms": [
+        "restore",
+        "reappoint"
+      ],
+      "zh": "使復職；恢復地位",
+      "ipa_uk": "/ˌriː.ɪnˈsteɪt/",
+      "ipa_us": "/ˌriː.ɪnˈsteɪt/",
+      "en_ex": "The tech executive was dramatically reinstated as CEO less than two weeks after stepping down.",
+      "zh_ex": "這名科技界高層在辭職不到兩週後，獲戲劇性地恢復了行政總裁職位。"
+    },
+    {
+      "word": "extramarital",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 13,
+      "band": "7.5",
+      "synonyms": [
+        "adulterous",
+        "illicit"
+      ],
+      "zh": "婚外的",
+      "ipa_uk": "/ˌek.strəˈmær.ɪ.təl/",
+      "ipa_us": "/ˌek.strəˈmer.ə.t̬əl/",
+      "en_ex": "The corporate leader faced mounting scrutiny after damaging revelations regarding his extramarital affairs emerged publicly.",
+      "zh_ex": "在有關其婚外情的具殺傷力內幕公諸於世後，該企業領袖面臨與日俱增的審視。"
+    },
+    {
+      "word": "propel",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "drive",
+        "boost"
+      ],
+      "zh": "推動；驅使",
+      "ipa_uk": "/prəˈpel/",
+      "ipa_us": "/prəˈpel/",
+      "en_ex": "Strong investor sentiment helped propel a widespread rally across major international financial markets.",
+      "zh_ex": "強勁的投資者情緒推動了主要國際金融市場的全面反彈。"
+    },
+    {
+      "word": "at the helm",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 5,
+      "band": "7.5",
+      "synonyms": [
+        "in charge",
+        "in command"
+      ],
+      "zh": "掌舵；掌權",
+      "ipa_uk": "/æt ðə helm/",
+      "ipa_us": "/æt ðə helm/",
+      "en_ex": "His triumphant return to the helm of the multinational firm delighted long-term institutional shareholders.",
+      "zh_ex": "他重新執掌這家跨國企業的帥印，讓長期機構投資者欣喜不已。"
+    },
+    {
+      "word": "sway",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "influence",
+        "leverage"
+      ],
+      "zh": "影響力；支配力",
+      "ipa_uk": "/sweɪ/",
+      "ipa_us": "/sweɪ/",
+      "en_ex": "The unexpected boardroom coup underscored the co-founder's enduring sway over key global policymakers.",
+      "zh_ex": "這場出人意料的董事會政變凸顯了該聯合創辦人對全球關鍵決策者的持久影響力。"
+    },
+    {
+      "word": "linchpin",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 3,
+      "band": "8.0",
+      "synonyms": [
+        "cornerstone",
+        "keystone"
+      ],
+      "zh": "關鍵核心；核心要素",
+      "ipa_uk": "/ˈlɪntʃ.pɪn/",
+      "ipa_us": "/ˈlɪntʃ.pɪn/",
+      "en_ex": "Advanced semiconductors have undeniably evolved into the linchpin of modern technological infrastructure.",
+      "zh_ex": "先進半導體無疑已演化為現代科技基礎設施的核心關鍵。"
+    },
+    {
+      "word": "bankroll",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "finance",
+        "fund"
+      ],
+      "zh": "資助；為……提供資金",
+      "ipa_uk": "/ˈbæŋk.rəʊl/",
+      "ipa_us": "/ˈbæŋk.roʊl/",
+      "en_ex": "Venture capital funds poured vast capital to bankroll the exponential expansion of artificial intelligence startups.",
+      "zh_ex": "創投資本注入龐大資金，為人工智能初創企業的指數級擴張提供財政支持。"
+    },
+    {
+      "word": "dial down",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "reduce",
+        "de-escalate"
+      ],
+      "zh": "調減；縮小；緩和",
+      "ipa_uk": "/daɪəl daʊn/",
+      "ipa_us": "/daɪəl daʊn/",
+      "en_ex": "Regulators urged the technology conglomerate to dial down its aggressive and high-risk financial practices.",
+      "zh_ex": "監管機構敦促該科技巨頭減少其進取且高風險的財務運作手段。"
+    },
+    {
+      "word": "thrive",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "flourish",
+        "prosper"
+      ],
+      "zh": "蓬勃發展；茁壯成長",
+      "ipa_uk": "/θraɪv/",
+      "ipa_us": "/θraɪv/",
+      "en_ex": "Analysts questioned whether allied digital enterprises could thrive in the absence of visionary strategic leadership.",
+      "zh_ex": "分析師質疑若缺乏具遠見的戰略領導，相關數字企業能否繼續蓬勃發展。"
+    },
+    {
+      "word": "diminish",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "lessen",
+        "weaken"
+      ],
+      "zh": "減弱；縮減",
+      "ipa_uk": "/dɪˈmɪn.ɪʃ/",
+      "ipa_us": "/dəˈmɪn.ɪʃ/",
+      "en_ex": "The executive's reappointment does not diminish the urgent necessity of completing a thorough regulatory investigation.",
+      "zh_ex": "該主管的重新復職並未削弱完成全面監管調查的緊迫必要性。"
+    },
+    {
+      "word": "probe",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "inquiry",
+        "investigation"
+      ],
+      "zh": "審查；深入調查",
+      "ipa_uk": "/prəʊb/",
+      "ipa_us": "/proʊb/",
+      "en_ex": "Federal authorities launched an extensive probe into potential non-compliance involving overseas subsidiary operations.",
+      "zh_ex": "聯邦機構對涉及海外附屬機構可能存在的違規行為展開了全面審查。"
+    },
+    {
+      "word": "subsidiary",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "affiliate",
+        "branch"
+      ],
+      "zh": "附屬公司；子公司",
+      "ipa_uk": "/səbˈsɪd.i.ə.ri/",
+      "ipa_us": "/səbˈsɪd.i.er.i/",
+      "en_ex": "The Asian corporate subsidiary faced rigorous inquiries over its indirect cross-border commercial transactions.",
+      "zh_ex": "這家亞洲企業子公司因其間接跨境商業交易而面臨嚴苛的調查。"
+    },
+    {
+      "word": "blacklist",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "embargo list",
+        "restricted index"
+      ],
+      "zh": "黑名單",
+      "ipa_uk": "/ˈblæk.lɪst/",
+      "ipa_us": "/ˈblæk.lɪst/",
+      "en_ex": "Entities placed onto the comprehensive trade blacklist are strictly barred from procuring sensitive American technologies.",
+      "zh_ex": "被列入該全面貿易黑名單的實體被嚴格禁止採購敏感的美國技術。"
+    },
+    {
+      "word": "coincide with",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "concur with",
+        "overlap with"
+      ],
+      "zh": "與……同時發生；巧合",
+      "ipa_uk": "/ˌkəʊ.ɪnˈsaɪd wɪð/",
+      "ipa_us": "/ˌkoʊ.ɪnˈsaɪd wɪð/",
+      "en_ex": "The announcement of new trade sanctions happened to coincide with the chief executive's dramatic return.",
+      "zh_ex": "新貿易制裁措施的公佈恰逢該執行長具戲劇性地重返崗位。"
+    },
+    {
+      "word": "circumvent",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "bypass",
+        "evade"
+      ],
+      "zh": "規避；繞開（法規或限制）",
+      "ipa_uk": "/ˌsɜː.kəmˈvent/",
+      "ipa_us": "/ˌsɝː.kəmˈvent/",
+      "en_ex": "Smugglers established complex shell companies to circumvent export bans on highly regulated computer processors.",
+      "zh_ex": "走私者成立複雜的空殼公司，以規避針對受嚴格管制電腦處理器的出口禁令。"
+    },
+    {
+      "word": "drone strike",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "unmanned attack",
+        "aerial raid"
+      ],
+      "zh": "無人機襲擊；無人艇空襲",
+      "ipa_uk": "/drəʊn straɪk/",
+      "ipa_us": "/droʊn straɪk/",
+      "en_ex": "A targeted drone strike disabled an enemy naval vessel situated in contested international shipping lanes.",
+      "zh_ex": "一次精確的無人機打擊癱瘓了位於爭議國際航道內的一艘敵方海軍艦艇。"
+    },
+    {
+      "word": "escalation",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "intensification",
+        "expansion"
+      ],
+      "zh": "升級；擴大（衝突）",
+      "ipa_uk": "/ˌes.kəˈleɪ.ʃən/",
+      "ipa_us": "/ˌes.kəˈleɪ.ʃən/",
+      "en_ex": "Allied defense ministers warned that repeated incursions could trigger a catastrophic military escalation in Europe.",
+      "zh_ex": "盟國防長警告，屢次侵犯領空可能引發歐洲境內災難性的軍事升級。"
+    },
+    {
+      "word": "provoke",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "incite",
+        "instigate"
+      ],
+      "zh": "挑釁；激怒",
+      "ipa_uk": "/prəˈvəʊk/",
+      "ipa_us": "/prəˈvoʊk/",
+      "en_ex": "Diplomats cautioned that cross-border airspace violations were intentionally calculated to provoke defensive military responses.",
+      "zh_ex": "外交官警告說，侵犯跨境空域的行為是刻意圖謀挑釁防禦性軍事反應。"
+    },
+    {
+      "word": "critical infrastructure",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 18,
+      "band": "7.5",
+      "synonyms": [
+        "vital facilities",
+        "essential utilities"
+      ],
+      "zh": "關鍵基礎設施",
+      "ipa_uk": "/ˈkrɪt.ɪ.kəl ˈɪn.frəˌstrʌk.tʃər/",
+      "ipa_us": "/ˈkrɪt̬.ɪ.kəl ˈɪn.frəˌstrʌk.tʃɚ/",
+      "en_ex": "Relentless assaults on critical infrastructure have systematically degraded the nation's energy generating networks.",
+      "zh_ex": "針對關鍵基礎設施的無情襲擊，有系統地破壞了該國的發電網絡。"
+    },
+    {
+      "word": "unprecedented",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 2,
+      "band": "7.5",
+      "synonyms": [
+        "unparalleled",
+        "extraordinary"
+      ],
+      "zh": "史無前例的；空前的",
+      "ipa_uk": "/ʌnˈpres.ɪ.den.tɪd/",
+      "ipa_us": "/ʌnˈpres.ə.den.t̬ɪd/",
+      "en_ex": "Civil defense authorities reported unprecedented structural damage following repeated high-voltage substation strikes.",
+      "zh_ex": "民防當局在多次高壓變電站受襲後，報告了史無前例的結構性破壞。"
+    },
+    {
+      "word": "substation",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 18,
+      "band": "7.0",
+      "synonyms": [
+        "transformer station",
+        "distribution plant"
+      ],
+      "zh": "變電所；配電站",
+      "ipa_uk": "/ˈsʌbˌsteɪ.ʃən/",
+      "ipa_us": "/ˈsʌbˌsteɪ.ʃən/",
+      "en_ex": "Hostile missile strikes damaged several electrical substations, cutting off essential heating to hundreds of thousands.",
+      "zh_ex": "敵方的導彈襲擊破壞了多座變電所，切斷了數十萬人的基本供暖。"
+    },
+    {
+      "word": "transmission line",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 18,
+      "band": "7.0",
+      "synonyms": [
+        "power line",
+        "electricity grid conduit"
+      ],
+      "zh": "輸電線路",
+      "ipa_uk": "/trænzˈmɪʃ.ən laɪn/",
+      "ipa_us": "/trænsˈmɪʃ.ən laɪn/",
+      "en_ex": "Engineers worked tirelessly to reconstruct the main transmission line linking the plant to metropolitan areas.",
+      "zh_ex": "工程師夜以繼日地搶修連接發電廠與大都會區的主要輸電線路。"
+    },
+    {
+      "word": "resilience",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 4,
+      "band": "7.5",
+      "synonyms": [
+        "fortitude",
+        "endurance"
+      ],
+      "zh": "韌性；復原能力",
+      "ipa_uk": "/rɪˈzɪl.jəns/",
+      "ipa_us": "/rɪˈzɪl.jəns/",
+      "en_ex": "Continuous blackouts represent a devastating threat to civilian resilience amid the approaching freezing winter.",
+      "zh_ex": "在寒冬將至之際，持續停電對平民的復原韌性構成了毀滅性威脅。"
+    },
+    {
+      "word": "blaze",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 6,
+      "band": "6.5",
+      "synonyms": [
+        "fire",
+        "conflagration"
+      ],
+      "zh": "烈火；大火",
+      "ipa_uk": "/bleɪz/",
+      "ipa_us": "/bleɪz/",
+      "en_ex": "Survivors were left deeply traumatized after the deadly blaze tore through the densely populated estate.",
+      "zh_ex": "致命大火席捲這座人口稠密的屋苑後，倖存者心靈蒙受巨大創傷。"
+    },
+    {
+      "word": "deteriorate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 4,
+      "band": "7.0",
+      "synonyms": [
+        "decline",
+        "worsen"
+      ],
+      "zh": "惡化；退步",
+      "ipa_uk": "/dɪˈtɪə.ri.ə.reɪt/",
+      "ipa_us": "/dɪˈtɪr.i.ə.reɪt/",
+      "en_ex": "The elderly victim's mental health began to deteriorate rapidly after losing her lifelong family home.",
+      "zh_ex": "這位年邁的受災者在失去相伴一生的家園後，心理健康開始迅速惡化。"
+    },
+    {
+      "word": "haunted by",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 4,
+      "band": "7.0",
+      "synonyms": [
+        "tormented by",
+        "plagued by"
+      ],
+      "zh": "深受……困擾；籠罩在……陰影下",
+      "ipa_uk": "/ˈhɔːn.tɪd baɪ/",
+      "ipa_us": "/ˈhɑːn.t̬ɪd baɪ/",
+      "en_ex": "Many traumatized evacuees remain haunted by the shrill wailing of emergency sirens months later.",
+      "zh_ex": "數個月過去，許多飽受心靈創傷的疏散民眾依然深受緊急警笛尖叫聲的折磨。"
+    },
+    {
+      "word": "systemic issues",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "structural flaws",
+        "institutional problems"
+      ],
+      "zh": "系統性問題；體制缺陷",
+      "ipa_uk": "/sɪˈstem.ɪk ˈɪʃ.uːz/",
+      "ipa_us": "/sɪˈstem.ɪk ˈɪʃ.uːz/",
+      "en_ex": "The official report exposed glaring systemic issues concerning interdepartmental safety inspections and oversight.",
+      "zh_ex": "官方報告揭示了部門間安全檢查與監管方面存在的嚴重系統性問題。"
+    },
+    {
+      "word": "accountability",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "responsibility",
+        "answerability"
+      ],
+      "zh": "問責；問責制度；責任",
+      "ipa_uk": "/əˌkaʊn.təˈbɪl.ə.ti/",
+      "ipa_us": "/əˌkaʊn.t̬əˈbɪl.ə.t̬i/",
+      "en_ex": "An independent judicial commission was established to determine the direct accountability of relevant civil servants.",
+      "zh_ex": "當局設立了獨立司法委員會，以釐清相關公務員的直接問責歸屬。"
+    },
+    {
+      "word": "disruptive",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "troublesome",
+        "disorderly"
+      ],
+      "zh": "擾亂性的；具破壞性的",
+      "ipa_uk": "/dɪsˈrʌp.tɪv/",
+      "ipa_us": "/dɪsˈrʌp.tɪv/",
+      "en_ex": "Officials cautioned citizens not to allow subversive elements to exploit memorial rallies for disruptive purposes.",
+      "zh_ex": "官員告誡市民，切勿讓不良分子利用追思集會達到滋事擾亂的目的。"
+    },
+    {
+      "word": "disburse",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "distribute",
+        "pay out"
+      ],
+      "zh": "撥付；發放（款項）",
+      "ipa_uk": "/dɪsˈbɜːs/",
+      "ipa_us": "/dɪsˈbɝːs/",
+      "en_ex": "Special relief grants will be disbursed directly into residents' registered bank accounts across two installments.",
+      "zh_ex": "特別救濟補助金將分兩期直接撥付至居民登記的銀行戶口。"
+    },
+    {
+      "word": "testify against",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "give evidence against",
+        "bear witness against"
+      ],
+      "zh": "出庭作證指控",
+      "ipa_uk": "/ˈtes.tɪ.faɪ əˈɡenst/",
+      "ipa_us": "/ˈtes.tə.faɪ əˈɡenst/",
+      "en_ex": "The suspect initially agreed to testify against his accomplice in a desperate attempt to avoid charges.",
+      "zh_ex": "該疑犯最初同意出庭作證指控共犯，極力試圖換取免遭起訴。"
+    },
+    {
+      "word": "immunity from prosecution",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "legal exemption",
+        "prosecutorial immunity"
+      ],
+      "zh": "免於起訴特權；豁免起訴",
+      "ipa_uk": "/ɪˈmjuː.nə.ti frɒm ˌprɒs.ɪˈkjuː.ʃən/",
+      "ipa_us": "/ɪˈmjuː.nə.t̬i frəm ˌprɑː.səˈkjuː.ʃən/",
+      "en_ex": "Prosecutors explicitly rejected the defense's request to grant the key co-conspirator total immunity from prosecution.",
+      "zh_ex": "檢方明確駁回了辯方提出給予該關鍵共謀者完全免受起訴豁免權的請求。"
+    },
+    {
+      "word": "blunt force trauma",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "concussive injury",
+        "impact trauma"
+      ],
+      "zh": "鈍器創傷；鈍力致傷",
+      "ipa_uk": "/blʌnt fɔːs ˈtrɔː.mə/",
+      "ipa_us": "/blʌnt fɔːrs ˈtraʊ.mə/",
+      "en_ex": "The forensic pathologist confirmed the victim died from catastrophic blunt force trauma to the skull.",
+      "zh_ex": "法醫病理學家證實，受害者死於顱骨遭受毀滅性鈍器重創。"
+    },
+    {
+      "word": "turnover",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "revenue",
+        "sales volume"
+      ],
+      "zh": "營業額；投注總額",
+      "ipa_uk": "/ˈtɜːnˌəʊ.vər/",
+      "ipa_us": "/ˈtɝːnˌoʊ.vɚ/",
+      "en_ex": "Total turnover for the golden lottery draw exceeded several million dollars prior to sales closing.",
+      "zh_ex": "在彩票截止售賣前，該期金多寶彩票的總投注額已突破數百萬元。"
+    },
+    {
+      "word": "payout",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "dividend",
+        "reward"
+      ],
+      "zh": "彩金；派彩",
+      "ipa_uk": "/ˈpeɪ.aʊt/",
+      "ipa_us": "/ˈpeɪ.aʊt/",
+      "en_ex": "Should a solitary ticket match all lucky numbers, the estimated first division payout would reach records.",
+      "zh_ex": "若只有一張彩票核中所有幸運號碼，預估頭獎派彩將刷新歷史紀錄。"
+    },
+    {
+      "word": "shy of",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "just under",
+        "falling short of"
+      ],
+      "zh": "略少於；差一點達到",
+      "ipa_uk": "/ʃaɪ ɒv/",
+      "ipa_us": "/ʃaɪ əv/",
+      "en_ex": "Official immigration statistics confirmed tourist arrivals were only just shy of four million this quarter.",
+      "zh_ex": "官方出入境統計數據顯示，本季度訪港遊客人數僅差一點便達到四百萬人次。"
+    },
+    {
+      "word": "long-haul",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "long-distance",
+        "intercontinental"
+      ],
+      "zh": "長途的；遠程的",
+      "ipa_uk": "/ˈlɒŋ.hɔːl/",
+      "ipa_us": "/ˈlɑːŋ.hɑːl/",
+      "en_ex": "Tourism authorities recorded a substantial rebound in inbound international travelers embarking on long-haul journeys.",
+      "zh_ex": "旅遊機構錄得長途跋涉抵港的國際遠程旅客出現了顯著回升。"
+    }
+  ]
+}

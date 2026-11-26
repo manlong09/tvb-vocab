@@ -1,0 +1,817 @@
+{
+  "date": "2026-11-22",
+  "video_id": "6tCGytBY6dI",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "尖沙咀私家車衝上行人路致一死三傷 (Car plows onto sidewalk in Tsim Sha Tsui, killing one and injuring three others)",
+    "選委會界別分組補選投票結束投票率達98% (Results roll in as polls close for Election Committee subsector ordinary elections)",
+    "葉劉淑儀指中美俄領袖深圳會晤彰顯國家關鍵地位 (Regina Ip highlights nation's pivotal standing following historic trilateral meeting in Shenzhen)",
+    "商務部堅決反對美FCC擬禁止中資電信營運商獲取美國電話號碼 (Ministry of Commerce opposes US FCC vote targeting Chinese telecom operators)",
+    "美墨聯合行動擊斃七人並拘捕十大通緝犯毒梟 (FBI and Mexican forces capture top 10 most wanted cartel boss after deadly shootout)",
+    "聯合國土耳其氣候大會加時談判以打破協議草案僵局 (UN Climate Conference in Turkey adds extra day of talks amid fossil fuel row)",
+    "港智簽署工作假期計劃並擬擴大青年內地實習 (Hong Kong signs working holiday scheme with Chile and expands youth employment)",
+    "神舟二十四號即將升空並將搭載首位巴基斯坦太空人 (Shenzhou 24 mission set to make history by carrying first Pakistani astronaut)"
+  ],
+  "items": [
+    {
+      "word": "plow onto",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "crash into",
+        "ram into"
+      ],
+      "zh": "猛烈撞上；衝向（行人路或建築）",
+      "ipa_uk": "/plaʊ ˈɒn.tu/",
+      "ipa_us": "/plaʊ ˈɑːn.tu/",
+      "en_ex": "A private car lost control and plowed onto the crowded sidewalk, injuring several pedestrians.",
+      "zh_ex": "一輛私家車失控衝上擁擠的行人路，導致數名行人受傷。"
+    },
+    {
+      "word": "swerve",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "veer",
+        "divert"
+      ],
+      "zh": "突然轉向；急轉彎",
+      "ipa_uk": "/swɜːv/",
+      "ipa_us": "/swɝːv/",
+      "en_ex": "The driver swerved suddenly to avoid hitting a stray animal on the road.",
+      "zh_ex": "司機突然急轉彎，以避開路上的一隻流浪動物。"
+    },
+    {
+      "word": "flee the scene",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "abscond",
+        "run away"
+      ],
+      "zh": "逃離現場",
+      "ipa_uk": "/fliː ðə siːn/",
+      "ipa_us": "/fliː ðə siːn/",
+      "en_ex": "The motorist was arrested after attempting to flee the scene following a fatal collision.",
+      "zh_ex": "該名司機在致命碰撞事故後企圖逃離現場，隨後被捕。"
+    },
+    {
+      "word": "breathalyzer",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "breath test",
+        "alcohol detector"
+      ],
+      "zh": "呼氣酒測儀；酒精測試",
+      "ipa_uk": "/ˈbreθ.əl.aɪ.zər/",
+      "ipa_us": "/ˈbreθ.əl.aɪ.zɚ/",
+      "en_ex": "Police detained the driver after he failed a roadside breathalyzer test.",
+      "zh_ex": "司機未能通過路邊呼氣酒測後，被警方拘捕。"
+    },
+    {
+      "word": "evade",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "dodge",
+        "elude"
+      ],
+      "zh": "躲避；避開",
+      "ipa_uk": "/ɪˈveɪd/",
+      "ipa_us": "/ɪˈveɪd/",
+      "en_ex": "Terrified pedestrians dashed inside a nearby shop to evade the oncoming speeding vehicle.",
+      "zh_ex": "受驚的行人紛紛衝進附近的一家店舖，以躲避迎面飛馳而來的車輛。"
+    },
+    {
+      "word": "strewn",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 6,
+      "band": "7.5",
+      "synonyms": [
+        "scattered",
+        "dispersed"
+      ],
+      "zh": "散落的；散播的",
+      "ipa_uk": "/struːn/",
+      "ipa_us": "/struːn/",
+      "en_ex": "Broken glass and vehicle debris were strewn across the street after the violent collision.",
+      "zh_ex": "劇烈碰撞過後，破碎的玻璃和車輛殘骸散落滿街。"
+    },
+    {
+      "word": "stature",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 13,
+      "band": "7.5",
+      "synonyms": [
+        "height",
+        "build"
+      ],
+      "zh": "身材；身高",
+      "ipa_uk": "/ˈstætʃ.ər/",
+      "ipa_us": "/ˈstætʃ.ɚ/",
+      "en_ex": "Witnesses described the fleeing suspect as a youthful person of remarkably short stature.",
+      "zh_ex": "目擊者形容逃逸的疑犯是一名身材相當矮小的年輕人。"
+    },
+    {
+      "word": "overhaul",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "revamp",
+        "restructure"
+      ],
+      "zh": "全面改革；徹底檢修",
+      "ipa_uk": "/ˌəʊ.vəˈhɔːl/",
+      "ipa_us": "/ˌoʊ.vɚˈhɑːl/",
+      "en_ex": "The government overhauled the electoral framework to enhance administrative efficiency and social stability.",
+      "zh_ex": "政府全面改革了選舉框架，以提升行政效率與社會穩定。"
+    },
+    {
+      "word": "turnout",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "attendance",
+        "participation rate"
+      ],
+      "zh": "投票率；出席人數",
+      "ipa_uk": "/ˈtɜːn.aʊt/",
+      "ipa_us": "/ˈtɝːn.aʊt/",
+      "en_ex": "The final voter turnout exceeded expectations, reaching an impressive ninety-eight percent.",
+      "zh_ex": "最終投票率超出預期，達到了令人矚目的百分之九十八。"
+    },
+    {
+      "word": "livelihood",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "sustenance",
+        "living"
+      ],
+      "zh": "民生；生計",
+      "ipa_uk": "/ˈlaɪv.li.hʊd/",
+      "ipa_us": "/ˈlaɪv.li.hʊd/",
+      "en_ex": "Citizens urged elected representatives to prioritize pressing livelihood issues like affordable housing.",
+      "zh_ex": "市民敦促當選代表優先處理如經濟適用房等緊迫的民生問題。"
+    },
+    {
+      "word": "placard",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "banner",
+        "poster"
+      ],
+      "zh": "標語牌；宣傳看板",
+      "ipa_uk": "/ˈplæk.ɑːd/",
+      "ipa_us": "/ˈplæk.ɑːrd/",
+      "en_ex": "Supporters held brightly colored placards outside polling stations to attract prospective voters.",
+      "zh_ex": "支持者在投票站外高舉色彩鮮豔的標語牌，以吸引潛在選民。"
+    },
+    {
+      "word": "cast one's ballot",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "vote",
+        "poll"
+      ],
+      "zh": "投下一票；行使投票權",
+      "ipa_uk": "/kɑːst wʌnz ˈbæl.ət/",
+      "ipa_us": "/kæst wʌnz ˈbæl.ət/",
+      "en_ex": "Registered electors queued patiently to cast their ballots before polling stations closed.",
+      "zh_ex": "登記選民在投票站關閉前耐心地排隊投下自己的一票。"
+    },
+    {
+      "word": "embody",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 9,
+      "band": "7.5",
+      "synonyms": [
+        "personify",
+        "exemplify"
+      ],
+      "zh": "體現；具體表達",
+      "ipa_uk": "/ɪmˈbɒd.i/",
+      "ipa_us": "/ɪmˈbɑː.di/",
+      "en_ex": "The active campaign embodies the vibrant spirit of broad civic participation.",
+      "zh_ex": "熱烈的競選活動體現了廣泛公民參與的蓬勃精神。"
+    },
+    {
+      "word": "vie for",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "compete for",
+        "contest"
+      ],
+      "zh": "激烈爭奪；角逐",
+      "ipa_uk": "/vaɪ fɔː/",
+      "ipa_us": "/vaɪ fɔːr/",
+      "en_ex": "Hundreds of ambitious candidates are vying for limited seats in the legislative assembly.",
+      "zh_ex": "數百名雄心勃勃的候選人正在爭奪立法議會中有限的席位。"
+    },
+    {
+      "word": "time frame",
+      "type": "phrase",
+      "pos": "n.",
+      "topic_id": 5,
+      "band": "6.5",
+      "synonyms": [
+        "timescale",
+        "duration"
+      ],
+      "zh": "時間範圍；期限",
+      "ipa_uk": "/ˈtaɪm ˌfreɪm/",
+      "ipa_us": "/ˈtaɪm ˌfreɪm/",
+      "en_ex": "Officials expressed confidence that the vote counting would conclude within a reasonable time frame.",
+      "zh_ex": "官員們表示有信心計票工作將在合理的時間範圍內結束。"
+    },
+    {
+      "word": "on the sidelines of",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "on the margins of",
+        "alongside"
+      ],
+      "zh": "在……間隙；在……場邊（非正式場合）",
+      "ipa_uk": "/ɒn ðə ˈsaɪd.laɪnz əv/",
+      "ipa_us": "/ɑːn ðə ˈsaɪd.laɪnz əv/",
+      "en_ex": "World leaders convened on the sidelines of the international economic summit to negotiate peace.",
+      "zh_ex": "各國領袖在國際經濟峰會期間舉行場邊會晤以商討和平。"
+    },
+    {
+      "word": "pivotal",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "crucial",
+        "paramount"
+      ],
+      "zh": "關鍵的；舉足輕重的",
+      "ipa_uk": "/ˈpɪv.ə.təl/",
+      "ipa_us": "/ˈpɪv.ə.t̬əl/",
+      "en_ex": "The bilateral agreement plays a pivotal role in maintaining stability across the Pacific region.",
+      "zh_ex": "該雙邊協議在維護整個太平洋地區的穩定方面發揮著關鍵作用。"
+    },
+    {
+      "word": "well versed in",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 1,
+      "band": "7.5",
+      "synonyms": [
+        "proficient in",
+        "knowledgeable about"
+      ],
+      "zh": "精通於；對……非常熟悉",
+      "ipa_uk": "/wel vɜːst ɪn/",
+      "ipa_us": "/wel vɝːst ɪn/",
+      "en_ex": "Senior diplomats must be well versed in global geopolitics to navigate delicate negotiations.",
+      "zh_ex": "資深外交官必須精通全球地緣政治，以駕馭微妙的外交談判。"
+    },
+    {
+      "word": "earth-shattering",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "momentous",
+        "world-shaking"
+      ],
+      "zh": "驚天動地的；具有重大影響的",
+      "ipa_uk": "/ˈɜːθˌʃæt.ər.ɪŋ/",
+      "ipa_us": "/ˈɝːθˌʃæt̬.ɚ.ɪŋ/",
+      "en_ex": "The summit produced an earth-shattering declaration that fundamentally altered global diplomacy.",
+      "zh_ex": "峰會發表了一份具備重大影響的宣言，從根本上改變了全球外交格局。"
+    },
+    {
+      "word": "in principle",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "theoretically",
+        "in general terms"
+      ],
+      "zh": "原則上；大體上",
+      "ipa_uk": "/ɪn ˈprɪn.sə.pəl/",
+      "ipa_us": "/ɪn ˈprɪn.sə.pəl/",
+      "en_ex": "Both nations agreed in principle to reduce their greenhouse emissions over the next decade.",
+      "zh_ex": "兩國原則上同意在未來十年內減少溫室氣體排放。"
+    },
+    {
+      "word": "leverage one's strengths",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "capitalize on advantages",
+        "harness potential"
+      ],
+      "zh": "發揮自身優勢",
+      "ipa_uk": "/ˈliː.vər.ɪdʒ wʌnz streŋθs/",
+      "ipa_us": "/ˈlev.ɚ.ɪdʒ wʌnz streŋθs/",
+      "en_ex": "The city must leverage its strengths in international finance to remain competitive globally.",
+      "zh_ex": "該城市必須發揮其在國際金融方面的優勢，以保持全球競爭力。"
+    },
+    {
+      "word": "spearhead",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "lead",
+        "pioneer"
+      ],
+      "zh": "帶頭；引領（行動）",
+      "ipa_uk": "/ˈspɪə.hed/",
+      "ipa_us": "/ˈspɪr.hed/",
+      "en_ex": "The administration aims to spearhead trade initiatives that foster long-term regional economic growth.",
+      "zh_ex": "當局旨在引領促進區域長期經濟增長的貿易倡議。"
+    },
+    {
+      "word": "stand to benefit",
+      "type": "sentence",
+      "pos": "phr.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "be poised to gain",
+        "reap rewards"
+      ],
+      "zh": "注定受益；很有可能獲利",
+      "ipa_uk": "/stænd tu ˈben.ɪ.fɪt/",
+      "ipa_us": "/stænd tu ˈben.ə.fɪt/",
+      "en_ex": "Local enterprises stand to benefit immensely from closer cross-border economic integration.",
+      "zh_ex": "本地企業注定將從更緊密的跨界經濟整合中大幅受益。"
+    },
+    {
+      "word": "exploit",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "manipulate",
+        "take advantage of"
+      ],
+      "zh": "利用；剝削；為自身謀利",
+      "ipa_uk": "/ɪkˈsplɔɪt/",
+      "ipa_us": "/ɪkˈsplɔɪt/",
+      "en_ex": "Critics argued that political factions frequently exploit sensitive international disputes for domestic gain.",
+      "zh_ex": "批評人士指出，各政治派別經常利用敏感的國際爭端來謀求國內利益。"
+    },
+    {
+      "word": "voice opposition to",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "object to",
+        "express dissent against"
+      ],
+      "zh": "對……表達反對",
+      "ipa_uk": "/vɔɪs ˌɒp.əˈzɪʃ.ən tu/",
+      "ipa_us": "/vɔɪs ˌɑː.pəˈzɪʃ.ən tu/",
+      "en_ex": "Government spokespersons voiced strong opposition to the foreign trade sanctions imposed yesterday.",
+      "zh_ex": "政府發言人對昨日實施的對外貿易制裁表示強烈反對。"
+    },
+    {
+      "word": "abuse of regulatory power",
+      "type": "sentence",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "misuse of authority",
+        "regulatory overreach"
+      ],
+      "zh": "濫用監管權力",
+      "ipa_uk": "/əˈbjuːs əv ˌreɡ.jʊˈleɪ.tər.i ˈpaʊ.ər/",
+      "ipa_us": "/əˈbjuːs əv ˈreɡ.jə.lə.tɔːr.i ˈpaʊ.ɚ/",
+      "en_ex": "The trade ministry officially condemned the market ban as an unjustified abuse of regulatory power.",
+      "zh_ex": "商務部正式譴責該市場禁令是毫無道理的濫用監管權力。"
+    },
+    {
+      "word": "safeguard",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "protect",
+        "defend"
+      ],
+      "zh": "捍衛；維護",
+      "ipa_uk": "/ˈseɪf.ɡɑːd/",
+      "ipa_us": "/ˈseɪf.ɡɑːrd/",
+      "en_ex": "Every sovereign state reserves the legal right to safeguard its core economic security.",
+      "zh_ex": "每個主權國家均保留維護其核心經濟安全之合法權利。"
+    },
+    {
+      "word": "kingpin",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "ringleader",
+        "chieftain"
+      ],
+      "zh": "頭目；毒梟；重要人物",
+      "ipa_uk": "/ˈkɪŋ.pɪn/",
+      "ipa_us": "/ˈkɪŋ.pɪn/",
+      "en_ex": "The notorious drug kingpin was finally arrested following a coordinated multinational investigation.",
+      "zh_ex": "經過跨國聯合調查，臭名昭著的毒梟頭目終於落網。"
+    },
+    {
+      "word": "alias",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "pseudonym",
+        "assumed name"
+      ],
+      "zh": "化名；別名",
+      "ipa_uk": "/ˈeɪ.li.əs/",
+      "ipa_us": "/ˈeɪ.li.əs/",
+      "en_ex": "The fugitive operated across multiple borders using a false passport and an alias.",
+      "zh_ex": "該逃犯使用假護照和化名在多國邊境之間活動。"
+    },
+    {
+      "word": "fugitive",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "runaway",
+        "escapee"
+      ],
+      "zh": "通緝犯；逃亡者",
+      "ipa_uk": "/ˈfjuː.dʒə.tɪv/",
+      "ipa_us": "/ˈfjuː.dʒə.t̬ɪv/",
+      "en_ex": "Federal agents tracked the dangerous fugitive to an isolated ranch in the desert.",
+      "zh_ex": "聯邦執法人員追蹤這名危險的逃犯至沙漠中一座偏僻的農場。"
+    },
+    {
+      "word": "firefight",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "gun battle",
+        "exchange of fire"
+      ],
+      "zh": "交火；槍戰",
+      "ipa_uk": "/ˈfaɪə.faɪt/",
+      "ipa_us": "/ˈfaɪr.faɪt/",
+      "en_ex": "A ferocious firefight erupted between elite tactical officers and armed syndicate members.",
+      "zh_ex": "精銳特警與武裝犯罪集團成員之間爆發了激烈的槍戰。"
+    },
+    {
+      "word": "terrorize",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "intimidate",
+        "menace"
+      ],
+      "zh": "恐嚇；使心驚膽戰",
+      "ipa_uk": "/ˈter.ər.aɪz/",
+      "ipa_us": "/ˈter.ər.aɪz/",
+      "en_ex": "Violent street clashes between rival gangs continue to terrorize local suburban residents.",
+      "zh_ex": "敵對幫派之間的街頭暴力衝突繼續令當地的郊區居民心驚膽戰。"
+    },
+    {
+      "word": "casing",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "shell",
+        "cartridge"
+      ],
+      "zh": "彈殼；外殼",
+      "ipa_uk": "/ˈkeɪ.sɪŋ/",
+      "ipa_us": "/ˈkeɪ.sɪŋ/",
+      "en_ex": "Forensic experts recovered dozens of metallic bullet casings from the crime scene.",
+      "zh_ex": "法證專家從犯罪現場起獲了數十枚金屬子彈殼。"
+    },
+    {
+      "word": "crack down on",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "clamp down on",
+        "suppress"
+      ],
+      "zh": "嚴厲打擊；查辦",
+      "ipa_uk": "/kræk daʊn ɒn/",
+      "ipa_us": "/kræk daʊn ɑːn/",
+      "en_ex": "Authorities promised to crack down on organized crime syndicates smuggling narcotics into the country.",
+      "zh_ex": "當局承諾將嚴厲打擊向該國走私毒品的有組織犯罪集團。"
+    },
+    {
+      "word": "condemnation",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "denunciation",
+        "censure"
+      ],
+      "zh": "譴責；強烈反對",
+      "ipa_uk": "/ˌkɒn.dəmˈneɪ.ʃən/",
+      "ipa_us": "/ˌkɑːn.dəmˈneɪ.ʃən/",
+      "en_ex": "The controversial policy proposal drew widespread condemnation from human rights and environmental organizations.",
+      "zh_ex": "這項具爭議的政策提議引發了人權與環保組織的廣泛譴責。"
+    },
+    {
+      "word": "on course to",
+      "type": "sentence",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "bound to",
+        "set to"
+      ],
+      "zh": "極有可能會；正走向（某結果）",
+      "ipa_uk": "/ɒn kɔːs tu/",
+      "ipa_us": "/ɑːn kɔːrs tu/",
+      "en_ex": "Without meaningful compromises, delegates are on course to deliver an ineffective climate agreement.",
+      "zh_ex": "如果沒有實質性妥協，各國代表極有可能會拿出一份毫無成效的氣候協議。"
+    },
+    {
+      "word": "preside over",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "chair",
+        "oversee"
+      ],
+      "zh": "主持；統轄",
+      "ipa_uk": "/prɪˈzaɪd ˈəʊ.vər/",
+      "ipa_us": "/prɪˈzaɪd ˈoʊ.vɚ/",
+      "en_ex": "The veteran ambassador was chosen to preside over the tense international negotiations.",
+      "zh_ex": "這位資深外交官獲選主持這場氣氛緊張的國際談判。"
+    },
+    {
+      "word": "procedural",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "formal",
+        "administrative"
+      ],
+      "zh": "程序性的；例行的",
+      "ipa_uk": "/prəˈsiː.dʒər.əl/",
+      "ipa_us": "/prəˈsiː.dʒɚ.əl/",
+      "en_ex": "Negotiators spent an additional day discussing minor procedural rules rather than core environmental targets.",
+      "zh_ex": "談判代表又花了一天時間討論次要的程序性規則，而非核心環境目標。"
+    },
+    {
+      "word": "subsidize",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "fund",
+        "underwrite"
+      ],
+      "zh": "補貼；資助",
+      "ipa_uk": "/ˈsʌb.sɪ.daɪz/",
+      "ipa_us": "/ˈsʌb.sə.daɪz/",
+      "en_ex": "The municipal administration agreed to subsidize wages for young graduates entering high-tech industries.",
+      "zh_ex": "市政府同意為進入高科技產業的年輕畢業生提供工資補貼。"
+    },
+    {
+      "word": "quota",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "allowance",
+        "allocation"
+      ],
+      "zh": "配額；限額",
+      "ipa_uk": "/ˈkwəʊ.tə/",
+      "ipa_us": "/ˈkwoʊ.t̬ə/",
+      "en_ex": "The government increased the annual quota for students participating in overseas exchange programs.",
+      "zh_ex": "政府增加了參加海外交流項目的學生年度配額。"
+    },
+    {
+      "word": "counterpart",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "equivalent",
+        "peer"
+      ],
+      "zh": "職能對等的人或事物；同行",
+      "ipa_uk": "/ˈkaʊn.tə.pɑːt/",
+      "ipa_us": "/ˈkaʊn.t̬ɚ.pɑːrt/",
+      "en_ex": "The foreign minister conferred with his European counterparts regarding ongoing regional stability.",
+      "zh_ex": "外交部長與歐洲同行就當前的區域穩定問題進行了商討。"
+    },
+    {
+      "word": "sleeping quarters",
+      "type": "phrase",
+      "pos": "n.",
+      "topic_id": 20,
+      "band": "7.0",
+      "synonyms": [
+        "dormitory",
+        "bunking area"
+      ],
+      "zh": "睡眠區；寢室",
+      "ipa_uk": "/ˈsliː.pɪŋ ˌkwɔː.təz/",
+      "ipa_us": "/ˈsliː.pɪŋ ˌkwɔːr.t̬ɚz/",
+      "en_ex": "Astronauts prepared the orbital module's sleeping quarters prior to welcoming the new crew.",
+      "zh_ex": "太空人在迎接新機組成員之前整理好了軌道艙的睡眠區。"
+    },
+    {
+      "word": "daily necessities",
+      "type": "phrase",
+      "pos": "n.",
+      "topic_id": 6,
+      "band": "6.5",
+      "synonyms": [
+        "essentials",
+        "basic supplies"
+      ],
+      "zh": "生活必需品；日常用品",
+      "ipa_uk": "/ˈdeɪ.li nəˈses.ə.tiz/",
+      "ipa_us": "/ˈdeɪ.li nəˈses.ə.t̬iz/",
+      "en_ex": "The space station was fully stocked with fresh water and essential daily necessities.",
+      "zh_ex": "太空站內儲備了充足的淡水和基本生活必需品。"
+    },
+    {
+      "word": "crewed",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 20,
+      "band": "7.0",
+      "synonyms": [
+        "manned",
+        "piloted"
+      ],
+      "zh": "載人的；配備人員的",
+      "ipa_uk": "/kruːd/",
+      "ipa_us": "/kruːd/",
+      "en_ex": "Engineers conducted exhaustive safety inspections before clearing the crewed spacecraft for launch.",
+      "zh_ex": "工程師在批准載人太空船發射前進行了詳盡的安全檢查。"
+    },
+    {
+      "word": "compatriot",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "fellow countryman",
+        "national"
+      ],
+      "zh": "同胞；同國人",
+      "ipa_uk": "/kəmˈpæt.ri.ət/",
+      "ipa_us": "/kəmˈpeɪ.tri.ət/",
+      "en_ex": "Local residents gathered at the cultural center to celebrate their compatriot's historic aerospace mission.",
+      "zh_ex": "當地居民聚集在文化中心，慶祝他們的同胞完成歷史性的航天任務。"
+    },
+    {
+      "word": "payload",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 20,
+      "band": "7.5",
+      "synonyms": [
+        "cargo",
+        "freight"
+      ],
+      "zh": "有效載荷；載重",
+      "ipa_uk": "/ˈpeɪ.ləʊd/",
+      "ipa_us": "/ˈpeɪ.loʊd/",
+      "en_ex": "The rocket successfully delivered its scientific payload into low Earth orbit this morning.",
+      "zh_ex": "今晨，該火箭成功將其科學有效載荷送入近地軌道。"
+    },
+    {
+      "word": "adhere to",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 9,
+      "band": "7.0",
+      "synonyms": [
+        "abide by",
+        "conform to"
+      ],
+      "zh": "信奉；遵從；堅持",
+      "ipa_uk": "/ədˈhɪə tu/",
+      "ipa_us": "/ədˈhɪr tu/",
+      "en_ex": "Practicing Muslims diligently adhere to specific daily prayer times regardless of geographic location.",
+      "zh_ex": "虔誠的穆斯林無論身在何處，都嚴格遵從特定的每日祈禱時間。"
+    },
+    {
+      "word": "designated",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "specified",
+        "allocated"
+      ],
+      "zh": "指定的；預定的",
+      "ipa_uk": "/ˈdez.ɪɡ.neɪ.tɪd/",
+      "ipa_us": "/ˈdez.ɪɡ.neɪ.t̬ɪd/",
+      "en_ex": "Passengers were instructed to assemble in the designated evacuation area immediately.",
+      "zh_ex": "乘客接獲指示立即前往指定的疏散區域集合。"
+    },
+    {
+      "word": "orbit",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 20,
+      "band": "6.5",
+      "synonyms": [
+        "circle",
+        "revolve around"
+      ],
+      "zh": "繞軌道運行；環繞",
+      "ipa_uk": "/ˈɔː.bɪt/",
+      "ipa_us": "/ˈɔːr.bɪt/",
+      "en_ex": "The space laboratory will orbit our planet roughly sixteen times every twenty-four hours.",
+      "zh_ex": "該太空實驗室每二十四小時將繞地球軌道運行大約十六圈。"
+    },
+    {
+      "word": "fulfill one's obligations",
+      "type": "sentence",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "discharge duties",
+        "carry out commitments"
+      ],
+      "zh": "履行職責；恪盡義務",
+      "ipa_uk": "/fʊlˈfɪl wʌnz ˌɒb.lɪˈɡeɪ.ʃənz/",
+      "ipa_us": "/fʊlˈfɪl wʌnz ˌɑː.bləˈɡeɪ.ʃənz/",
+      "en_ex": "Scholars clarified how individuals could fulfill their religious obligations under unprecedented environmental constraints.",
+      "zh_ex": "學者們闡明了個人在史無前例的環境限制下應如何履行其宗教義務。"
+    }
+  ]
+}
