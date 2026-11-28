@@ -1,0 +1,817 @@
+{
+  "date": "2026-11-27",
+  "video_id": "GooQg_28F6k",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "香港私隱署接獲資料外洩激增五成 警方指黑客利用AI加速盜取 (Data breach alerts surge 50% in Hong Kong as hackers exploit AI)",
+    "涉損毀特區護照致赴日遭拒 本地情侶涉違法改動證件被捕 (Couple arrested after altered HKSAR passport leads to Japan entry refusal)",
+    "中九龍幹線九龍灣段下月初通車 6號幹線全線貫通 (Central Kowloon Bypass Kowloon Bay section to open December 6 completing Route 6)",
+    "港澳客輪青衣油庫浮台相撞釀22傷 肇事船隻船頭嚴重受損 (Passenger ferry crashes into Tsing Yi oil depot dock injuring 22 people)",
+    "特朗普財務申報披露頻繁買賣輝達股票 讚揚黃仁勳回任總裁 (Trump financial disclosures show frequent Nvidia trades amid praise for Huang's return)",
+    "暴風雨重創全美感恩節出行 紐約梅西百貨感恩節遊行百年來首度延期 (Severe storms batter US Thanksgiving travel as Macy's parade postponed for first time)",
+    "新西蘭大選最終計票呈國會僵局 各政黨面臨艱巨組閣談判 (New Zealand election produces hung parliament prompting fraught coalition negotiations)",
+    "名媛蔡天鳳碎屍案結案陳詞 控方指被告精心預謀殺人滅跡 (Closing arguments begin in Abby Choi dismemberment trial as prosecution alleges premeditation)"
+  ],
+  "items": [
+    {
+      "word": "data breach",
+      "type": "phrase",
+      "pos": "n. phr.",
+      "topic_id": 3,
+      "band": "6.5",
+      "synonyms": [
+        "security incident",
+        "information leak"
+      ],
+      "zh": "資料外洩；數據洩露",
+      "ipa_uk": "/ˈdeɪ.tə briːtʃ/",
+      "ipa_us": "/ˈdeɪ.t̬ə briːtʃ/",
+      "en_ex": "The privacy commissioner received hundreds of reports regarding serious data breach incidents this year.",
+      "zh_ex": "私隱專員今年接獲數百宗有關嚴重資料外洩事故的通報。"
+    },
+    {
+      "word": "surge",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "sharp increase",
+        "dramatic rise"
+      ],
+      "zh": "激增；急升",
+      "ipa_uk": "/sɜːdʒ/",
+      "ipa_us": "/sɝːdʒ/",
+      "en_ex": "The watchdog reported a dramatic surge in reported cyber incidents compared to last year.",
+      "zh_ex": "監管機構報告稱，與去年相比，通報的網絡事故出現急劇激增。"
+    },
+    {
+      "word": "exploit",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "manipulate",
+        "capitalize on"
+      ],
+      "zh": "利用；剝削；惡意利用",
+      "ipa_uk": "/ɪkˈsplɔɪt/",
+      "ipa_us": "/ɪkˈsplɔɪt/",
+      "en_ex": "Criminals increasingly exploit sophisticated artificial intelligence tools to accelerate the harvest of personal information.",
+      "zh_ex": "罪犯日益利用尖端人工智能工具來加速採集個人資訊。"
+    },
+    {
+      "word": "harvest",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "gather",
+        "extract"
+      ],
+      "zh": "搜集；採集（數據）",
+      "ipa_uk": "/ˈhɑː.vɪst/",
+      "ipa_us": "/ˈhɑːr.vəst/",
+      "en_ex": "Automated algorithms were deployed to harvest private user credentials across multiple online platforms.",
+      "zh_ex": "自動化演算法被用來在多個網絡平台上搜集用戶的私密憑證。"
+    },
+    {
+      "word": "a slew of",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 8,
+      "band": "7.5",
+      "synonyms": [
+        "a multitude of",
+        "a raft of"
+      ],
+      "zh": "大量的；一連串的",
+      "ipa_uk": "/ə sluː əv/",
+      "ipa_us": "/ə sluː əv/",
+      "en_ex": "A slew of prominent organizations have recently come under coordinated online security attacks.",
+      "zh_ex": "近期有許多知名機構遭遇了協同發動的網絡安全攻擊。"
+    },
+    {
+      "word": "siphon off",
+      "type": "phrase",
+      "pos": "phr. v.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "drain away",
+        "divert secretly"
+      ],
+      "zh": "秘密抽走；暗中轉移（資金或資訊）",
+      "ipa_uk": "/ˈsaɪ.fən ɒf/",
+      "ipa_us": "/ˈsaɪ.fən ɑːf/",
+      "en_ex": "Vast amounts of sensitive client records were illegally siphoned off through unprotected servers.",
+      "zh_ex": "海量敏感客戶記錄透過未受保護的伺服器被非法竊取外流。"
+    },
+    {
+      "word": "watchdog",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "regulatory authority",
+        "ombudsman"
+      ],
+      "zh": "監管機構；監察人員",
+      "ipa_uk": "/ˈwɒtʃ.dɒɡ/",
+      "ipa_us": "/ˈwɑːtʃ.dɑːɡ/",
+      "en_ex": "The privacy watchdog reminded corporate bodies to notify affected system users immediately.",
+      "zh_ex": "私隱監管機構提醒各企事業單位應立即通知受影響的系統用戶。"
+    },
+    {
+      "word": "tally",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "6.5",
+      "synonyms": [
+        "running total",
+        "final count"
+      ],
+      "zh": "總數；計數記錄",
+      "ipa_uk": "/ˈtæl.i/",
+      "ipa_us": "/ˈtæl.i/",
+      "en_ex": "The current volume of cyber intrusions has already surpassed last year's annual tally.",
+      "zh_ex": "當前發生的網絡入侵數量已經超越了去年的全年度統計總數。"
+    },
+    {
+      "word": "ransomware",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "extortion software",
+        "malicious software"
+      ],
+      "zh": "勒索軟件",
+      "ipa_uk": "/ˈræn.səm.weər/",
+      "ipa_us": "/ˈræn.səm.wer/",
+      "en_ex": "Over half of the corporate disruptions investigated by police involved malicious ransomware applications.",
+      "zh_ex": "在警方調查的企業系統故障事件中，超過半數牽涉惡意勒索軟件。"
+    },
+    {
+      "word": "vulnerability",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "weakness",
+        "deficiency"
+      ],
+      "zh": "弱點；安全漏洞",
+      "ipa_uk": "/ˌvʌl.nər.əˈbɪl.ə.ti/",
+      "ipa_us": "/ˌvʌl.nɚ.əˈbɪl.ə.t̬i/",
+      "en_ex": "Security flaws in the code exposed system vulnerabilities to unauthorized third parties.",
+      "zh_ex": "代碼中的安全缺陷使系統安全漏洞暴露在未授權的第三方眼前。"
+    },
+    {
+      "word": "hardcode",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 3,
+      "band": "7.5",
+      "synonyms": [
+        "embed directly",
+        "integrate permanently"
+      ],
+      "zh": "硬編碼；寫死代碼",
+      "ipa_uk": "/ˌhɑːdˈkəʊd/",
+      "ipa_us": "/ˌhɑːrdˈkoʊd/",
+      "en_ex": "Developers had mistakenly hardcoded authentication keys directly into their publicly accessible applications.",
+      "zh_ex": "開發人員錯誤地將認證密鑰直接硬編碼寫入其公開的應用程式中。"
+    },
+    {
+      "word": "reverse engineer",
+      "type": "phrase",
+      "pos": "v. phr.",
+      "topic_id": 3,
+      "band": "7.5",
+      "synonyms": [
+        "deconstruct",
+        "backward analyze"
+      ],
+      "zh": "逆向工程剖析",
+      "ipa_uk": "/rɪˈvɜːs ˌen.dʒɪˈnɪər/",
+      "ipa_us": "/rɪˈvɝːs ˌen.dʒɪˈnɪr/",
+      "en_ex": "Skilled programmers can reverse engineer application code to identify concealed security keys.",
+      "zh_ex": "熟練的程式設計師可以逆向工程剖析應用代碼以找出隱藏的密鑰。"
+    },
+    {
+      "word": "compromised",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "breached",
+        "jeopardized"
+      ],
+      "zh": "遭洩露的；受損害的",
+      "ipa_uk": "/ˈkɒm.prə.maɪzd/",
+      "ipa_us": "/ˈkɑːm.prə.maɪzd/",
+      "en_ex": "Authorities actively monitor suspicious digital networks to flag compromised corporate database assets.",
+      "zh_ex": "當局積極監控可疑數字網絡，以及時標記出遭入侵洩露的企業資料庫資產。"
+    },
+    {
+      "word": "loophole",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "procedural flaw",
+        "technical opening"
+      ],
+      "zh": "漏洞；空子",
+      "ipa_uk": "/ˈluːp.həʊl/",
+      "ipa_us": "/ˈluːp.hoʊl/",
+      "en_ex": "Investigators worked swiftly to alert compromised entities so they could patch the security loophole.",
+      "zh_ex": "調查人員迅速向受影響單位發出預警，以便其能盡快修補該安全漏洞。"
+    },
+    {
+      "word": "incentivize",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 5,
+      "band": "7.5",
+      "synonyms": [
+        "motivate",
+        "encourage"
+      ],
+      "zh": "激勵；刺激",
+      "ipa_uk": "/ɪnˈsen.tɪ.vaɪz/",
+      "ipa_us": "/ɪnˈsen.t̬ə.vaɪz/",
+      "en_ex": "Tough regulatory standards are required to incentivize organizations to adopt rigorous cyber defenses.",
+      "zh_ex": "需要嚴格的監管標準來激勵機構採取審慎周密的網絡防禦措施。"
+    },
+    {
+      "word": "eradicate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "eliminate completely",
+        "wipe out"
+      ],
+      "zh": "根除；徹底消除",
+      "ipa_uk": "/ɪˈræd.ɪ.keɪt/",
+      "ipa_us": "/ɪˈræd.ɪ.keɪt/",
+      "en_ex": "Stringent accountability measures are urgently needed to eradicate administrative negligence in information handling.",
+      "zh_ex": "急需採取嚴格的問責手段，以徹底杜絕資料處理過程中的行政疏忽。"
+    },
+    {
+      "word": "crystallize",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "solidify",
+        "clarify"
+      ],
+      "zh": "成形；明確落實",
+      "ipa_uk": "/ˈkrɪs.təl.aɪz/",
+      "ipa_us": "/ˈkrɪs.təl.aɪz/",
+      "en_ex": "Once policy frameworks have fully crystallized, statutory financial penalties may be legally introduced.",
+      "zh_ex": "一旦監管政策架構完全成形明確，即可依法引入法定行政罰款。"
+    },
+    {
+      "word": "alter",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "6.5",
+      "synonyms": [
+        "modify unlawfully",
+        "tamper with"
+      ],
+      "zh": "擅自改動；偽造",
+      "ipa_uk": "/ˈɔːl.tər/",
+      "ipa_us": "/ˈɑːl.tɚ/",
+      "en_ex": "Two suspects were taken into custody on charges of attempting to alter legal travel documents.",
+      "zh_ex": "兩名嫌疑人因涉嫌試圖非法改動法定旅行證件而被拘捕。"
+    },
+    {
+      "word": "lawful authority",
+      "type": "phrase",
+      "pos": "n. phr.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "legal permission",
+        "official mandate"
+      ],
+      "zh": "法定授權；法律許可權",
+      "ipa_uk": "/ˈlɔː.fəl ɔːˈθɒr.ə.ti/",
+      "ipa_us": "/ˈlɑː.fəl əˈθɔːr.ə.t̬i/",
+      "en_ex": "Modifying official identification papers without lawful authority constitutes a grave criminal offense.",
+      "zh_ex": "未經法定授權擅自修改官方身分證明文件構成嚴重的刑事罪行。"
+    },
+    {
+      "word": "forensic",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "scientific investigative",
+        "criminological"
+      ],
+      "zh": "法醫學的；法證檢驗的",
+      "ipa_uk": "/fəˈren.zɪk/",
+      "ipa_us": "/fəˈren.zɪk/",
+      "en_ex": "A specialized forensic analysis performed in government laboratories confirmed malicious physical tampering.",
+      "zh_ex": "政府化驗所進行的專業法證檢驗證實了存在惡意的人為損毀篡改。"
+    },
+    {
+      "word": "witness testimony",
+      "type": "phrase",
+      "pos": "n. phr.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "sworn statement",
+        "deponent evidence"
+      ],
+      "zh": "證人證詞",
+      "ipa_uk": "/ˈwɪt.nəs ˈtes.tɪ.mə.ni/",
+      "ipa_us": "/ˈwɪt.nəs ˈtes.tə.moʊ.ni/",
+      "en_ex": "Prosecuting counsel noted that credible witness testimony would be mandatory to substantiate the case.",
+      "zh_ex": "檢控律師指出，必須有可靠的證人證詞才能證實案情成立。"
+    },
+    {
+      "word": "beyond reasonable doubt",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "with moral certainty",
+        "incontestably proven"
+      ],
+      "zh": "毫無合理懷疑點地（刑事定罪標準）",
+      "ipa_uk": "/bɪˈjɒnd ˈriː.zən.ə.bəl daʊt/",
+      "ipa_us": "/bɪˈjɑːnd ˈriː.zən.ə.bəl daʊt/",
+      "en_ex": "The burden rests on prosecutors to establish criminal intent beyond reasonable doubt in court.",
+      "zh_ex": "在法庭上提出無可置疑的證據排除合理懷疑，是檢控方的舉證責任。"
+    },
+    {
+      "word": "specification",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "technical standard",
+        "exact requirement"
+      ],
+      "zh": "規格；規範要求",
+      "ipa_uk": "/ˌspes.ɪ.fɪˈkeɪ.ʃən/",
+      "ipa_us": "/ˌspes.ə.fəˈkeɪ.ʃən/",
+      "en_ex": "Civil aviation bodies enforce strict design specification benchmarks for modern electronic passports.",
+      "zh_ex": "民航組織對現代電子護照實施非常嚴格的設計規範標準。"
+    },
+    {
+      "word": "trim",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "reduce",
+        "curtail"
+      ],
+      "zh": "縮減；縮短",
+      "ipa_uk": "/trɪm/",
+      "ipa_us": "/trɪm/",
+      "en_ex": "The opening of the new highway infrastructure will trim daily vehicular commute durations significantly.",
+      "zh_ex": "新建公路基礎設施的啟用將顯著縮減市民每日車輛通勤時間。"
+    },
+    {
+      "word": "collision",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 7,
+      "band": "6.5",
+      "synonyms": [
+        "crash",
+        "violent impact"
+      ],
+      "zh": "碰撞；撞擊事故",
+      "ipa_uk": "/kəˈlɪʒ.ən/",
+      "ipa_us": "/kəˈlɪʒ.ən/",
+      "en_ex": "Extensive structural damage was apparent on the bow following the severe maritime collision.",
+      "zh_ex": "在發生嚴重的海上碰撞後，船頭部位出現了明顯的結構性損傷。"
+    },
+    {
+      "word": "extricate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 4,
+      "band": "8.0",
+      "synonyms": [
+        "rescue",
+        "disentangle"
+      ],
+      "zh": "解救；使脫困",
+      "ipa_uk": "/ˈek.strɪ.keɪt/",
+      "ipa_us": "/ˈek.strə.keɪt/",
+      "en_ex": "Emergency workers worked tirelessly to extricate trapped passengers safely from the crippled vessel.",
+      "zh_ex": "緊急救援人員孜孜不倦地工作，將受困乘客安全地從受損船隻中解救出來。"
+    },
+    {
+      "word": "disclosure",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "declaration",
+        "public revelation"
+      ],
+      "zh": "披露；申報資料",
+      "ipa_uk": "/dɪsˈkləʊ.ʒər/",
+      "ipa_us": "/dɪsˈkloʊ.ʒɚ/",
+      "en_ex": "Mandatory financial disclosure documents demonstrated active commercial transactions in leading technology equities.",
+      "zh_ex": "強制的財務申報文件顯示出當事人曾積極交易主要科技企業的股權。"
+    },
+    {
+      "word": "reinstate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 5,
+      "band": "7.5",
+      "synonyms": [
+        "restore",
+        "reappoint"
+      ],
+      "zh": "使復職；恢復原職",
+      "ipa_uk": "/ˌriː.ɪnˈsteɪt/",
+      "ipa_us": "/ˌriː.ɪnˈsteɪt/",
+      "en_ex": "The company board decided unanimously to reinstate the founder as primary chief executive.",
+      "zh_ex": "公司董事會一致決定讓這位創辦人重新復職擔任最高行政總裁。"
+    },
+    {
+      "word": "dive",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "plummet",
+        "fall sharply"
+      ],
+      "zh": "驟降；暴跌",
+      "ipa_uk": "/daɪv/",
+      "ipa_us": "/daɪv/",
+      "en_ex": "Equity values began to dive rapidly following shocking reports of unexpected executive resignations.",
+      "zh_ex": "在一連串高層突然辭職的震撼消息傳出後，公司股價開始急劇暴跌。"
+    },
+    {
+      "word": "compliance",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "adherence",
+        "conformity"
+      ],
+      "zh": "遵從；合規",
+      "ipa_uk": "/kəmˈplaɪ.əns/",
+      "ipa_us": "/kəmˈplaɪ.əns/",
+      "en_ex": "Multinational chip manufacturers must guarantee complete compliance with export control statutes.",
+      "zh_ex": "跨國晶片製造商必須確保完全遵從相關出口管制的法規。"
+    },
+    {
+      "word": "dampen",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 7,
+      "band": "7.5",
+      "synonyms": [
+        "curb",
+        "diminish"
+      ],
+      "zh": "抑制；給…潑冷水",
+      "ipa_uk": "/ˈdæm.pən/",
+      "ipa_us": "/ˈdæm.pən/",
+      "en_ex": "Unprecedented torrential downpours threatened to dampen public enthusiasm during the holiday parade.",
+      "zh_ex": "前所未見的傾盆暴雨恐將打擊大眾參與節日巡遊慶祝活動的熱情。"
+    },
+    {
+      "word": "hamper",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 7,
+      "band": "7.0",
+      "synonyms": [
+        "impede",
+        "hinder"
+      ],
+      "zh": "阻礙；妨礙",
+      "ipa_uk": "/ˈhæm.pər/",
+      "ipa_us": "/ˈhæm.pɚ/",
+      "en_ex": "Persistent atmospheric instability and ice conditions continue to hamper commercial air transit.",
+      "zh_ex": "持續的氣候不穩定與結冰狀況持續嚴重阻礙商業民航交通運作。"
+    },
+    {
+      "word": "swamp",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "inundate",
+        "submerge"
+      ],
+      "zh": "淹沒；浸沒",
+      "ipa_uk": "/swɒmp/",
+      "ipa_us": "/swɑːmp/",
+      "en_ex": "Surging ocean tides and relentless storm surges threatened to swamp residential coastal thoroughfares.",
+      "zh_ex": "洶湧的海潮與持續的風暴潮險些徹底淹沒沿海居民區的交通幹道。"
+    },
+    {
+      "word": "batter",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "pummel",
+        "assail violently"
+      ],
+      "zh": "連續猛擊；肆虐",
+      "ipa_uk": "/ˈbæt.ər/",
+      "ipa_us": "/ˈbæt̬.ɚ/",
+      "en_ex": "Relentless gale-force winds continue to batter vulnerable seaside communities throughout the eastern seaboard.",
+      "zh_ex": "無情的狂風持續猛烈侵襲東部沿海地區基礎薄弱的濱海社區。"
+    },
+    {
+      "word": "err on the side of caution",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 10,
+      "band": "8.0",
+      "synonyms": [
+        "choose prudent course",
+        "prioritize safety"
+      ],
+      "zh": "寧求穩妥；凡事寧可過於審慎",
+      "ipa_uk": "/ɜːr ɒn ðə saɪd əv ˈkɔː.ʃən/",
+      "ipa_us": "/er ɑːn ðə saɪd əv ˈkɑː.ʃən/",
+      "en_ex": "Given the hazardous climatic forecasts, municipal authorities decided to err on the side of caution.",
+      "zh_ex": "鑑於危險的惡劣氣象預報，市政當局決定凡事寧可過於審慎以策萬全。"
+    },
+    {
+      "word": "logistics",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "operational organization",
+        "coordination"
+      ],
+      "zh": "後勤組織；物流運籌",
+      "ipa_uk": "/ləˈdʒɪs.tɪks/",
+      "ipa_us": "/ləˈdʒɪs.tɪks/",
+      "en_ex": "Organizers must resolve demanding logistical puzzles prior to staging rescheduled celebratory events.",
+      "zh_ex": "主辦方必須在舉辦改期慶典活動之前，妥善解決棘手的後勤調度難題。"
+    },
+    {
+      "word": "fraught",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "tense",
+        "troubled"
+      ],
+      "zh": "充滿憂慮的；形勢緊張的",
+      "ipa_uk": "/frɔːt/",
+      "ipa_us": "/frɑːt/",
+      "en_ex": "Parties entered fraught inter-organizational talks to reconcile their conflicting statutory agendas.",
+      "zh_ex": "各政黨進入了氣氛緊張的跨機構談判，以調和彼此衝突的法定政綱。"
+    },
+    {
+      "word": "deadlock",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "stalemate",
+        "impasse"
+      ],
+      "zh": "僵局；停頓狀態",
+      "ipa_uk": "/ˈded.lɒk/",
+      "ipa_us": "/ˈded.lɑːk/",
+      "en_ex": "Intensive political diplomacy was launched in an effort to break the parliamentary deadlock.",
+      "zh_ex": "各方啟動密集的政治斡旋，以期打破國會目前陷入的僵持狀態。"
+    },
+    {
+      "word": "wafer-thin",
+      "type": "phrase",
+      "pos": "adj. phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "razor-thin",
+        "extremely narrow"
+      ],
+      "zh": "微弱的；極微小的",
+      "ipa_uk": "/ˌweɪ.fəˈθɪn/",
+      "ipa_us": "/ˌweɪ.fɚˈθɪn/",
+      "en_ex": "The ruling alliance held on to governing power by a wafer-thin parliamentary margin.",
+      "zh_ex": "執政聯盟僅憑藉微弱至極的國會多數席位勉強保住執政權力。"
+    },
+    {
+      "word": "collaboration",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "6.5",
+      "synonyms": [
+        "cooperation",
+        "joint alliance"
+      ],
+      "zh": "合作；協同工作",
+      "ipa_uk": "/kəˌlæb.əˈreɪ.ʃən/",
+      "ipa_us": "/kəˌlæb.əˈreɪ.ʃən/",
+      "en_ex": "Effective legislative progress requires productive cross-party collaboration on major societal reforms.",
+      "zh_ex": "有效的立法推進需要各黨派就重大社會改革展開富有成效的通力合作。"
+    },
+    {
+      "word": "find common ground",
+      "type": "sentence",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "reach mutual understanding",
+        "bridge differences"
+      ],
+      "zh": "尋求共識；找到共同點",
+      "ipa_uk": "/faɪnd ˈkɒm.ən ɡraʊnd/",
+      "ipa_us": "/faɪnd ˈkɑː.mən ɡraʊnd/",
+      "en_ex": "Elected parliamentarians must strive to find common ground despite wide ideological differences.",
+      "zh_ex": "民選議員們儘管存在巨大的意識形態差異，仍須努力尋求各方共識。"
+    },
+    {
+      "word": "amplify",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 3,
+      "band": "7.5",
+      "synonyms": [
+        "magnify",
+        "intensify"
+      ],
+      "zh": "放大；增強",
+      "ipa_uk": "/ˈæm.plɪ.faɪ/",
+      "ipa_us": "/ˈæm.plə.faɪ/",
+      "en_ex": "Experts cautioned that unconstrained algorithmic autonomy could drastically amplify human error.",
+      "zh_ex": "專家警告稱，缺乏監管的演算法自主性可能會大幅放大人為錯誤的後果。"
+    },
+    {
+      "word": "unfold",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.0",
+      "synonyms": [
+        "transpire",
+        "evolve gradually"
+      ],
+      "zh": "展開；呈現",
+      "ipa_uk": "/ʌnˈfəʊld/",
+      "ipa_us": "/ʌnˈfoʊld/",
+      "en_ex": "Global technological advancement continues to unfold amidst heightened geopolitical rivalry and friction.",
+      "zh_ex": "全球科技進步正在地緣政治競爭與摩擦加劇的背景之下逐步展開。"
+    },
+    {
+      "word": "orbital",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 20,
+      "band": "7.5",
+      "synonyms": [
+        "extraterrestrial",
+        "space-based"
+      ],
+      "zh": "軌道的；運行軌道的",
+      "ipa_uk": "/ˈɔː.bɪ.təl/",
+      "ipa_us": "/ˈɔːr.bə.t̬əl/",
+      "en_ex": "The crew accomplished multiple groundbreaking experiments during their extended orbital deployment.",
+      "zh_ex": "航天員乘組在漫長的軌道駐留任務期間，完成了多項具突破性的科學實驗。"
+    },
+    {
+      "word": "premeditated",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "8.0",
+      "synonyms": [
+        "deliberately planned",
+        "calculated"
+      ],
+      "zh": "預謀的；預先策劃的",
+      "ipa_uk": "/priːˈmed.ɪ.teɪ.tɪd/",
+      "ipa_us": "/priːˈmed.ə.teɪ.t̬ɪd/",
+      "en_ex": "The prosecution submitted incontrovertible evidence showing the gruesome murder was fully premeditated.",
+      "zh_ex": "檢控方提交了無可辯駁的證據，證明這起駭人聽聞的兇殺案完全經過精心預謀。"
+    },
+    {
+      "word": "submission",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "legal argument",
+        "pleading"
+      ],
+      "zh": "法庭陳詞；答辯意見",
+      "ipa_uk": "/səbˈmɪʃ.ən/",
+      "ipa_us": "/səbˈmɪʃ.ən/",
+      "en_ex": "Crown prosecutors delivered comprehensive closing submissions before the jury retired for deliberations.",
+      "zh_ex": "檢察官在陪審團退庭商議之前，向法庭進行了詳盡的結案陳詞。"
+    },
+    {
+      "word": "fall out",
+      "type": "phrase",
+      "pos": "phr. v.",
+      "topic_id": 13,
+      "band": "6.5",
+      "synonyms": [
+        "quarrel fiercely",
+        "become estranged"
+      ],
+      "zh": "爭吵不和；鬧翻",
+      "ipa_uk": "/fɔːl aʊt/",
+      "ipa_us": "/fɑːl aʊt/",
+      "en_ex": "Disputes over ancestral assets caused family members to fall out irreparably years before.",
+      "zh_ex": "幾年前關於家族財產的糾紛導致家庭成員之間徹底鬧翻，關係無可挽回。"
+    },
+    {
+      "word": "spontaneous",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "impulsive",
+        "unplanned"
+      ],
+      "zh": "自發的；一時衝動的",
+      "ipa_uk": "/spɒnˈteɪ.ni.əs/",
+      "ipa_us": "/spɑːnˈteɪ.ni.əs/",
+      "en_ex": "The coordinated actions of the assailants could hardly be characterized as a spontaneous outburst.",
+      "zh_ex": "行兇者們協同一致的冷靜舉動絕不能被定性為一時衝動的自發行為。"
+    },
+    {
+      "word": "grievance",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "deep resentment",
+        "justified complaint"
+      ],
+      "zh": "不滿；積怨",
+      "ipa_uk": "/ˈɡriː.vəns/",
+      "ipa_us": "/ˈɡriː.vəns/",
+      "en_ex": "Underlying financial grievances can never justify committing acts of unmitigated cruelty and brutality.",
+      "zh_ex": "潛在的財務積怨絕不能成為實施極端殘忍殘暴罪行的藉口。"
+    },
+    {
+      "word": "intangible cultural heritage",
+      "type": "phrase",
+      "pos": "n. phr.",
+      "topic_id": 9,
+      "band": "7.5",
+      "synonyms": [
+        "living tradition",
+        "cultural legacy"
+      ],
+      "zh": "非物質文化遺產",
+      "ipa_uk": "/ɪnˈtæn.dʒə.bəl ˈkʌl.tʃər.əl ˈher.ɪ.tɪdʒ/",
+      "ipa_us": "/ɪnˈtæn.dʒə.bəl ˈkʌl.tʃɚ.əl ˈher.ə.t̬ɪdʒ/",
+      "en_ex": "Centuries of artisan dyeing techniques are preserved as prized intangible cultural heritage.",
+      "zh_ex": "數百年歷史的匠人傳統染色技藝被列為受珍視保護的國家級非物質文化遺產。"
+    }
+  ]
+}

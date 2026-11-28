@@ -1,0 +1,817 @@
+{
+  "date": "2026-11-26",
+  "video_id": "N4ucaoP2arA",
+  "duration": "約 20 分鐘",
+  "headlines": [
+    "宏福苑大火一週年市民自發悼念，當局擬修例收緊消防承辦商監管 (Mourners gather on first anniversary of deadly Wang Fuk Court fire as government tightens fire safety rules)",
+    "美國擬開徵廣泛新關稅應對產能過剩，中方反對並強調對話協商 (US plans broad new tariffs over alleged overcapacity while Beijing urges consultation)",
+    "美副總統稱黃仁勳未受刑事調查，重申不以匿名指控定罪 (US Vice President says Nvidia CEO Jensen Huang faces no probe and rejects anonymous allegations)",
+    "印尼非法金礦暴雨塌方淹沒致多人被困，當局展開徹夜搜救 (Flooding in illegal Indonesian gold mine leaves miners trapped as rescue operations continue)",
+    "開羅環城公路油罐車翻側引發連環爆炸大火釀嚴重傷亡 (Fatal tanker explosion and blaze on Cairo Ring Road claim dozens of lives)",
+    "紐約梅西感恩節大遊行百年來首度因極端天氣押後舉行 (Macy's 100th Thanksgiving Day parade postponed for first time due to severe storm)",
+    "運輸署下周起接受網約車司機許可證申請，配額滿將抽籤決定 (Transport Department opens ride-hailing driver permit applications next week)",
+    "本地大專院校研發AI精神健康平台，加強學校前線辨識與支援 (Universities launch AI platform to enhance school mental health support)"
+  ],
+  "items": [
+    {
+      "word": "bereaved",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 13,
+      "band": "7.5",
+      "synonyms": [
+        "grieving",
+        "mourning"
+      ],
+      "zh": "喪親的；痛失親友的",
+      "ipa_uk": "/bɪˈriːvd/",
+      "ipa_us": "/bɪˈriːvd/",
+      "en_ex": "Social workers were deployed to offer psychological support to the bereaved families affected by the tragedy.",
+      "zh_ex": "社工已被派往現場，為受該場悲劇影響的喪親家庭提供心理支援。"
+    },
+    {
+      "word": "blaze",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 6,
+      "band": "6.5",
+      "synonyms": [
+        "inferno",
+        "conflagration"
+      ],
+      "zh": "大火；烈火",
+      "ipa_uk": "/bleɪz/",
+      "ipa_us": "/bleɪz/",
+      "en_ex": "Firefighters battled the deadly blaze for over forty hours before it was finally brought under control.",
+      "zh_ex": "消防員與致命大火奮戰了四十多個小時，火勢才終於受到控制。"
+    },
+    {
+      "word": "longing",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 13,
+      "band": "7.0",
+      "synonyms": [
+        "yearning",
+        "craving"
+      ],
+      "zh": "渴望；思念",
+      "ipa_uk": "/ˈlɒŋ.ɪŋ/",
+      "ipa_us": "/ˈlɑːŋ.ɪŋ/",
+      "en_ex": "Floral tributes left by grieving relatives vividly expressed their profound longing for lost family members.",
+      "zh_ex": "悲痛的家屬留下的悼念花束，深刻表達了他們對逝去親人的深切思念。"
+    },
+    {
+      "word": "renovation",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 19,
+      "band": "6.5",
+      "synonyms": [
+        "refurbishment",
+        "restoration"
+      ],
+      "zh": "整修；翻新工程",
+      "ipa_uk": "/ˌren.əˈveɪ.ʃən/",
+      "ipa_us": "/ˌren.əˈveɪ.ʃən/",
+      "en_ex": "The fatal building fire broke out while the residential estate was undergoing extensive renovation work.",
+      "zh_ex": "這場致命的住宅大火是在該屋苑進行大規模翻新工程期間爆發的。"
+    },
+    {
+      "word": "flame-retardant",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 19,
+      "band": "7.5",
+      "synonyms": [
+        "fire-resistant",
+        "fireproof"
+      ],
+      "zh": "阻燃的；防火的",
+      "ipa_uk": "/ˈfleɪm rɪˌtɑː.dənt/",
+      "ipa_us": "/ˈfleɪm rɪˌtɑːr.dənt/",
+      "en_ex": "Flames spread rapidly across the exterior scaffolding because non-flame-retardant netting had been installed.",
+      "zh_ex": "由於安裝了非阻燃棚網，火勢迅速蔓延至外牆棚架。"
+    },
+    {
+      "word": "in the line of duty",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 5,
+      "band": "7.0",
+      "synonyms": [
+        "on duty",
+        "in service"
+      ],
+      "zh": "在執行公務中；因公（殉職）",
+      "ipa_uk": "/ɪn ðə laɪn əv ˈdjuː.ti/",
+      "ipa_us": "/ɪn ðə laɪn əv ˈduː.t̬i/",
+      "en_ex": "Citizens gathered to pay tribute to the brave firefighter who tragically died in the line of duty.",
+      "zh_ex": "市民齊聚一堂，向在執行公務中英勇殉職的消防員致敬。"
+    },
+    {
+      "word": "buy-out",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "acquisition",
+        "takeover"
+      ],
+      "zh": "收購；買斷產權",
+      "ipa_uk": "/ˈbaɪ.aʊt/",
+      "ipa_us": "/ˈbaɪ.aʊt/",
+      "en_ex": "Authorities are continuing discussions with resident households that have refused the government's buy-out offer.",
+      "zh_ex": "當局正持續與拒絕接受政府收購要約的住戶進行商討。"
+    },
+    {
+      "word": "human touch",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "compassion",
+        "empathy"
+      ],
+      "zh": "人情味；人性化關懷",
+      "ipa_uk": "/ˌhjuː.mən ˈtʌtʃ/",
+      "ipa_us": "/ˌhjuː.mən ˈtʌtʃ/",
+      "en_ex": "The minister stressed that officials would handle the sensitive relocation process with a more human touch.",
+      "zh_ex": "局長強調，官員將以更具人情味的方式處理敏感的搬遷安置工作。"
+    },
+    {
+      "word": "in the interim",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "meanwhile",
+        "in the meantime"
+      ],
+      "zh": "在此期間；過渡期內",
+      "ipa_uk": "/ɪn ði ˈɪn.tər.ɪm/",
+      "ipa_us": "/ɪn ði ˈɪn.t̬ɚ.ɪm/",
+      "en_ex": "The proposed reforms were delayed because alternative legislative safety measures had to be prioritized in the interim.",
+      "zh_ex": "這項改革方案被推遲，是因為在此過渡期間必須優先處理其他立法安全措施。"
+    },
+    {
+      "word": "scrutiny",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "examination",
+        "inspection"
+      ],
+      "zh": "嚴格審查；仔細審視",
+      "ipa_uk": "/ˈskruː.tɪ.ni/",
+      "ipa_us": "/ˈskruː.tən.i/",
+      "en_ex": "The new fire safety amendment bill will soon be submitted to lawmakers for rigorous legislative scrutiny.",
+      "zh_ex": "新的消防安全修訂條例草案不久後將提交給議員進行嚴格的立法審查。"
+    },
+    {
+      "word": "disciplinary",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "corrective",
+        "punitive"
+      ],
+      "zh": "紀律的；懲戒性的",
+      "ipa_uk": "/ˌdɪs.əˈplɪn.ər.i/",
+      "ipa_us": "/ˈdɪs.ə.plə.ner.i/",
+      "en_ex": "The registered contractors are scheduled to face disciplinary hearings over alleged regulatory failures during the incident.",
+      "zh_ex": "該批註冊承辦商預計將因涉嫌在此次事件中的違規失職而面臨紀律聆訊。"
+    },
+    {
+      "word": "prosecute",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 12,
+      "band": "7.0",
+      "synonyms": [
+        "indict",
+        "sue"
+      ],
+      "zh": "起訴；檢控",
+      "ipa_uk": "/ˈprɒs.ɪ.kjuːt/",
+      "ipa_us": "/ˈprɑː.sə.kjuːt/",
+      "en_ex": "The relevant department decided to prosecute the commercial contractor in connection with the fatal fire disaster.",
+      "zh_ex": "相關部門決定就這起致命火災事故起訴該商業承辦商。"
+    },
+    {
+      "word": "tariff",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "duty",
+        "customs tax"
+      ],
+      "zh": "關稅",
+      "ipa_uk": "/ˈtær.ɪf/",
+      "ipa_us": "/ˈter.ɪf/",
+      "en_ex": "The administration announced sweeping new tariffs on foreign manufactured goods to protect domestic industrial production.",
+      "zh_ex": "該屆政府宣布對外國製造品徵收廣泛的新關稅，以保護國內工業生產。"
+    },
+    {
+      "word": "overproduction",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "surplus",
+        "overcapacity"
+      ],
+      "zh": "生產過剩",
+      "ipa_uk": "/ˌəʊ.və.prəˈdʌk.ʃən/",
+      "ipa_us": "/ˌoʊ.vɚ.prəˈdʌk.ʃən/",
+      "en_ex": "Policymakers argued that persistent factory overproduction abroad creates an unfair competitive advantage against local firms.",
+      "zh_ex": "政策制定者認為，外國持續的工廠生產過剩對本地企業造成了不公平的競爭優勢。"
+    },
+    {
+      "word": "serve no one's interests",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "harm everyone",
+        "be detrimental to all"
+      ],
+      "zh": "對任何人都不利；不符合任何一方利益",
+      "ipa_uk": "/sɜːv nəʊ wʌnz ˈɪn.trəsts/",
+      "ipa_us": "/sɝːv noʊ wʌnz ˈɪn.trɪsts/",
+      "en_ex": "Diplomats warned that escalating trade disputes and punitive tariffs serve no one's interests in global commerce.",
+      "zh_ex": "外交官警告說，升級貿易爭端和懲罰性關稅在環球商業中對任何人都不利。"
+    },
+    {
+      "word": "exemption",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 11,
+      "band": "7.5",
+      "synonyms": [
+        "immunity",
+        "exclusion"
+      ],
+      "zh": "豁免；免除",
+      "ipa_uk": "/ɪɡˈzem.pʃən/",
+      "ipa_us": "/ɪɡˈzem.pʃən/",
+      "en_ex": "Despite broad trade restrictions, officials proposed special tariff exemptions for advanced semiconductor and electronics imports.",
+      "zh_ex": "儘管面臨廣泛的貿易限制，官員仍提議對先進半導體和電子產品進口實施特別關稅豁免。"
+    },
+    {
+      "word": "truce",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "armistice",
+        "ceasefire"
+      ],
+      "zh": "休戰；協商暫停期",
+      "ipa_uk": "/truːs/",
+      "ipa_us": "/truːs/",
+      "en_ex": "The two trading partners negotiated a temporary trade truce to avert severe economic and market fallout.",
+      "zh_ex": "兩大貿易夥伴經談判達成了臨時貿易休戰協定，以避免嚴重的經濟和市場衝擊。"
+    },
+    {
+      "word": "unravel",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 14,
+      "band": "7.5",
+      "synonyms": [
+        "collapse",
+        "fall apart"
+      ],
+      "zh": "破裂；瓦解",
+      "ipa_uk": "/ʌnˈræv.əl/",
+      "ipa_us": "/ʌnˈræv.əl/",
+      "en_ex": "If the delicate bilateral agreement unravelling occurs, higher punitive duties will take effect immediately.",
+      "zh_ex": "如果這項微妙的雙邊協定破裂，更高的懲罰性關稅將立即生效。"
+    },
+    {
+      "word": "counteract",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "neutralize",
+        "offset"
+      ],
+      "zh": "抵消；抗衡",
+      "ipa_uk": "/ˌkaʊn.tərˈækt/",
+      "ipa_us": "/ˌkaʊn.t̬ɚˈækt/",
+      "en_ex": "The protectionist measures were primarily designed to counteract market distortions caused by foreign financial subsidies.",
+      "zh_ex": "這些保護主義措施主要是為了抵消外國財政補貼造成的市場扭曲。"
+    },
+    {
+      "word": "distort",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "warp",
+        "skew"
+      ],
+      "zh": "扭曲；失真",
+      "ipa_uk": "/dɪˈstɔːt/",
+      "ipa_us": "/dɪˈstɔːrt/",
+      "en_ex": "Aggressive state subsidies can severely distort international commodity markets and depress genuine consumer pricing.",
+      "zh_ex": "激進的國家補貼會嚴重扭曲國際大宗商品市場，並壓低真實的消費價格。"
+    },
+    {
+      "word": "undermine",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "weaken",
+        "subvert"
+      ],
+      "zh": "削弱；損害",
+      "ipa_uk": "/ˌʌn.dəˈmaɪn/",
+      "ipa_us": "/ˌʌn.dɚˈmaɪn/",
+      "en_ex": "Cheap foreign imports can undermine domestic manufacturing industries by forcing local factories out of business.",
+      "zh_ex": "廉價的外國進口商品會迫使本地工廠倒閉，從而削弱國內製造業。"
+    },
+    {
+      "word": "rattle",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 11,
+      "band": "7.0",
+      "synonyms": [
+        "unnerve",
+        "shake"
+      ],
+      "zh": "使震盪；使慌亂",
+      "ipa_uk": "/ˈræt.əl/",
+      "ipa_us": "/ˈræt̬.əl/",
+      "en_ex": "Trade analysts expressed fear that the sudden imposition of heavy tariffs might rattle global financial markets.",
+      "zh_ex": "貿易分析師擔心，突然加徵沉重關稅可能會使全球金融市場產生震盪。"
+    },
+    {
+      "word": "lax",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "lenient",
+        "negligent"
+      ],
+      "zh": "鬆懈的；不嚴格的",
+      "ipa_uk": "/læks/",
+      "ipa_us": "/læks/",
+      "en_ex": "Authorities launched an inquiry into the company's lax enforcement of occupational safety regulations.",
+      "zh_ex": "當局對該公司鬆懈執行職業安全規定的行為展開了調查。"
+    },
+    {
+      "word": "pretext",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "guise",
+        "excuse"
+      ],
+      "zh": "藉口；託詞",
+      "ipa_uk": "/ˈpriː.tekst/",
+      "ipa_us": "/ˈpriː.tekst/",
+      "en_ex": "The spokesperson accused foreign governments of using industrial overcapacity as a pretext for economic containment.",
+      "zh_ex": "發言人指責外國政府利用產能過剩作為進行經濟遏制的藉口。"
+    },
+    {
+      "word": "court of public opinion",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 8,
+      "band": "7.5",
+      "synonyms": [
+        "popular judgment",
+        "media trial"
+      ],
+      "zh": "輿論法庭；大眾審判",
+      "ipa_uk": "/kɔːt əv ˈpʌb.lɪk əˈpɪn.jən/",
+      "ipa_us": "/kɔːrt əv ˈpʌb.lɪk əˈpɪn.jən/",
+      "en_ex": "The lawyer argued that prominent corporate leaders should not be prematurely judged in the court of public opinion.",
+      "zh_ex": "律師辯稱，知名企業領袖不應在輿論法庭中過早地被定罪。"
+    },
+    {
+      "word": "We try people based on evidence.",
+      "type": "sentence",
+      "pos": "idiom",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "Guilt must be established through facts.",
+        "Due process requires concrete proof."
+      ],
+      "zh": "我們依憑證據審判他人。",
+      "ipa_uk": "/wiː traɪ ˈpiː.pəl beɪst ɒn ˈev.ɪ.dəns/",
+      "ipa_us": "/wiː traɪ ˈpiː.pəl beɪst ɑːn ˈev.ə.dəns/",
+      "en_ex": "Defending legal due process, the official stressed to reporters: We try people based on evidence.",
+      "zh_ex": "該官員在捍衛法定正當程序時向記者強調：「我們是依據客觀證據來審判他人的。」"
+    },
+    {
+      "word": "pardon",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 12,
+      "band": "7.5",
+      "synonyms": [
+        "clemency",
+        "amnesty"
+      ],
+      "zh": "特赦；赦免",
+      "ipa_uk": "/ˈpɑː.dən/",
+      "ipa_us": "/ˈpɑːr.dən/",
+      "en_ex": "Speculation intensified over whether the executive would formally request a presidential pardon following legal scrutiny.",
+      "zh_ex": "在面臨法律審查之際，外界對該主管是否會正式申請總統特赦的猜測與日俱增。"
+    },
+    {
+      "word": "reinstate",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 5,
+      "band": "7.5",
+      "synonyms": [
+        "restore",
+        "re-establish"
+      ],
+      "zh": "使復職；恢復（職位）",
+      "ipa_uk": "/ˌriː.ɪnˈsteɪt/",
+      "ipa_us": "/ˌriː.ɪnˈsteɪt/",
+      "en_ex": "The technology giant moved to reinstate its chief executive after a thorough internal ethics review.",
+      "zh_ex": "經過徹底的內部道德審查後，這家科技巨頭決定讓其行政總裁復職。"
+    },
+    {
+      "word": "code of conduct",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 5,
+      "band": "7.0",
+      "synonyms": [
+        "ethical guidelines",
+        "rules of practice"
+      ],
+      "zh": "行為準則；操守守則",
+      "ipa_uk": "/kəʊd əv ˈkɒn.dʌkt/",
+      "ipa_us": "/koʊd əv ˈkɑːn.dʌkt/",
+      "en_ex": "The chief executive apologized to corporate employees for a serious breach of the company's code of conduct.",
+      "zh_ex": "該行政總裁就嚴重違反公司行為準則向全體員工公開致歉。"
+    },
+    {
+      "word": "accountability",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 10,
+      "band": "7.5",
+      "synonyms": [
+        "responsibility",
+        "answerability"
+      ],
+      "zh": "問責；問責制",
+      "ipa_uk": "/əˌkaʊn.təˈbɪl.ə.ti/",
+      "ipa_us": "/əˌkaʊn.t̬əˈbɪl.ə.t̬i/",
+      "en_ex": "Board members maintained that corporate leaders must adhere strictly to established principles of accountability.",
+      "zh_ex": "董事會成員堅稱，企業領導者必須嚴格遵守既定的問責原則。"
+    },
+    {
+      "word": "espionage",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 14,
+      "band": "8.0",
+      "synonyms": [
+        "intelligence gathering",
+        "spying"
+      ],
+      "zh": "間諜活動；諜報行為",
+      "ipa_uk": "/ˈes.pi.ə.nɑːʒ/",
+      "ipa_us": "/ˈes.pi.ə.nɑːʒ/",
+      "en_ex": "The foreign ministry firmly rejected foreign intelligence accusations regarding alleged state-sponsored industrial espionage.",
+      "zh_ex": "外交部堅決駁斥了外國情報機構關於國家支持工業間諜活動的指控。"
+    },
+    {
+      "word": "breach",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 3,
+      "band": "7.0",
+      "synonyms": [
+        "violation",
+        "infringement"
+      ],
+      "zh": "違規；漏洞破壞",
+      "ipa_uk": "/briːtʃ/",
+      "ipa_us": "/briːtʃ/",
+      "en_ex": "Intelligence officials revealed that a minor cyber security breach compromised an unclassified government network.",
+      "zh_ex": "情報官員透露，一起輕微的網絡安全漏洞影響了一個未加密的政府網絡系統。"
+    },
+    {
+      "word": "smear",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 8,
+      "band": "7.5",
+      "synonyms": [
+        "slander",
+        "defame"
+      ],
+      "zh": "抹黑；誹謗",
+      "ipa_uk": "/smɪər/",
+      "ipa_us": "/smɪr/",
+      "en_ex": "The diplomatic spokesperson opposed utilizing unsubstantiated hacking allegations to smear the nation's international image.",
+      "zh_ex": "外交發言人反對利用未經證實的黑客指控來抹黑該國的國際形象。"
+    },
+    {
+      "word": "terrain",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "topography",
+        "landscape"
+      ],
+      "zh": "地形；地勢",
+      "ipa_uk": "/təˈreɪn/",
+      "ipa_us": "/təˈreɪn/",
+      "en_ex": "Emergency teams struggled across steep mountainous terrain to deliver critical rescue supplies to trapped survivors.",
+      "zh_ex": "緊急救援人員在陡峭崎嶇的山區地形中艱難前行，為受困倖存者運送關鍵物資。"
+    },
+    {
+      "word": "mine shaft",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 18,
+      "band": "7.5",
+      "synonyms": [
+        "pit",
+        "vertical tunnel"
+      ],
+      "zh": "礦井；礦井通道",
+      "ipa_uk": "/ˈmaɪn ʃɑːft/",
+      "ipa_us": "/ˈmaɪn ʃæft/",
+      "en_ex": "Heavy torrential rains quickly flooded the vertical mine shaft, cutting off vital escape pathways for miners.",
+      "zh_ex": "傾盆大雨迅速淹沒了垂直礦井，切斷了礦工們至關重要的逃生通道。"
+    },
+    {
+      "word": "submersible",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 20,
+      "band": "7.5",
+      "synonyms": [
+        "underwater",
+        "submergible"
+      ],
+      "zh": "可浸沒的；潛水的",
+      "ipa_uk": "/səbˈmɜː.sə.bəl/",
+      "ipa_us": "/səbˈmɝː.sə.bəl/",
+      "en_ex": "Rescuers deployed heavy-duty submersible pumps to extract rising floodwaters from the submerged tunnel.",
+      "zh_ex": "救援人員調用了大功率潛水泵，以抽走被淹隧道中不斷上漲的積水。"
+    },
+    {
+      "word": "artery",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 7,
+      "band": "7.5",
+      "synonyms": [
+        "thoroughfare",
+        "trunk road"
+      ],
+      "zh": "交通要道；主幹道",
+      "ipa_uk": "/ˈɑː.tər.i/",
+      "ipa_us": "/ˈɑːr.t̬ɚ.i/",
+      "en_ex": "The overturned fuel tanker blocked traffic across a crucial highway artery encircling the crowded capital.",
+      "zh_ex": "翻倒的油罐車阻斷了環繞這座擁擠首都的一條關鍵公路交通要道。"
+    },
+    {
+      "word": "douse",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 6,
+      "band": "7.5",
+      "synonyms": [
+        "extinguish",
+        "quench"
+      ],
+      "zh": "用水澆熄；浸泡",
+      "ipa_uk": "/daʊs/",
+      "ipa_us": "/daʊs/",
+      "en_ex": "Fire crews worked continuously to douse the burning wreckage and prevent nearby fuel containers from exploding.",
+      "zh_ex": "消防人員持續作業以澆熄燃燒的殘骸，防止附近的燃油容器發生爆炸。"
+    },
+    {
+      "word": "charred",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 6,
+      "band": "7.0",
+      "synonyms": [
+        "scorched",
+        "blackened"
+      ],
+      "zh": "燒焦的；燒黑的",
+      "ipa_uk": "/tʃɑːd/",
+      "ipa_us": "/tʃɑːrd/",
+      "en_ex": "Dozens of charred vehicles lined the expressway following the massive chemical fuel explosion overnight.",
+      "zh_ex": "在一夜之間發生大規模化學燃油爆炸後，數十輛燒焦的車輛散落在高速公路上。"
+    },
+    {
+      "word": "multi-car pileup",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 7,
+      "band": "7.5",
+      "synonyms": [
+        "chain collision",
+        "multiple-vehicle crash"
+      ],
+      "zh": "多車連環相撞事故",
+      "ipa_uk": "/ˌmʌl.ti.kɑː ˈpaɪl.ʌp/",
+      "ipa_us": "/ˌmʌl.t̬i.kɑːr ˈpaɪl.ʌp/",
+      "en_ex": "Dense fog caused a devastating multi-car pileup on the southern highway, claiming several lives.",
+      "zh_ex": "濃霧在南部公路上引發了毀滅性的多車連環相撞事故，造成數人喪生。"
+    },
+    {
+      "word": "slam",
+      "type": "word",
+      "pos": "v.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "batter",
+        "hit hard"
+      ],
+      "zh": "猛烈衝擊；重創",
+      "ipa_uk": "/slæm/",
+      "ipa_us": "/slæm/",
+      "en_ex": "Severe winter weather is expected to slam coastal regions with gale-force winds and heavy rainfall.",
+      "zh_ex": "預計強烈的冬季風暴將以狂風暴雨猛烈襲擊沿海地區。"
+    },
+    {
+      "word": "windswept",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 2,
+      "band": "7.0",
+      "synonyms": [
+        "exposed",
+        "wind-buffeted"
+      ],
+      "zh": "受強風侵襲的；當風的",
+      "ipa_uk": "/ˈwɪnd.swept/",
+      "ipa_us": "/ˈwɪnd.swept/",
+      "en_ex": "Gigantic parade balloons struggled to navigate safely through the windswept canyons between urban skyscrapers.",
+      "zh_ex": "巨大的遊行氣球難以在摩天大樓間遭受強風侵襲的峽道中安全穿行。"
+    },
+    {
+      "word": "throng",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 6,
+      "band": "7.5",
+      "synonyms": [
+        "multitude",
+        "swarm"
+      ],
+      "zh": "大群；蜂擁的人群",
+      "ipa_uk": "/θrɒŋ/",
+      "ipa_us": "/θrɑːŋ/",
+      "en_ex": "Enthusiastic throngs of spectators lined the downtown avenues despite adverse winter weather warnings.",
+      "zh_ex": "儘管收到了惡劣的冬季天氣警告，熱情的觀眾人群仍然排滿了市中心的大道。"
+    },
+    {
+      "word": "make the right call",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "make the correct choice",
+        "take the right step"
+      ],
+      "zh": "作出正確的決定",
+      "ipa_uk": "/meɪk ðə raɪt kɔːl/",
+      "ipa_us": "/meɪk ðə raɪt kɑːl/",
+      "en_ex": "Organizers believed they made the right call by rescheduling the outdoor centenary parade to avoid injuries.",
+      "zh_ex": "主辦方認為，重新安排戶外百年慶典遊行以避免傷亡，是作出了正確的決定。"
+    },
+    {
+      "word": "ride-hailing",
+      "type": "word",
+      "pos": "adj.",
+      "topic_id": 7,
+      "band": "6.5",
+      "synonyms": [
+        "ride-sharing",
+        "car-hailing"
+      ],
+      "zh": "網約車的；線上叫車的",
+      "ipa_uk": "/ˈraɪdˌheɪ.lɪŋ/",
+      "ipa_us": "/ˈraɪdˌheɪ.lɪŋ/",
+      "en_ex": "The government unveiled a comprehensive regulatory framework to license commercial ride-hailing vehicle fleets.",
+      "zh_ex": "政府公布了一項全面的監管架構，以向商業網約車車隊發放牌照。"
+    },
+    {
+      "word": "first-come, first-served",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 5,
+      "band": "6.5",
+      "synonyms": [
+        "prioritized by arrival",
+        "in order of submission"
+      ],
+      "zh": "先到先得的",
+      "ipa_uk": "/ˌfɜːst kʌm ˌfɜːst ˈsɜːvd/",
+      "ipa_us": "/ˌfɝːst kʌm ˌfɝːst ˈsɝːvd/",
+      "en_ex": "Transport authorities clarified that permit allocation would not operate on a first-come, first-served basis.",
+      "zh_ex": "交通部門澄清，許可證的分配將不會按先到先得的原則進行。"
+    },
+    {
+      "word": "lottery system",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 10,
+      "band": "7.0",
+      "synonyms": [
+        "random ballot",
+        "draw mechanism"
+      ],
+      "zh": "抽籤機制；抽籤系統",
+      "ipa_uk": "/ˈlɒt.ər.i ˈsɪs.təm/",
+      "ipa_us": "/ˈlɑː.t̬ɚ.i ˈsɪs.təm/",
+      "en_ex": "A fair lottery system will be implemented if total applications vastly exceed the predetermined license quota.",
+      "zh_ex": "如果申請總數大幅超出預定的許可額度，將實施公平的抽籤機制。"
+    },
+    {
+      "word": "literacy",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 1,
+      "band": "7.0",
+      "synonyms": [
+        "competence",
+        "understanding"
+      ],
+      "zh": "素養；認知能力",
+      "ipa_uk": "/ˈlɪt.ər.ə.si/",
+      "ipa_us": "/ˈlɪt̬.ɚ.ə.si/",
+      "en_ex": "The training curriculum aims to boost teachers' mental health literacy through interactive learning modules.",
+      "zh_ex": "該培訓課程旨在透過互動學習模組提高教師的精神健康素養。"
+    },
+    {
+      "word": "stigma",
+      "type": "word",
+      "pos": "n.",
+      "topic_id": 4,
+      "band": "7.5",
+      "synonyms": [
+        "shame",
+        "disgrace"
+      ],
+      "zh": "污名；負面標籤",
+      "ipa_uk": "/ˈstɪɡ.mə/",
+      "ipa_us": "/ˈstɪɡ.mə/",
+      "en_ex": "Public health initiatives aim to eliminate social stigma associated with psychological illness and seeking counseling.",
+      "zh_ex": "公共衛生倡議旨在消除與心理疾病及尋求諮商相關的社會污名。"
+    },
+    {
+      "word": "bipolar disorder",
+      "type": "phrase",
+      "pos": "phr.",
+      "topic_id": 4,
+      "band": "7.5",
+      "synonyms": [
+        "manic depression",
+        "affective psychosis"
+      ],
+      "zh": "躁鬱症；雙相情緒障礙症",
+      "ipa_uk": "/baɪˈpəʊ.lər dɪˌsɔː.dər/",
+      "ipa_us": "/baɪˈpoʊ.lɚ dɪˌsɔːr.dɚ/",
+      "en_ex": "Educators were trained to spot early behavioral symptoms of severe mood disorders such as bipolar disorder.",
+      "zh_ex": "教育工作者接受了培訓，以識別嚴重情緒障礙（例如躁鬱症）的早期行為症狀。"
+    }
+  ]
+}
